@@ -1,0 +1,190 @@
+{
+  "standards": {
+    "sectionals_spring_2026": {
+      "name": "2026 Southern Zone South Sectionals (Spring)",
+      "dates": "2026-02-12 to 2026-02-15",
+      "location": "Plantation, FL",
+      "course": "SCY",
+      "source_url": "https://www.floridaswimming.org/szfllsc/UserFiles/Image/QuickUpload/sz-south-sectional-spring-2026-qualifying-times_014689.pdf",
+      "revision_date": "2025-10-12",
+      "men_scy": {
+        "qualifying": {
+          "50_free": 22.29,
+          "100_free": 48.29,
+          "200_free": 105.79,
+          "500_free": 286.09,
+          "1000_free": 597.19,
+          "1650_free": 1008.69,
+          "50_back": 25.69,
+          "100_back": 55.09,
+          "200_back": 122.29,
+          "50_breast": 29.49,
+          "100_breast": 62.69,
+          "200_breast": 139.29,
+          "50_fly": 24.29,
+          "100_fly": 52.29,
+          "200_fly": 118.49,
+          "200_im": 119.39,
+          "400_im": 251.99
+        },
+        "bonus": {
+          "50_free": 22.89,
+          "100_free": 49.49,
+          "200_free": 108.49,
+          "500_free": 293.29,
+          "1000_free": 612.19,
+          "1650_free": 1033.99,
+          "50_back": 26.39,
+          "100_back": 56.49,
+          "200_back": 125.39,
+          "50_breast": 30.29,
+          "100_breast": 64.29,
+          "200_breast": 142.79,
+          "50_fly": 24.89,
+          "100_fly": 53.59,
+          "200_fly": 121.49,
+          "200_im": 122.39,
+          "400_im": 258.29
+        }
+      }
+    },
+    "sectionals_summer_2026": {
+      "name": "2026 Southern Zone South Sectionals (Summer)",
+      "dates": "2026-06-04 to 2026-06-07",
+      "location": "Ocala, FL",
+      "course": "LCM",
+      "men_lcm": {
+        "qualifying": {
+          "50_free": 25.59,
+          "100_free": 55.29,
+          "200_free": 120.89,
+          "400_free": 256.59,
+          "800_free": 535.59,
+          "1500_free": 1034.19,
+          "50_back": 30.19,
+          "100_back": 64.49,
+          "200_back": 140.69,
+          "50_breast": 34.19,
+          "100_breast": 72.39,
+          "200_breast": 160.39,
+          "50_fly": 27.79,
+          "100_fly": 59.59,
+          "200_fly": 135.39,
+          "200_im": 137.69,
+          "400_im": 291.29
+        },
+        "bonus": {
+          "50_free": 26.29,
+          "100_free": 56.69,
+          "200_free": 123.99,
+          "400_free": 263.09,
+          "800_free": 548.99,
+          "1500_free": 1060.09,
+          "50_back": 30.99,
+          "100_back": 66.19,
+          "200_back": 144.29,
+          "50_breast": 35.09,
+          "100_breast": 74.19,
+          "200_breast": 164.39,
+          "50_fly": 28.49,
+          "100_fly": 61.09,
+          "200_fly": 138.79,
+          "200_im": 141.19,
+          "400_im": 298.59
+        }
+      }
+    },
+    "senior_champs_spring_2026": {
+      "name": "2026 Florida Senior Championships (Spring)",
+      "dates": "2026-03-12 to 2026-03-15",
+      "location": "Orlando, FL",
+      "course": "SCY"
+    },
+    "senior_champs_summer_2026": {
+      "name": "2026 Florida Senior Championships (Summer)",
+      "dates": "2026-07-16 to 2026-07-19",
+      "location": "Ocala, FL",
+      "course": "LCM"
+    },
+    "futures_2026": {
+      "name": "2026 USA Swimming Futures Championships",
+      "dates": "2026-07-29 to 2026-08-01",
+      "location": "Ocala, FL",
+      "course": "LCM",
+      "men_lcm": {
+        "qualifying": {
+          "50_free": 24.09,
+          "100_free": 53.09,
+          "200_free": 115.09,
+          "400_free": 245.09,
+          "800_free": 510.09,
+          "1500_free": 990.09,
+          "50_back": 28.59,
+          "100_back": 61.59,
+          "200_back": 134.09,
+          "50_breast": 32.09,
+          "100_breast": 69.09,
+          "200_breast": 152.09,
+          "50_fly": 26.29,
+          "100_fly": 56.79,
+          "200_fly": 128.09,
+          "200_im": 130.09,
+          "400_im": 277.09
+        }
+      },
+      "notes": "PRIMARY D1 RECRUITING MEET - NCAA coaches in attendance"
+    }
+  },
+  "michael_qualification_status": {
+    "sectionals_spring_2026": {
+      "50_free": {
+        "michael_time": 21.86,
+        "qualifying_cut": 22.29,
+        "bonus_cut": 22.89,
+        "status": "QUALIFIED",
+        "gap_to_qual": 0.43,
+        "event_day": "Saturday",
+        "can_swim": false,
+        "reason": "Shabbat conflict"
+      },
+      "100_free": {
+        "michael_time": 48.80,
+        "qualifying_cut": 48.29,
+        "bonus_cut": 49.49,
+        "status": "BONUS",
+        "gap_to_qual": -0.51,
+        "event_day": "Sunday",
+        "can_swim": true
+      },
+      "200_free": {
+        "michael_time": 113.03,
+        "qualifying_cut": 105.79,
+        "bonus_cut": 108.49,
+        "status": "NOT_QUALIFIED",
+        "gap_to_bonus": -4.54,
+        "event_day": "Friday",
+        "can_swim": true
+      },
+      "100_fly": {
+        "michael_time": 55.87,
+        "qualifying_cut": 52.29,
+        "bonus_cut": 53.59,
+        "status": "NOT_QUALIFIED",
+        "gap_to_bonus": -2.28,
+        "event_day": "Friday",
+        "can_swim": true
+      },
+      "100_back": {
+        "michael_time": 61.14,
+        "qualifying_cut": 55.09,
+        "bonus_cut": 56.49,
+        "status": "NOT_QUALIFIED",
+        "gap_to_bonus": -4.65,
+        "event_day": "Saturday",
+        "can_swim": false,
+        "reason": "Shabbat conflict"
+      }
+    }
+  },
+  "last_updated": "2026-01-26"
+}
