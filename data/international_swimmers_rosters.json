@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "purpose": "Track international swimmers on D1 rosters - key for Michael's dual citizenship recruiting angle",
+    "michael_citizenship": ["USA", "Israel"],
+    "focus": "Israeli swimmers + tall sprinters (6'3\"+)"
+  },
+  
+  "israeli_ncaa_olympians": [
+    {
+      "name": "Martin Kartavi",
+      "school": "UNC Chapel Hill",
+      "joined": "Fall 2024",
+      "olympics": "Paris 2024",
+      "events": "50m Free",
+      "achievement": "Bronze Medal",
+      "height": "6'0\"",
+      "notes": "Recruited specifically from Israel by Coach Gangloff"
+    },
+    {
+      "name": "Adam Maraana",
+      "school": "UNC Chapel Hill",
+      "joined": "Fall 2024",
+      "olympics": "Paris 2024",
+      "events": "100m Back",
+      "height": "6'1\"",
+      "notes": "Joined with Kartavi - UNC has active Israeli pipeline"
+    },
+    {
+      "name": "David Gerchik",
+      "school": "Northwestern",
+      "status": "Current swimmer",
+      "olympics": "Paris 2024",
+      "events": "Relay",
+      "height": "6'2\"",
+      "notes": "Currently competing - excellent recruiting angle"
+    },
+    {
+      "name": "Ayla Spitz",
+      "school": "Northwestern (transfer from Cal)",
+      "olympics": "Paris 2024",
+      "events": "4x200 Free Relay",
+      "notes": "Women's team - shows Northwestern values Israeli athletes"
+    },
+    {
+      "name": "Andrea Murez",
+      "school": "Stanford",
+      "status": "Alumni",
+      "olympics": "2016, 2020, 2024 (3x)",
+      "events": "Freestyle",
+      "notes": "Longest-serving Israeli NCAA swimmer - Stanford model"
+    },
+    {
+      "name": "Itay Goldfaden",
+      "school": "South Carolina",
+      "status": "Alumni",
+      "olympics": "Tokyo 2021",
+      "events": "Relay",
+      "notes": "Showed SEC teams recruit Israeli swimmers"
+    },
+    {
+      "name": "Daniel Namir",
+      "school": "Arizona",
+      "status": "Alumni",
+      "olympics": "Tokyo 2021",
+      "events": "Relay",
+      "notes": "Pac-12 Israeli swimmer precedent"
+    }
+  ],
+  
+  "tall_swimmers_by_school": {
+    "University of Florida": {
+      "6ft3_plus": [
+        {"name": "Caeleb Dressel", "height": "6'3\"", "status": "Pro (former)", "events": "50/100 Free, 100 Fly", "michael_comparison": "EXACT BODY TYPE MODEL"},
+        {"name": "Josh Liendo", "height": "6'1\"", "status": "Current", "country": "Canada", "events": "100 Fly, 100 Free"},
+        {"name": "Ahmed Jaouadi", "height": "6'4\"", "status": "Current", "country": "Tunisia", "events": "Freestyle", "notes": "SAME HEIGHT AS MICHAEL"}
+      ],
+      "international_count": 8,
+      "israeli_connection": "None currently - opportunity for Michael"
+    },
+    "UT Austin": {
+      "6ft3_plus": [
+        {"name": "Michael Phelps", "height": "6'4\"", "status": "Coach's athlete (former)", "notes": "Bowman coached Phelps - EXACT MATCH for Michael's build"},
+        {"name": "Leon Marchand", "height": "6'3\"", "status": "Current", "country": "France", "events": "IM, Butterfly"}
+      ],
+      "international_count": 12,
+      "israeli_connection": "None - opportunity"
+    },
+    "UNC Chapel Hill": {
+      "israeli_swimmers": 2,
+      "international_count": 5,
+      "notes": "MOST ACTIVE Israeli recruiting - Coach Gangloff specifically seeks dual-citizenship"
+    },
+    "Northwestern": {
+      "israeli_swimmers": 2,
+      "international_count": 6,
+      "notes": "Current Israeli Olympian - excellent recruiting fit"
+    },
+    "Stanford": {
+      "israeli_alumni": ["Andrea Murez"],
+      "international_count": 10,
+      "notes": "Historic Israeli connection - 3x Olympian"
+    }
+  },
+  
+  "recruiting_strategy_for_michael": {
+    "primary_angle": "Dual US-Israeli citizenship = unique recruiting advantage",
+    "talking_points": [
+      "Can represent Israel at Olympics (smaller competition pool)",
+      "International experience and perspective",
+      "Proven pathway: 7+ NCAA swimmers → Israeli Olympic team",
+      "Coaches value diversity and international exposure"
+    ],
+    "target_schools_with_israeli_history": ["UNC (BEST)", "Northwestern", "Stanford", "Arizona", "South Carolina"],
+    "email_subject_template": "Michael Shapira - 6'4\" Dual US-Israeli Citizen | Class 2027",
+    "sample_opening": "As a dual US-Israeli citizen, I'm following the path of Martin Kartavi and David Gerchik who've shown that NCAA swimmers can compete for Israel at the Olympic level..."
+  }
+}
