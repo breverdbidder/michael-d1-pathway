@@ -1,0 +1,470 @@
+{
+  "pathway": {
+    "athlete": "Michael Shapira",
+    "generated": "2026-01-26T14:48:19.654042",
+    "months_to_graduation": 16,
+    "events": {
+      "50_free": {
+        "current_time": 21.86,
+        "improvement_analysis": {
+          "to_d1_walkable": {
+            "current": 21.86,
+            "target": 21.4,
+            "gap_seconds": 0.46,
+            "months_remaining": 16,
+            "required_monthly_drop": 0.029,
+            "required_weekly_drop": 0.0072,
+            "feasibility": "HIGHLY ACHIEVABLE"
+          },
+          "to_uf_recruit": {
+            "current": 21.86,
+            "target": 20.2,
+            "gap_seconds": 1.66,
+            "months_remaining": 16,
+            "required_monthly_drop": 0.104,
+            "required_weekly_drop": 0.0259,
+            "feasibility": "VERY DIFFICULT"
+          }
+        },
+        "tier_probabilities": {
+          "tier_1_elite": {
+            "probability": 30.1,
+            "target_time": 20.5,
+            "gap_to_target": 1.36,
+            "hs_recruit_range": [
+              19.8,
+              21.2
+            ]
+          },
+          "tier_2_strong": {
+            "probability": 37.6,
+            "target_time": 21.0,
+            "gap_to_target": 0.86,
+            "hs_recruit_range": [
+              20.3,
+              21.7
+            ]
+          },
+          "tier_3_competitive": {
+            "probability": 57.0,
+            "target_time": 21.5,
+            "gap_to_target": 0.36,
+            "hs_recruit_range": [
+              20.8,
+              22.2
+            ]
+          },
+          "tier_4_safety": {
+            "probability": 78.5,
+            "target_time": 22.0,
+            "gap_to_target": -0.14,
+            "hs_recruit_range": [
+              21.2,
+              22.8
+            ]
+          }
+        }
+      },
+      "100_free": {
+        "current_time": 48.8,
+        "improvement_analysis": {
+          "to_d1_walkable": {
+            "current": 48.8,
+            "target": 46.5,
+            "gap_seconds": 2.3,
+            "months_remaining": 16,
+            "required_monthly_drop": 0.144,
+            "required_weekly_drop": 0.0359,
+            "feasibility": "VERY DIFFICULT"
+          },
+          "to_uf_recruit": {
+            "current": 48.8,
+            "target": 45.5,
+            "gap_seconds": 3.3,
+            "months_remaining": 16,
+            "required_monthly_drop": 0.206,
+            "required_weekly_drop": 0.0516,
+            "feasibility": "UNLIKELY - REQUIRES EXCEPTIONAL CIRCUMSTANCES"
+          }
+        },
+        "tier_probabilities": {
+          "tier_1_elite": {
+            "probability": 5.5,
+            "target_time": 45.0,
+            "gap_to_target": 3.8,
+            "hs_recruit_range": [
+              43.5,
+              46.5
+            ]
+          },
+          "tier_2_strong": {
+            "probability": 16.0,
+            "target_time": 46.0,
+            "gap_to_target": 2.8,
+            "hs_recruit_range": [
+              44.8,
+              47.2
+            ]
+          },
+          "tier_3_competitive": {
+            "probability": 31.0,
+            "target_time": 47.0,
+            "gap_to_target": 1.8,
+            "hs_recruit_range": [
+              45.8,
+              48.2
+            ]
+          },
+          "tier_4_safety": {
+            "probability": 51.7,
+            "target_time": 48.0,
+            "gap_to_target": 0.8,
+            "hs_recruit_range": [
+              46.8,
+              49.2
+            ]
+          }
+        }
+      },
+      "200_free": {
+        "current_time": 113.03,
+        "improvement_analysis": {
+          "to_d1_walkable": {
+            "current": 113.03,
+            "target": 108.0,
+            "gap_seconds": 5.03,
+            "months_remaining": 16,
+            "required_monthly_drop": 0.314,
+            "required_weekly_drop": 0.0786,
+            "feasibility": "UNLIKELY - REQUIRES EXCEPTIONAL CIRCUMSTANCES"
+          },
+          "to_uf_recruit": {
+            "current": 113.03,
+            "target": 103.0,
+            "gap_seconds": 10.03,
+            "months_remaining": 16,
+            "required_monthly_drop": 0.627,
+            "required_weekly_drop": 0.1567,
+            "feasibility": "UNLIKELY - REQUIRES EXCEPTIONAL CIRCUMSTANCES"
+          }
+        },
+        "tier_probabilities": {}
+      },
+      "100_fly": {
+        "current_time": 55.87,
+        "improvement_analysis": {
+          "to_d1_walkable": {
+            "current": 55.87,
+            "target": 52.0,
+            "gap_seconds": 3.87,
+            "months_remaining": 16,
+            "required_monthly_drop": 0.242,
+            "required_weekly_drop": 0.0605,
+            "feasibility": "UNLIKELY - REQUIRES EXCEPTIONAL CIRCUMSTANCES"
+          },
+          "to_uf_recruit": {
+            "current": 55.87,
+            "target": 50.0,
+            "gap_seconds": 5.87,
+            "months_remaining": 16,
+            "required_monthly_drop": 0.367,
+            "required_weekly_drop": 0.0917,
+            "feasibility": "UNLIKELY - REQUIRES EXCEPTIONAL CIRCUMSTANCES"
+          }
+        },
+        "tier_probabilities": {}
+      }
+    }
+  },
+  "meets": [
+    {
+      "name": "Rats Invite",
+      "dates": [
+        "2026-02-06",
+        "2026-02-07",
+        "2026-02-08"
+      ],
+      "location": "Fort Pierce, FL",
+      "course": "SCY",
+      "priority": "MEDIUM",
+      "events": [
+        "50 Free",
+        "100 Free",
+        "200 Free",
+        "100 Fly"
+      ],
+      "shabbat_conflict": true,
+      "recommendation": "SKIP SATURDAY - Swim Friday/Sunday only"
+    },
+    {
+      "name": "FL Sectionals SCY",
+      "dates": [
+        "2026-02-12",
+        "2026-02-13",
+        "2026-02-14",
+        "2026-02-15"
+      ],
+      "location": "Plantation, FL",
+      "course": "SCY",
+      "priority": "HIGH",
+      "events": [
+        "50 Free",
+        "100 Free",
+        "200 Free",
+        "100 Fly"
+      ],
+      "shabbat_conflict": true,
+      "recommendation": "CRITICAL MEET - Plan events for Thu/Fri AM/Sun"
+    },
+    {
+      "name": "Area 6 Championships",
+      "dates": [
+        "2026-02-27",
+        "2026-02-28",
+        "2026-03-01"
+      ],
+      "location": "Stuart, FL",
+      "course": "SCY",
+      "priority": "MEDIUM",
+      "events": [
+        "50 Free",
+        "100 Free",
+        "200 Free"
+      ],
+      "shabbat_conflict": true,
+      "recommendation": "Swim Friday/Sunday"
+    },
+    {
+      "name": "FL Senior Champs SCY",
+      "dates": [
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-14",
+        "2026-03-15"
+      ],
+      "location": "Orlando, FL",
+      "course": "SCY",
+      "priority": "CRITICAL",
+      "events": [
+        "50 Free",
+        "100 Free",
+        "200 Free",
+        "100 Fly"
+      ],
+      "shabbat_conflict": true,
+      "recommendation": "MUST ATTEND - Key recruiting meet. Plan around Saturday."
+    },
+    {
+      "name": "FL Sectionals LCM",
+      "dates": [
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-07"
+      ],
+      "location": "Ocala, FL",
+      "course": "LCM",
+      "priority": "HIGH",
+      "events": [
+        "50 Free",
+        "100 Free",
+        "200 Free",
+        "100 Fly"
+      ],
+      "shabbat_conflict": true,
+      "recommendation": "LCM conversion meet - Plan events carefully"
+    },
+    {
+      "name": "FL Senior Champs LCM",
+      "dates": [
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-18",
+        "2026-07-19"
+      ],
+      "location": "Ocala, FL",
+      "course": "LCM",
+      "priority": "CRITICAL",
+      "events": [
+        "50 Free",
+        "100 Free",
+        "200 Free",
+        "100 Fly"
+      ],
+      "shabbat_conflict": true,
+      "recommendation": "MUST ATTEND - Israeli Olympic consideration"
+    },
+    {
+      "name": "USA Futures Championships",
+      "dates": [
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-01"
+      ],
+      "location": "TBD",
+      "course": "LCM",
+      "priority": "CRITICAL",
+      "events": [
+        "50 Free",
+        "100 Free",
+        "200 Free"
+      ],
+      "shabbat_conflict": true,
+      "recommendation": "MAJOR RECRUITING EXPOSURE - Must have qualifying times"
+    },
+    {
+      "name": "Winter Juniors",
+      "dates": [
+        "2026-12-10",
+        "2026-12-11",
+        "2026-12-12",
+        "2026-12-13"
+      ],
+      "location": "Greensboro, NC",
+      "course": "SCY",
+      "priority": "CRITICAL",
+      "events": [
+        "50 Free",
+        "100 Free",
+        "200 Free",
+        "100 Fly"
+      ],
+      "shabbat_conflict": false,
+      "recommendation": "BEST MEET - No Shabbat conflict! Full participation."
+    }
+  ],
+  "training_plan": {
+    "generated": "2026-01-26T14:48:19.654160",
+    "athlete": "Michael Shapira",
+    "summary": "",
+    "phases": [
+      {
+        "name": "Base Building",
+        "dates": "Jan 26 - Feb 5, 2026",
+        "weeks": 2,
+        "focus": "Aerobic base, technique refinement, start/turn work",
+        "volume": "HIGH (25-30K yards/week)",
+        "intensity": "MODERATE",
+        "target_meet": "Rats Invite (Feb 6-8)"
+      },
+      {
+        "name": "Speed Development",
+        "dates": "Feb 9 - Mar 11, 2026",
+        "weeks": 4,
+        "focus": "Race-pace training, 50/100 specific sets",
+        "volume": "MODERATE-HIGH (22-27K yards/week)",
+        "intensity": "HIGH",
+        "target_meet": "FL Senior Champs SCY (Mar 12-15)"
+      },
+      {
+        "name": "Taper & Peak #1",
+        "dates": "Mar 9 - Mar 15, 2026",
+        "weeks": 1,
+        "focus": "Rest, race simulation, mental prep",
+        "volume": "LOW (12-15K yards/week)",
+        "intensity": "RACE-SPECIFIC",
+        "target_meet": "FL Senior Champs SCY - PRIMARY SCY TARGET"
+      },
+      {
+        "name": "LCM Transition",
+        "dates": "Mar 16 - May 31, 2026",
+        "weeks": 11,
+        "focus": "LCM technique, longer repeats, underwaters",
+        "volume": "HIGH (25-35K yards/week)",
+        "intensity": "BUILDING",
+        "notes": "Adjust stroke count, turn timing for 50m pool"
+      },
+      {
+        "name": "LCM Race Prep",
+        "dates": "Jun 1 - Jul 15, 2026",
+        "weeks": 6,
+        "focus": "LCM race-pace, 50/100 LCM specific",
+        "volume": "MODERATE (20-25K yards/week)",
+        "intensity": "HIGH",
+        "target_meet": "FL Senior Champs LCM (Jul 16-19)"
+      },
+      {
+        "name": "Taper & Peak #2",
+        "dates": "Jul 13 - Jul 19, 2026",
+        "weeks": 1,
+        "focus": "LCM peak performance",
+        "volume": "LOW (10-12K yards/week)",
+        "intensity": "RACE-SPECIFIC",
+        "target_meet": "FL Senior Champs LCM + USA Futures"
+      },
+      {
+        "name": "Active Recovery",
+        "dates": "Aug 2 - Aug 31, 2026",
+        "weeks": 4,
+        "focus": "Mental break, dryland, technique",
+        "volume": "LOW (15K yards/week)",
+        "intensity": "LOW",
+        "notes": "Maintain fitness, avoid burnout before senior year"
+      },
+      {
+        "name": "Senior Year Build",
+        "dates": "Sep 1 - Dec 9, 2026",
+        "weeks": 14,
+        "focus": "Progressive build to Winter Juniors",
+        "volume": "HIGH\u2192MODERATE",
+        "intensity": "BUILDING\u2192HIGH",
+        "target_meet": "Winter Juniors (Dec 10-13) - NO SHABBAT CONFLICT"
+      },
+      {
+        "name": "Taper & Peak #3 - WINTER JUNIORS",
+        "dates": "Dec 7 - Dec 13, 2026",
+        "weeks": 1,
+        "focus": "MAXIMUM PERFORMANCE - Full participation available",
+        "volume": "TAPER",
+        "intensity": "RACE-SPECIFIC",
+        "target_meet": "Winter Juniors - BEST RECRUITING OPPORTUNITY"
+      }
+    ],
+    "weekly_structure": {
+      "monday": {
+        "am": "Distance/Aerobic (3500-4500y)",
+        "pm": "Sprint/Race-pace (3000-4000y)",
+        "dryland": "Strength training 45min"
+      },
+      "tuesday": {
+        "am": "Technique/Drill (3000-3500y)",
+        "pm": "Threshold/IM (3500-4500y)",
+        "dryland": "Core/Flexibility 30min"
+      },
+      "wednesday": {
+        "am": "Sprint development (2500-3500y)",
+        "pm": "Aerobic + Starts/Turns (3500-4000y)",
+        "dryland": "Power training 45min"
+      },
+      "thursday": {
+        "am": "Race-pace sets (3000-4000y)",
+        "pm": "Threshold (3500-4500y)",
+        "dryland": "Core/Flexibility 30min"
+      },
+      "friday": {
+        "am": "Easy/Recovery OR Pre-meet (2500y)",
+        "pm": "REST (Shabbat prep)",
+        "dryland": "Light stretch only"
+      },
+      "saturday": {
+        "status": "SHABBAT - NO TRAINING OR COMPETITION",
+        "notes": "Complete rest. No swimming, no dryland."
+      },
+      "sunday": {
+        "am": "Long aerobic (4000-5000y)",
+        "pm": "Optional easy + starts",
+        "dryland": "Strength training 45min"
+      },
+      "weekly_total": "22,000-30,000 yards (varies by phase)"
+    },
+    "event_focus": {
+      "primary": "100 Free",
+      "secondary": "50 Free",
+      "tertiary": [
+        "200 Free",
+        "100 Fly"
+      ]
+    }
+  }
+}
