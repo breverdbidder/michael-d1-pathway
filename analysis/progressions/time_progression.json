@@ -1,0 +1,88 @@
+{
+  "swimmer": "Michael Shapira",
+  "swimcloud_id": "3250085",
+  "progression_data": {
+    "50_free_scy": {
+      "event": "50 Free SCY",
+      "progression": [
+        {"season": "2022-2023", "best": "25.20", "age": 13, "notes": "First year"},
+        {"season": "2023-2024", "best": "23.58", "age": 14, "notes": "FLAGS-SO", "improvement": "-1.62"},
+        {"season": "2024-2025", "best": "22.62", "age": 15, "notes": "FHSAA District", "improvement": "-0.96"},
+        {"season": "2025-2026", "best": "21.86", "age": 16, "notes": "FHSAA Region 2 (PB)", "improvement": "-0.76"}
+      ],
+      "trajectory": {
+        "3_year_improvement": "-3.34",
+        "avg_annual_drop": "-1.11",
+        "projected_2027": "~21.0",
+        "d1_recruited_level": "21.5"
+      }
+    },
+    "100_free_scy": {
+      "event": "100 Free SCY",
+      "progression": [
+        {"season": "2022-2023", "best": "54.50", "age": 13, "notes": "First year"},
+        {"season": "2023-2024", "best": "51.44", "age": 14, "notes": "Various", "improvement": "-3.06"},
+        {"season": "2024-2025", "best": "50.97", "age": 15, "notes": "Various", "improvement": "-0.47"},
+        {"season": "2025-2026", "best": "48.80", "age": 16, "notes": "FHSAA Region 2 (PB)", "improvement": "-2.17"}
+      ],
+      "trajectory": {
+        "3_year_improvement": "-5.70",
+        "avg_annual_drop": "-1.90",
+        "projected_2027": "~47.0",
+        "d1_recruited_level": "48.0"
+      }
+    },
+    "200_free_scy": {
+      "event": "200 Free SCY",
+      "progression": [
+        {"season": "2023-2024", "best": "1:56.63", "age": 14, "notes": "First recorded"},
+        {"season": "2024-2025", "best": "1:55.00", "age": 15, "notes": "Estimated", "improvement": "-1.63"},
+        {"season": "2025-2026", "best": "1:53.03", "age": 16, "notes": "GSC Holiday (PB)", "improvement": "-1.97"}
+      ],
+      "trajectory": {
+        "2_year_improvement": "-3.60",
+        "avg_annual_drop": "-1.80",
+        "projected_2027": "~1:51.0",
+        "sectionals_bonus": "1:48.49",
+        "gap_to_bonus": "-2.54"
+      }
+    },
+    "100_fly_scy": {
+      "event": "100 Fly SCY",
+      "progression": [
+        {"season": "2023-2024", "best": "57.21", "age": 14, "notes": "First recorded"},
+        {"season": "2024-2025", "best": "56.50", "age": 15, "notes": "Estimated", "improvement": "-0.71"},
+        {"season": "2025-2026", "best": "55.87", "age": 16, "notes": "GSC Holiday (PB)", "improvement": "-0.63"}
+      ],
+      "trajectory": {
+        "2_year_improvement": "-1.34",
+        "avg_annual_drop": "-0.67",
+        "projected_2027": "~55.2",
+        "sectionals_bonus": "53.59",
+        "gap_to_bonus": "-1.61"
+      }
+    },
+    "100_back_scy": {
+      "event": "100 Back SCY",
+      "progression": [
+        {"season": "2023-2024", "best": "1:01.62", "age": 14, "notes": "First recorded"},
+        {"season": "2024-2025", "best": "1:01.50", "age": 15, "notes": "Estimated", "improvement": "-0.12"},
+        {"season": "2025-2026", "best": "1:01.14", "age": 16, "notes": "Harry Meisel (PB)", "improvement": "-0.36"}
+      ],
+      "trajectory": {
+        "2_year_improvement": "-0.48",
+        "avg_annual_drop": "-0.24",
+        "projected_2027": "~1:00.9",
+        "notes": "Slower progression - focus on other events"
+      }
+    }
+  },
+  "analysis": {
+    "strongest_events": ["50 Free", "100 Free"],
+    "best_improvement_trajectory": "100 Free (-1.90s/year avg)",
+    "focus_events_for_d1": ["50 Free", "100 Free"],
+    "secondary_events": ["100 Fly", "200 Free"],
+    "notes": "Sprint freestyle is clear strength. 100 Fly shows potential. 200 Free needs focused training for distance base."
+  },
+  "last_updated": "2026-01-26"
+}
