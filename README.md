@@ -109,22 +109,26 @@ Season    | Best Time | Meet
 
 ### Target School Tiers
 
-#### Tier 1: Reach Schools (Need 19-20s 50 Free)
-- University of Florida
-- Auburn University
-- Georgia Tech
-- NC State
+**📊 Complete 27-School Database:** [`data/d1_schools_27_complete.json`](data/d1_schools_27_complete.json)
 
-#### Tier 2: Target Schools (Current times competitive)
-- Florida Atlantic University
-- FIU
-- University of North Florida
-- Florida Gulf Coast
+All schools have: **D1 Swimming + Engineering Programs + Chabad on/near Campus**
 
-#### Tier 3: Safety Schools
-- Lynn University
-- Nova Southeastern
-- Tampa
+#### Tier 1: TOP TARGETS (4 schools)
+| School | Swimming | Engineering | Chabad Rabbi | Israeli |
+|--------|----------|-------------|--------------|---------|
+| **UF** 🏆 | Elite SEC | 13 majors | Rabbi Berl Goldman | ⭐⭐⭐ |
+| **UNC** ⭐ | Elite ACC | BME, CS | Rabbi Zalman Bluming | ⭐⭐⭐⭐⭐ |
+| **UT Austin** | Elite #1-2 | Cockrell #1 | Rabbi Zev Johnson | ⭐⭐⭐⭐ |
+| **USC** | Elite | Viterbi Top 15 | Rabbi Dov Wagner | ⭐⭐⭐ |
+
+#### Tier 2: STRONG ALTERNATIVES (10 schools)
+Arizona, **Georgia Tech** (#1 Eng), Stanford, UC Berkeley, UCLA, **Duke**, **Virginia**, Penn State, Ohio State, Indiana
+
+#### Tier 3: FLORIDA + SOUTHEAST (9 schools)
+FSU, Miami, **FAU** (Safety), Vanderbilt, Tennessee, Alabama, South Carolina, **NC State** (#7-9 NCAA), Louisville
+
+#### Tier 4: COLD BUT EXCELLENT (4 schools)
+**Michigan** (6,500 Jewish students!), Northwestern (Israeli swimmer), Wisconsin, Minnesota
 
 ## 🍽️ Nutrition Protocol
 
@@ -138,11 +142,16 @@ Season    | Best Time | Meet
 ```
 michael-d1-pathway/
 ├── README.md                 # This file
+├── CHANGELOG.md              # Version history
+├── requirements.txt          # Python dependencies
 ├── data/
-│   ├── personal_bests.json   # All PB times
-│   ├── meet_results.json     # Historical results
-│   ├── qualifying_standards.json # Cut times
-│   └── meet_schedule.json    # 2026 calendar
+│   ├── personal_bests.json   # All PB times (SCY/LCM)
+│   ├── d1_schools_27_complete.json  # 27 target schools w/ contacts
+│   ├── qualifying_standards.json    # Cut times for all meets
+│   ├── meet_schedule.json    # 2026 calendar w/ Shabbat
+│   ├── meet_history.json     # Historical results (2023-2026)
+│   ├── recruiting_tracker.json # School outreach tracking
+│   └── rivals.json           # Competitor tracking
 ├── docs/
 │   ├── RECRUITING_GUIDE.md   # D1 recruiting process
 │   ├── SHABBAT_CALENDAR.md   # Religious observance
