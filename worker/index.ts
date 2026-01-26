@@ -7,7 +7,7 @@ export interface Env {
   ANTHROPIC_API_KEY: string;
 }
 
-// Intent detection (simplified for worker)
+// Intent detection
 function detectIntent(message: string): { type: string; confidence: number } {
   const intents: Record<string, { patterns: RegExp[]; weight: number }> = {
     SWIM_TIMES: {
@@ -82,7 +82,7 @@ function getContext(intentType: string): string {
 
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
-    // Handle CORS
+    // Handle CORS preflight
     if (request.method === 'OPTIONS') {
       return new Response(null, {
         headers: {
@@ -97,8 +97,20 @@ export default {
       return new Response('Method not allowed', { status: 405 });
     }
 
+    // Check if API key is configured
+    if (!env.ANTHROPIC_API_KEY) {
+      return new Response(JSON.stringify({ error: 'API key not configured' }), {
+        status: 500,
+        headers: { 
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': '*',
+        },
+      });
+    }
+
     try {
-      const { messages } = await request.json() as { messages: Array<{ role: string; content: string }> };
+      const body = await request.json() as { messages: Array<{ role: string; content: string }> };
+      const messages = body.messages || [];
       const latestMessage = messages[messages.length - 1]?.content || '';
       const intent = detectIntent(latestMessage);
       const context = getContext(intent.type);
@@ -117,9 +129,9 @@ DETECTED INTENT: ${intent.type} (${Math.round(intent.confidence * 100)}% confide
 RELEVANT CONTEXT:
 ${context}
 
-Be helpful, encouraging, and knowledgeable about D1 swimming recruiting. Always respect Shabbat constraints.`;
+Be helpful, encouraging, and knowledgeable about D1 swimming recruiting. Always respect Shabbat constraints. Keep responses concise.`;
 
-      // Call Claude API with streaming
+      // Call Claude API
       const response = await fetch('https://api.anthropic.com/v1/messages', {
         method: 'POST',
         headers: {
@@ -131,24 +143,40 @@ Be helpful, encouraging, and knowledgeable about D1 swimming recruiting. Always 
           model: 'claude-sonnet-4-20250514',
           max_tokens: 1024,
           system: systemPrompt,
-          messages: messages.map(m => ({ role: m.role, content: m.content })),
-          stream: true,
+          messages: messages.map((m: { role: string; content: string }) => ({ role: m.role, content: m.content })),
         }),
       });
 
-      // Return streaming response
-      return new Response(response.body, {
+      const data = await response.json() as { content?: Array<{ text?: string }>; error?: { message?: string } };
+      
+      if (!response.ok) {
+        console.error('Anthropic API error:', data);
+        return new Response(JSON.stringify({ error: 'AI service error', details: data }), {
+          status: response.status,
+          headers: { 
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*',
+          },
+        });
+      }
+
+      // Extract text from response
+      const text = data.content?.[0]?.text || 'Sorry, I could not generate a response.';
+
+      return new Response(text, {
         headers: {
-          'Content-Type': 'text/event-stream',
+          'Content-Type': 'text/plain',
           'Access-Control-Allow-Origin': '*',
-          'Cache-Control': 'no-cache',
         },
       });
     } catch (error) {
       console.error('Error:', error);
-      return new Response(JSON.stringify({ error: 'Internal server error' }), {
+      return new Response(JSON.stringify({ error: 'Internal server error', message: String(error) }), {
         status: 500,
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': '*',
+        },
       });
     }
   },
