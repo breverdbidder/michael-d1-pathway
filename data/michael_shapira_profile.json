@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2026-01-26",
+    "athlete": "Michael Shapira",
+    "swimcloud_id": 3250085
+  },
+  
+  "personal": {
+    "name": "Michael Shapira",
+    "dob": "2009-07-22",
+    "age": 16,
+    "class": 2027,
+    "high_school": "Satellite High School",
+    "city": "Satellite Beach",
+    "state": "Florida"
+  },
+  
+  "physical_profile": {
+    "height_inches": 76,
+    "height_display": "6'4\"",
+    "weight_lbs": 215,
+    "target_weight_lbs": 210,
+    "body_fat_current_pct": 15,
+    "body_fat_target_pct": 10,
+    "wingspan_estimated": "6'6\"",
+    "shoe_size": 13,
+    "build_type": "Power Sprinter",
+    "notes": "Elite height for sprint freestyle. Room to lean out 5 lbs while adding muscle."
+  },
+  
+  "dual_citizenship": {
+    "countries": ["USA", "Israel"],
+    "us_passport": true,
+    "israeli_passport": true,
+    "olympic_pathway": "Israel",
+    "advantages": [
+      "Smaller competition pool for Israeli team",
+      "Lower Olympic qualifying standards vs USA",
+      "Proven NCAA → Israel pipeline (Kartavi, Murez, Gerchik)",
+      "Coaches value international diversity",
+      "Maccabiah Games eligibility"
+    ],
+    "israeli_swimming_federation": {
+      "website": "https://israelswimming.co.il",
+      "contact_email": "office@swimming.org.il",
+      "national_championships": "Annual - typically July/August"
+    },
+    "ncaa_israeli_olympians": [
+      {"name": "Martin Kartavi", "school": "UNC", "olympics": "Paris 2024", "event": "50 Free Bronze"},
+      {"name": "Adam Maraana", "school": "UNC", "olympics": "Paris 2024", "event": "100 Back"},
+      {"name": "David Gerchik", "school": "Northwestern", "olympics": "Paris 2024", "event": "Relay"},
+      {"name": "Andrea Murez", "school": "Stanford", "olympics": "2016, 2020, 2024", "event": "Freestyle"},
+      {"name": "Ayla Spitz", "school": "Cal/Northwestern", "olympics": "Paris 2024", "event": "4x200 Free"},
+      {"name": "Itay Goldfaden", "school": "South Carolina", "olympics": "Tokyo 2021", "event": "Relay"},
+      {"name": "Daniel Namir", "school": "Arizona", "olympics": "Tokyo 2021", "event": "Relay"}
+    ]
+  },
+  
+  "current_times": {
+    "scy": {
+      "50_free": {"time": "21.86", "date": "2025-12", "meet": "Harry Meisel"},
+      "100_free": {"time": "48.80", "date": "2025-10-29", "meet": "2A Region 2"},
+      "200_free": {"time": "1:53.03", "date": "2025-12", "meet": "Gator Holiday"},
+      "100_fly": {"time": "55.87", "date": "2025-12", "meet": "Gator Holiday"},
+      "100_back": {"time": "1:01.62", "date": "2025-12", "meet": "Seed Time"}
+    },
+    "lcm_estimated": {
+      "50_free": "24.3",
+      "100_free": "54.2",
+      "conversion_factor": 1.11
+    }
+  },
+  
+  "target_times": {
+    "uf_recruit": {
+      "50_free_scy": "19.8-20.2",
+      "100_free_scy": "44.5-45.5",
+      "deadline": "2027-06"
+    },
+    "d1_walkable": {
+      "50_free_scy": "21.0-21.4",
+      "100_free_scy": "46.0-46.5"
+    },
+    "israeli_olympic_oct": {
+      "50_free_lcm": "22.0",
+      "100_free_lcm": "48.2"
+    }
+  },
+  
+  "events": ["50 Free", "100 Free", "200 Free", "100 Fly", "50 Fly", "100 Back"],
+  
+  "training": {
+    "club": "Swim Melbourne",
+    "coaches": ["John Walsh", "Mike Mirda"],
+    "hours_per_week": 20,
+    "facilities": ["Satellite High School (25y)", "Cocoa Beach Aquatic Center (50m)"]
+  },
+  
+  "academics": {
+    "gpa_weighted": 4.2,
+    "gpa_unweighted": 3.9,
+    "class_rank_percentile": 6,
+    "sat_target": 1330,
+    "college_credits_by_graduation": 48,
+    "major_interest": "Engineering",
+    "minor_interest": "Real Estate"
+  },
+  
+  "religious_observance": {
+    "denomination": "Orthodox",
+    "shabbat_observant": true,
+    "kosher": true,
+    "requirements": [
+      "No competition Friday sunset to Saturday havdalah",
+      "Kosher dining required",
+      "Active Chabad/Hillel preferred",
+      "Eruv on/near campus preferred"
+    ]
+  }
+}
