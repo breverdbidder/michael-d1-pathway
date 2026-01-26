@@ -1,7 +1,10 @@
 'use client';
 
 import { useRef, useEffect, useState, useCallback } from 'react';
-import { Send, User, Bot, Waves } from 'lucide-react';
+import { Send, User, Bot, Waves, Calendar } from 'lucide-react';
+import Link from 'next/link';
+
+const CHAT_API_URL = process.env.NEXT_PUBLIC_CHAT_API_URL || 'https://michael-d1-chat-api.brevardbidderai.workers.dev';
 
 interface Message {
   id: string;
@@ -36,7 +39,7 @@ export default function ChatPage() {
     setIsLoading(true);
     
     try {
-      const response = await fetch('/api/chat', {
+      const response = await fetch(CHAT_API_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -49,7 +52,7 @@ export default function ChatPage() {
       
       if (!response.ok) throw new Error('Failed to send message');
       
-      // Handle streaming response
+      // Handle streaming response from Claude API
       const reader = response.body?.getReader();
       const decoder = new TextDecoder();
       
@@ -62,20 +65,49 @@ export default function ChatPage() {
       setMessages((prev) => [...prev, assistantMessage]);
       
       if (reader) {
+        let buffer = '';
         while (true) {
           const { done, value } = await reader.read();
           if (done) break;
           
-          const text = decoder.decode(value);
-          assistantMessage.content += text;
+          buffer += decoder.decode(value, { stream: true });
           
-          setMessages((prev) => 
-            prev.map((m) => 
-              m.id === assistantMessage.id 
-                ? { ...m, content: assistantMessage.content }
-                : m
-            )
-          );
+          // Parse SSE events from Claude API
+          const lines = buffer.split('\n');
+          buffer = lines.pop() || '';
+          
+          for (const line of lines) {
+            if (line.startsWith('data: ')) {
+              const data = line.slice(6);
+              if (data === '[DONE]') continue;
+              
+              try {
+                const parsed = JSON.parse(data);
+                if (parsed.type === 'content_block_delta' && parsed.delta?.text) {
+                  assistantMessage.content += parsed.delta.text;
+                  setMessages((prev) => 
+                    prev.map((m) => 
+                      m.id === assistantMessage.id 
+                        ? { ...m, content: assistantMessage.content }
+                        : m
+                    )
+                  );
+                }
+              } catch {
+                // Not JSON, might be raw text
+                if (data.trim()) {
+                  assistantMessage.content += data;
+                  setMessages((prev) => 
+                    prev.map((m) => 
+                      m.id === assistantMessage.id 
+                        ? { ...m, content: assistantMessage.content }
+                        : m
+                    )
+                  );
+                }
+              }
+            }
+          }
         }
       }
     } catch (error) {
@@ -110,9 +142,18 @@ export default function ChatPage() {
             <p className="text-sm text-gray-500">D1 Swimming Recruiting Assistant</p>
           </div>
         </div>
-        <div className="flex items-center gap-2 px-3 py-1 bg-blue-50 rounded-full">
-          <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-          <span className="text-sm text-blue-700">SwimCloud: 3250085</span>
+        <div className="flex items-center gap-4">
+          <Link 
+            href="/calendar" 
+            className="flex items-center gap-2 px-3 py-1.5 text-sm text-blue-600 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors"
+          >
+            <Calendar className="w-4 h-4" />
+            <span>Calendar</span>
+          </Link>
+          <div className="flex items-center gap-2 px-3 py-1 bg-blue-50 rounded-full">
+            <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+            <span className="text-sm text-blue-700">SwimCloud: 3250085</span>
+          </div>
         </div>
       </header>
 
