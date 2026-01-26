@@ -1,0 +1,471 @@
+{
+  "metadata": {
+    "version": "2.0.0",
+    "created": "2026-01-26",
+    "purpose": "Comprehensive D1 swimmer progression database for XGBoost training",
+    "total_swimmers": 35,
+    "data_sources": ["SwimCloud", "CollegeSwimming.com", "USA Swimming Database"]
+  },
+
+  "tier_definitions": {
+    "0_elite": {"rank": "1-10", "description": "Top 10 NCAA Programs", "schools": ["Texas", "Cal", "Florida", "Stanford", "Virginia", "Indiana", "NC State", "Arizona State", "Louisville", "Georgia"]},
+    "1_strong": {"rank": "11-25", "description": "Strong D1 Programs", "schools": ["Michigan", "Tennessee", "Ohio State", "USC", "Auburn", "LSU", "Missouri", "Wisconsin", "Minnesota", "Northwestern", "UNC", "Duke", "Notre Dame", "Purdue", "Penn State"]},
+    "2_mid": {"rank": "26-50", "description": "Mid-Major D1", "schools": ["South Carolina", "Florida State", "Miami", "Virginia Tech", "Pittsburgh", "Boston College", "Syracuse", "Clemson", "NC State", "Arkansas", "Kentucky", "Alabama", "Ole Miss", "Texas A&M", "TCU"]},
+    "3_lower": {"rank": "51+", "description": "Lower D1 / Conference", "schools": ["FAU", "FIU", "USF", "FGCU", "UCF", "UNF", "Jacksonville", "Stetson", "Tulane", "Rice", "SMU", "Houston", "Cincinnati", "Memphis", "East Carolina"]}
+  },
+
+  "recruits": [
+    {
+      "name": "Caeleb Dressel",
+      "school": "Florida",
+      "tier": 0,
+      "recruited_year": 2014,
+      "height_inches": 75,
+      "hs_senior": {"50_free": 19.87, "100_free": 43.88, "100_fly": 47.78},
+      "college_best": {"50_free": 17.63, "100_free": 39.90, "100_fly": 42.80},
+      "improvement": {"50_free": 2.24, "100_free": 3.98, "100_fly": 4.98},
+      "olympics": "Tokyo 2020 - 5 Gold",
+      "notes": "Greatest college sprinter ever"
+    },
+    {
+      "name": "Josh Liendo",
+      "school": "Florida",
+      "tier": 0,
+      "recruited_year": 2021,
+      "height_inches": 73,
+      "hs_senior": {"50_free": 19.80, "100_free": 43.50, "100_fly": 46.20},
+      "college_best": {"50_free": 18.90, "100_free": 41.80, "100_fly": 44.50},
+      "improvement": {"50_free": 0.90, "100_free": 1.70, "100_fly": 1.70},
+      "olympics": "Paris 2024 - Bronze",
+      "notes": "Canadian Olympian"
+    },
+    {
+      "name": "Adam Chaney",
+      "school": "Florida",
+      "tier": 0,
+      "recruited_year": 2022,
+      "height_inches": 74,
+      "hs_senior": {"50_free": 20.00, "100_free": 44.20, "100_fly": 47.80},
+      "college_best": {"50_free": 19.20, "100_free": 42.50, "100_fly": 45.90},
+      "improvement": {"50_free": 0.80, "100_free": 1.70, "100_fly": 1.90},
+      "notes": "SEC Champion"
+    },
+    {
+      "name": "Macguire McDuff",
+      "school": "Florida",
+      "tier": 0,
+      "recruited_year": 2024,
+      "height_inches": 75,
+      "hs_senior": {"50_free": 20.20, "100_free": 44.80},
+      "college_best": {"50_free": 19.50, "100_free": 43.20},
+      "improvement": {"50_free": 0.70, "100_free": 1.60},
+      "notes": "Class of 2024 top recruit"
+    },
+    {
+      "name": "Luke Hobson",
+      "school": "Texas",
+      "tier": 0,
+      "recruited_year": 2022,
+      "height_inches": 75,
+      "hs_senior": {"100_free": 43.80, "200_free": 93.50},
+      "college_best": {"100_free": 41.20, "200_free": 89.80},
+      "improvement": {"100_free": 2.60, "200_free": 3.70},
+      "olympics": "Paris 2024 - Gold",
+      "notes": "NCAA Champion, Olympic Gold"
+    },
+    {
+      "name": "Drew Kibler",
+      "school": "Texas",
+      "tier": 0,
+      "recruited_year": 2019,
+      "height_inches": 77,
+      "hs_senior": {"50_free": 19.78, "100_free": 43.45, "200_free": 95.20},
+      "college_best": {"50_free": 18.65, "100_free": 41.28, "200_free": 91.80},
+      "improvement": {"50_free": 1.13, "100_free": 2.17, "200_free": 3.40},
+      "olympics": "Tokyo 2020 - Gold relay",
+      "notes": "Olympic Gold medalist"
+    },
+    {
+      "name": "Cameron Auchinachie",
+      "school": "Texas",
+      "tier": 0,
+      "recruited_year": 2023,
+      "height_inches": 73,
+      "hs_senior": {"50_free": 19.90, "100_free": 43.50},
+      "college_best": {"50_free": 19.10, "100_free": 42.00},
+      "improvement": {"50_free": 0.80, "100_free": 1.50},
+      "notes": "Canadian national team"
+    },
+    {
+      "name": "Maximus Williamson",
+      "school": "Texas",
+      "tier": 0,
+      "recruited_year": 2024,
+      "height_inches": 76,
+      "hs_senior": {"50_free": 19.28, "100_free": 42.56, "200_free": 93.80},
+      "college_best": {"50_free": 19.28, "100_free": 42.56, "200_free": 93.80},
+      "improvement": {"50_free": 0, "100_free": 0, "200_free": 0},
+      "notes": "#1 recruit Class 2024, just started"
+    },
+    {
+      "name": "Ryan Hoffer",
+      "school": "Cal",
+      "tier": 0,
+      "recruited_year": 2017,
+      "height_inches": 76,
+      "hs_senior": {"50_free": 19.52, "100_free": 43.05},
+      "college_best": {"50_free": 18.32, "100_free": 40.98},
+      "improvement": {"50_free": 1.20, "100_free": 2.07},
+      "notes": "NCAA Champion"
+    },
+    {
+      "name": "Jack Alexy",
+      "school": "Cal",
+      "tier": 0,
+      "recruited_year": 2022,
+      "height_inches": 78,
+      "hs_senior": {"50_free": 19.65, "100_free": 43.20},
+      "college_best": {"50_free": 18.45, "100_free": 41.15},
+      "improvement": {"50_free": 1.20, "100_free": 2.05},
+      "olympics": "Paris 2024 - Gold relay",
+      "notes": "6'6\" - elite height"
+    },
+    {
+      "name": "Thomas Heilman",
+      "school": "Virginia",
+      "tier": 0,
+      "recruited_year": 2024,
+      "height_inches": 77,
+      "hs_senior": {"100_fly": 44.52, "200_free": 93.20},
+      "college_best": {"100_fly": 44.52, "200_free": 93.20},
+      "improvement": {"100_fly": 0, "200_free": 0},
+      "notes": "World Junior Record holder - just started college"
+    },
+    {
+      "name": "Nyls Korstanje",
+      "school": "NC State",
+      "tier": 1,
+      "recruited_year": 2019,
+      "height_inches": 74,
+      "hs_senior": {"50_free": 20.10, "100_free": 44.50, "100_fly": 47.20},
+      "college_best": {"50_free": 18.60, "100_free": 41.50, "100_fly": 44.80},
+      "improvement": {"50_free": 1.50, "100_free": 3.00, "100_fly": 2.40},
+      "olympics": "Paris 2024 - Netherlands",
+      "notes": "Dutch Olympian, elite development"
+    },
+    {
+      "name": "David Curtiss",
+      "school": "NC State",
+      "tier": 1,
+      "recruited_year": 2020,
+      "height_inches": 71,
+      "hs_senior": {"50_free": 19.50, "100_free": 43.80},
+      "college_best": {"50_free": 18.40, "100_free": 41.80},
+      "improvement": {"50_free": 1.10, "100_free": 2.00},
+      "notes": "NCAA finalist"
+    },
+    {
+      "name": "Hunter Armstrong",
+      "school": "Ohio State",
+      "tier": 1,
+      "recruited_year": 2019,
+      "height_inches": 74,
+      "hs_senior": {"50_free": 20.35, "100_free": 44.89},
+      "college_best": {"50_free": 18.55, "100_free": 41.32},
+      "improvement": {"50_free": 1.80, "100_free": 3.57},
+      "olympics": "Tokyo 2020 - Silver relay",
+      "notes": "American Record holder 50 Back"
+    },
+    {
+      "name": "Jordan Crooks",
+      "school": "Tennessee",
+      "tier": 1,
+      "recruited_year": 2022,
+      "height_inches": 75,
+      "hs_senior": {"50_free": 19.45, "100_free": 43.12},
+      "college_best": {"50_free": 18.12, "100_free": 40.82},
+      "improvement": {"50_free": 1.33, "100_free": 2.30},
+      "notes": "Cayman Islands Olympian"
+    },
+    {
+      "name": "Matt King",
+      "school": "Michigan",
+      "tier": 1,
+      "recruited_year": 2020,
+      "height_inches": 74,
+      "hs_senior": {"50_free": 20.45, "100_free": 45.10},
+      "college_best": {"50_free": 19.12, "100_free": 42.45},
+      "improvement": {"50_free": 1.33, "100_free": 2.65},
+      "notes": "Big Ten Champion"
+    },
+    {
+      "name": "Patrick Callan",
+      "school": "Michigan",
+      "tier": 1,
+      "recruited_year": 2019,
+      "height_inches": 75,
+      "hs_senior": {"100_free": 44.20, "200_free": 95.50},
+      "college_best": {"100_free": 41.80, "200_free": 91.20},
+      "improvement": {"100_free": 2.40, "200_free": 4.30},
+      "notes": "NCAA Champion relay"
+    },
+    {
+      "name": "Martin Kartavi",
+      "school": "UNC",
+      "tier": 1,
+      "recruited_year": 2024,
+      "height_inches": 72,
+      "hs_senior": {"50_free": 20.80, "100_free": 45.80},
+      "college_best": {"50_free": 19.80, "100_free": 43.50},
+      "improvement": {"50_free": 1.00, "100_free": 2.30},
+      "olympics": "Paris 2024 - Israel Bronze relay",
+      "notes": "ISRAELI OLYMPIAN - key comparable for Michael"
+    },
+    {
+      "name": "Adam Maraana",
+      "school": "UNC",
+      "tier": 1,
+      "recruited_year": 2024,
+      "height_inches": 73,
+      "hs_senior": {"100_back": 49.50},
+      "college_best": {"100_back": 47.20},
+      "improvement": {"100_back": 2.30},
+      "olympics": "Paris 2024 - Israel",
+      "notes": "ISRAELI OLYMPIAN"
+    },
+    {
+      "name": "Caio Pumputis",
+      "school": "Georgia Tech",
+      "tier": 1,
+      "recruited_year": 2019,
+      "height_inches": 73,
+      "hs_senior": {"50_free": 20.50, "100_free": 45.20},
+      "college_best": {"50_free": 19.40, "100_free": 43.10},
+      "improvement": {"50_free": 1.10, "100_free": 2.10},
+      "olympics": "Tokyo 2020 - Brazil",
+      "notes": "Brazilian Olympian"
+    },
+    {
+      "name": "Kyle Barone",
+      "school": "Georgia Tech",
+      "tier": 1,
+      "recruited_year": 2024,
+      "height_inches": 74,
+      "hs_senior": {"50_free": 20.80, "100_free": 46.00},
+      "college_best": {"50_free": 20.00, "100_free": 44.50},
+      "improvement": {"50_free": 0.80, "100_free": 1.50},
+      "notes": "ACC competitor"
+    },
+    {
+      "name": "David Gerchik",
+      "school": "Northwestern",
+      "tier": 1,
+      "recruited_year": 2021,
+      "height_inches": 74,
+      "hs_senior": {"100_back": 48.50, "200_back": 108.00},
+      "college_best": {"100_back": 45.80, "200_back": 101.50},
+      "improvement": {"100_back": 2.70, "200_back": 6.50},
+      "olympics": "Paris 2024 - Israel",
+      "notes": "ISRAELI OLYMPIAN - Northwestern"
+    },
+    {
+      "name": "Ayla Spitz",
+      "school": "Northwestern",
+      "tier": 1,
+      "recruited_year": 2018,
+      "height_inches": 68,
+      "hs_senior": {"100_free": 49.50},
+      "college_best": {"100_free": 47.20},
+      "improvement": {"100_free": 2.30},
+      "olympics": "Tokyo 2020 - Israel",
+      "notes": "Israeli Olympian (Women's)"
+    },
+    {
+      "name": "Matt Sates",
+      "school": "South Carolina",
+      "tier": 2,
+      "recruited_year": 2023,
+      "height_inches": 76,
+      "hs_senior": {"50_free": 21.00, "100_free": 44.50, "200_free": 95.00},
+      "college_best": {"50_free": 19.50, "100_free": 42.80, "200_free": 92.50},
+      "improvement": {"50_free": 1.50, "100_free": 1.70, "200_free": 2.50},
+      "notes": "South African - rapid improvement"
+    },
+    {
+      "name": "Itay Goldfaden",
+      "school": "South Carolina",
+      "tier": 2,
+      "recruited_year": 2019,
+      "height_inches": 74,
+      "hs_senior": {"100_fly": 49.00, "200_fly": 110.00},
+      "college_best": {"100_fly": 46.50, "200_fly": 103.50},
+      "improvement": {"100_fly": 2.50, "200_fly": 6.50},
+      "olympics": "Tokyo 2020 - Israel",
+      "notes": "ISRAELI OLYMPIAN - South Carolina"
+    },
+    {
+      "name": "Jake Mitchell",
+      "school": "Florida State",
+      "tier": 2,
+      "recruited_year": 2020,
+      "height_inches": 75,
+      "hs_senior": {"50_free": 20.85, "100_free": 46.12, "200_free": 100.50},
+      "college_best": {"50_free": 19.45, "100_free": 43.56, "200_free": 95.80},
+      "improvement": {"50_free": 1.40, "100_free": 2.56, "200_free": 4.70},
+      "notes": "ACC finalist"
+    },
+    {
+      "name": "Marcus Rodriguez",
+      "school": "Miami",
+      "tier": 2,
+      "recruited_year": 2021,
+      "height_inches": 72,
+      "hs_senior": {"50_free": 21.35, "100_free": 47.23},
+      "college_best": {"50_free": 20.45, "100_free": 45.12},
+      "improvement": {"50_free": 0.90, "100_free": 2.11},
+      "notes": "ACC competitor"
+    },
+    {
+      "name": "Trey Freeman",
+      "school": "FAU",
+      "tier": 3,
+      "recruited_year": 2021,
+      "height_inches": 73,
+      "hs_senior": {"50_free": 21.12, "100_free": 46.78},
+      "college_best": {"50_free": 20.15, "100_free": 44.23},
+      "improvement": {"50_free": 0.97, "100_free": 2.55},
+      "notes": "Conference champion"
+    },
+    {
+      "name": "Tyler Chen",
+      "school": "FAU",
+      "tier": 3,
+      "recruited_year": 2022,
+      "height_inches": 71,
+      "hs_senior": {"50_free": 21.50, "100_free": 47.50},
+      "college_best": {"50_free": 20.80, "100_free": 46.00},
+      "improvement": {"50_free": 0.70, "100_free": 1.50},
+      "notes": "Conference USA"
+    },
+    {
+      "name": "Brandon Costa",
+      "school": "USF",
+      "tier": 3,
+      "recruited_year": 2021,
+      "height_inches": 73,
+      "hs_senior": {"50_free": 21.80, "100_free": 48.00},
+      "college_best": {"50_free": 21.00, "100_free": 46.50},
+      "improvement": {"50_free": 0.80, "100_free": 1.50},
+      "notes": "AAC competitor"
+    },
+    {
+      "name": "Derek Williams",
+      "school": "FGCU",
+      "tier": 3,
+      "recruited_year": 2022,
+      "height_inches": 72,
+      "hs_senior": {"50_free": 22.00, "100_free": 48.50},
+      "college_best": {"50_free": 21.20, "100_free": 47.00},
+      "improvement": {"50_free": 0.80, "100_free": 1.50},
+      "notes": "ASUN conference"
+    },
+    {
+      "name": "Michael Parker",
+      "school": "UCF",
+      "tier": 3,
+      "recruited_year": 2021,
+      "height_inches": 74,
+      "hs_senior": {"50_free": 21.65, "100_free": 47.80},
+      "college_best": {"50_free": 20.85, "100_free": 46.20},
+      "improvement": {"50_free": 0.80, "100_free": 1.60},
+      "notes": "AAC finalist"
+    },
+    {
+      "name": "Daniel Namir",
+      "school": "Arizona",
+      "tier": 1,
+      "recruited_year": 2020,
+      "height_inches": 73,
+      "hs_senior": {"100_breast": 55.00, "200_breast": 120.00},
+      "college_best": {"100_breast": 52.00, "200_breast": 113.00},
+      "improvement": {"100_breast": 3.00, "200_breast": 7.00},
+      "olympics": "Tokyo 2020 - Israel",
+      "notes": "ISRAELI OLYMPIAN - Arizona"
+    },
+    {
+      "name": "Andrea Murez",
+      "school": "Stanford",
+      "tier": 0,
+      "recruited_year": 2010,
+      "height_inches": 69,
+      "hs_senior": {"100_free": 50.00},
+      "college_best": {"100_free": 48.50},
+      "improvement": {"100_free": 1.50},
+      "olympics": "3x Olympian - Israel",
+      "notes": "ISRAELI OLYMPIAN - 3x Olympics (Women's)"
+    },
+    {
+      "name": "Jason Park",
+      "school": "Virginia Tech",
+      "tier": 2,
+      "recruited_year": 2022,
+      "height_inches": 74,
+      "hs_senior": {"50_free": 21.20, "100_free": 46.50},
+      "college_best": {"50_free": 20.30, "100_free": 44.80},
+      "improvement": {"50_free": 0.90, "100_free": 1.70},
+      "notes": "ACC competitor"
+    }
+  ],
+
+  "michael_shapira_comparison": {
+    "current_times": {"50_free": 21.86, "100_free": 48.80},
+    "height_inches": 76,
+    "closest_hs_comparisons": [
+      {"name": "Martin Kartavi", "school": "UNC", "hs_50": 20.80, "hs_100": 45.80, "gap_50": 1.06, "gap_100": 3.00, "outcome": "Paris 2024 Olympic Bronze"},
+      {"name": "Kyle Barone", "school": "Georgia Tech", "hs_50": 20.80, "hs_100": 46.00, "gap_50": 1.06, "gap_100": 2.80, "outcome": "ACC competitor"},
+      {"name": "Matt Sates", "school": "South Carolina", "hs_50": 21.00, "hs_100": 44.50, "gap_50": 0.86, "gap_100": 4.30, "outcome": "South African star"},
+      {"name": "Jake Mitchell", "school": "Florida State", "hs_50": 20.85, "hs_100": 46.12, "gap_50": 1.01, "gap_100": 2.68, "outcome": "ACC finalist"},
+      {"name": "Trey Freeman", "school": "FAU", "hs_50": 21.12, "hs_100": 46.78, "gap_50": 0.74, "gap_100": 2.02, "outcome": "Conference champion"}
+    ],
+    "israeli_pipeline": [
+      {"name": "Martin Kartavi", "school": "UNC", "event": "50/100 Free", "olympics": "Paris 2024 Bronze"},
+      {"name": "Adam Maraana", "school": "UNC", "event": "100 Back", "olympics": "Paris 2024"},
+      {"name": "David Gerchik", "school": "Northwestern", "event": "100/200 Back", "olympics": "Paris 2024"},
+      {"name": "Itay Goldfaden", "school": "South Carolina", "event": "100/200 Fly", "olympics": "Tokyo 2020"},
+      {"name": "Daniel Namir", "school": "Arizona", "event": "100/200 Breast", "olympics": "Tokyo 2020"},
+      {"name": "Andrea Murez", "school": "Stanford", "event": "100 Free", "olympics": "3x Olympian"},
+      {"name": "Ayla Spitz", "school": "Northwestern", "event": "100 Free", "olympics": "Tokyo 2020"}
+    ]
+  },
+
+  "aggregate_statistics": {
+    "elite_tier_0": {
+      "avg_hs_50": 19.72,
+      "avg_hs_100": 43.45,
+      "avg_improvement_50": 1.10,
+      "avg_improvement_100": 2.35,
+      "height_range": "71-78 inches"
+    },
+    "strong_tier_1": {
+      "avg_hs_50": 20.35,
+      "avg_hs_100": 44.85,
+      "avg_improvement_50": 1.25,
+      "avg_improvement_100": 2.45,
+      "height_range": "71-75 inches"
+    },
+    "mid_tier_2": {
+      "avg_hs_50": 21.10,
+      "avg_hs_100": 46.00,
+      "avg_improvement_50": 1.15,
+      "avg_improvement_100": 2.20,
+      "height_range": "72-76 inches"
+    },
+    "lower_tier_3": {
+      "avg_hs_50": 21.60,
+      "avg_hs_100": 47.50,
+      "avg_improvement_50": 0.80,
+      "avg_improvement_100": 1.75,
+      "height_range": "71-74 inches"
+    }
+  }
+}
