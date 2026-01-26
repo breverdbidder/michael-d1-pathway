@@ -1,0 +1,199 @@
+{
+  "swimmer": "Michael Shapira",
+  "swimcloud_id": "3250085",
+  "meet_history": {
+    "2025-2026": [
+      {
+        "meet": "TCA Invite",
+        "dates": "2026-01-24 to 2026-01-25",
+        "location": "Stuart, FL",
+        "course": "SCY",
+        "results_pending": true,
+        "notes": "Sunday only due to Shabbat"
+      },
+      {
+        "meet": "FL TCSC Harry Meisel East",
+        "dates": "2025-12-13 to 2025-12-14",
+        "location": "Sebastian, FL",
+        "course": "SCY",
+        "results": [
+          {"event": "100 Back", "time": "1:01.14", "place": 3, "improvement": "-0.48", "pb": true},
+          {"event": "100 Free", "time": "50.46", "place": null, "improvement": "+1.66", "pb": false},
+          {"event": "50 Fly", "time": "25.87", "place": null, "improvement": "+0.48", "pb": false}
+        ]
+      },
+      {
+        "meet": "FL GSC Holiday Classic (Gator)",
+        "dates": "2025-12-05 to 2025-12-07",
+        "location": "Ocala, FL",
+        "course": "SCY",
+        "results": [
+          {"event": "200 Free", "time": "1:53.03", "place": 66, "improvement": "-3.60", "pb": true},
+          {"event": "100 Fly", "time": "55.87", "place": 35, "improvement": "-1.34", "pb": true},
+          {"event": "50 Fly", "time": "25.39", "place": null, "exhibition": true, "pb": true}
+        ]
+      },
+      {
+        "meet": "November Racer",
+        "dates": "2025-11-16",
+        "location": "Daytona, FL",
+        "course": "SCY",
+        "results": [
+          {"event": "Multiple", "notes": "All 1st places"}
+        ]
+      },
+      {
+        "meet": "FHSAA 2A State Championships",
+        "dates": "2025-11-07",
+        "location": "Stuart, FL",
+        "course": "SCY",
+        "results": [
+          {"event": "100 Free", "time": "48.99", "place": null},
+          {"event": "50 Free", "time": "22.41", "place": null}
+        ]
+      },
+      {
+        "meet": "FHSAA 2A Region 2 Championship",
+        "dates": "2025-10-29",
+        "location": "Fort Pierce, FL",
+        "course": "SCY",
+        "results": [
+          {"event": "100 Free", "time": "48.80", "place": 3, "pb": true, "pb_improvement": "-2.17"},
+          {"event": "50 Free", "time": "21.86", "place": 3, "pb": true, "pb_improvement": "-0.76"}
+        ],
+        "notes": "HIGH SCHOOL MEET - verify USA Swimming observation"
+      },
+      {
+        "meet": "FHSAA 2A District 5 Championship",
+        "dates": "2025-10-14",
+        "location": "TBD",
+        "course": "SCY",
+        "results": [
+          {"event": "100 Free", "time": "49.50", "place": null},
+          {"event": "50 Free", "time": "22.30", "place": null}
+        ]
+      },
+      {
+        "meet": "FL TCSC Fall Invitational",
+        "dates": "2024-10-13",
+        "location": "Sebastian, FL",
+        "course": "SCY",
+        "results": [
+          {"event": "100 IM", "time": "1:02.21", "pb": true}
+        ]
+      }
+    ],
+    "2024-2025": [
+      {
+        "meet": "Florida Senior Championships (50m)",
+        "dates": "2025-07-18 to 2025-07-20",
+        "location": "Ocala, FL",
+        "course": "LCM",
+        "results": [
+          {"event": "100 Free", "time": "58.28", "pb": true},
+          {"event": "50 Back", "time": "31.00", "pb": true},
+          {"event": "50 Fly", "time": "29.49", "exhibition": true, "pb": true}
+        ]
+      },
+      {
+        "meet": "Florida Age Group Championships",
+        "dates": "2024-07-14",
+        "location": "Ocala, FL",
+        "course": "LCM",
+        "results": [
+          {"event": "50 Free", "time": "26.59", "pb": true},
+          {"event": "100 Back", "time": "1:09.36", "pb": true}
+        ]
+      },
+      {
+        "meet": "2024 Florida Swimming FLAGS-SO",
+        "dates": "2024-03-03",
+        "location": "Orlando, FL",
+        "course": "SCY",
+        "results": [
+          {"event": "50 Back", "time": "27.86", "pb": true},
+          {"event": "50 Free", "time": "23.58", "pb": true}
+        ]
+      },
+      {
+        "meet": "FL RATS Stanton C. Craigie Memorial Invite",
+        "dates": "2024-02-04",
+        "location": "Fort Pierce, FL",
+        "course": "SCY",
+        "results": [
+          {"event": "200 Back", "time": "2:18.79", "pb": true}
+        ]
+      }
+    ],
+    "2023-2024": [
+      {
+        "meet": "FL TCSC Harry Meisel East",
+        "dates": "2023-12-10",
+        "location": "Sebastian, FL",
+        "course": "SCY",
+        "results": [
+          {"event": "200 Fly", "time": "2:17.55", "pb": true}
+        ]
+      },
+      {
+        "meet": "FL NPB Turkey Invite",
+        "dates": "2023-11-19",
+        "location": "North Palm Beach, FL",
+        "course": "SCY",
+        "results": [
+          {"event": "200 IM", "time": "2:19.60", "pb": true}
+        ]
+      },
+      {
+        "meet": "FL TCSC Fall Invitational",
+        "dates": "2023-10-15",
+        "location": "Sebastian, FL",
+        "course": "SCY",
+        "results": [
+          {"event": "50 Breast", "time": "35.85", "exhibition": true, "pb": true},
+          {"event": "100 Breast", "time": "1:18.38", "pb": true}
+        ]
+      },
+      {
+        "meet": "Florida Age Group Championships",
+        "dates": "2023-07-14",
+        "location": "Ocala, FL",
+        "course": "LCM",
+        "results": [
+          {"event": "200 Free", "time": "2:12.57", "pb": true},
+          {"event": "100 Fly", "time": "1:07.82", "pb": true}
+        ]
+      },
+      {
+        "meet": "2023 Dr. Aspi Doctor Memorial Invitational",
+        "dates": "2023-05-28",
+        "location": "TBD",
+        "course": "LCM",
+        "results": [
+          {"event": "50 Breast", "time": "41.16", "pb": true}
+        ]
+      }
+    ]
+  },
+  "season_summary": {
+    "2025-2026": {
+      "meets_attended": 8,
+      "pbs_achieved": 7,
+      "best_meet": "FHSAA 2A Region 2 Championship",
+      "highlight": "21.86/48.80 sprint freestyle PBs"
+    },
+    "2024-2025": {
+      "meets_attended": 6,
+      "pbs_achieved": 5,
+      "best_meet": "Florida Senior Championships",
+      "highlight": "First sub-27 50 Free LCM"
+    },
+    "2023-2024": {
+      "meets_attended": 7,
+      "pbs_achieved": 6,
+      "best_meet": "Florida Age Group Championships",
+      "highlight": "Established baseline times"
+    }
+  },
+  "last_updated": "2026-01-26"
+}
