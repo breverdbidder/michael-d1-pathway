@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "purpose": "Engineering programs at D1 target schools for Michael Shapira",
+    "priority_criteria": ["Real Estate Minor availability", "Engineering national ranking", "Aerospace/Mechanical options"],
+    "athlete_interest": "Engineering major, Real Estate minor"
+  },
+  
+  "schools": [
+    {
+      "school": "University of Florida",
+      "engineering_rank_national": 27,
+      "engineering_college": "Herbert Wertheim College of Engineering",
+      "real_estate_minor": true,
+      "real_estate_program": "Bergstrom Center for Real Estate Studies",
+      "real_estate_courses": ["REE 3043 Principles of RE", "REE 4103 RE Finance", "REE 4204 Appraisal", "REE 4303 Legal Aspects"],
+      "real_estate_national_rank": "Top 5",
+      "engineering_majors": ["Aerospace", "Mechanical", "Civil", "Computer", "Electrical"],
+      "athlete_support": "Gator Student-Athlete Academic Center",
+      "notes": "BEST combination for Michael - Elite RE program + competitive engineering + SEC swimming"
+    },
+    {
+      "school": "UT Austin",
+      "engineering_rank_national": 9,
+      "engineering_college": "Cockrell School of Engineering",
+      "real_estate_minor": true,
+      "real_estate_program": "McCombs Real Estate Center",
+      "real_estate_courses": ["RE Principles", "RE Finance", "RE Investment Analysis"],
+      "engineering_majors": ["Aerospace (#6)", "Mechanical", "Civil", "Petroleum"],
+      "athlete_support": "McCombs Academic Support",
+      "notes": "Elite engineering + RE minor + 2024 NCAA Champions"
+    },
+    {
+      "school": "University of Michigan",
+      "engineering_rank_national": 4,
+      "engineering_college": "College of Engineering",
+      "real_estate_minor": true,
+      "real_estate_program": "Taubman College + Ross School of Business",
+      "real_estate_courses": ["Urban Planning", "RE Development", "RE Finance"],
+      "minor_credits": 15,
+      "engineering_majors": ["Aerospace (#5)", "Mechanical (#4)", "Computer", "Electrical"],
+      "athlete_support": "Academic Success Program",
+      "notes": "Top 5 engineering + RE minor + BEST Jewish life in nation"
+    },
+    {
+      "school": "Georgia Tech",
+      "engineering_rank_national": 4,
+      "engineering_college": "College of Engineering",
+      "real_estate_minor": false,
+      "real_estate_alternative": "Building Construction program",
+      "construction_program": "School of Building Construction",
+      "engineering_majors": ["Aerospace (#4)", "Mechanical (#4)", "Computer (#5)", "Industrial"],
+      "athlete_support": "GTAA Academic Services",
+      "notes": "Elite engineering but NO RE minor - Building Construction is alternative"
+    },
+    {
+      "school": "Stanford",
+      "engineering_rank_national": 2,
+      "engineering_college": "School of Engineering",
+      "real_estate_minor": false,
+      "real_estate_alternative": "Graduate programs only",
+      "engineering_majors": ["Mechanical (#1)", "Computer (#1)", "Electrical (#2)"],
+      "athlete_support": "Cardinal Academic Center",
+      "notes": "Elite engineering but NO undergrad RE program"
+    },
+    {
+      "school": "NC State",
+      "engineering_rank_national": 30,
+      "engineering_college": "College of Engineering",
+      "real_estate_minor": true,
+      "real_estate_program": "Poole College of Management",
+      "real_estate_courses": ["RE Principles", "RE Finance", "Property Management"],
+      "engineering_majors": ["Aerospace", "Mechanical", "Civil", "Nuclear"],
+      "athlete_support": "Academic Support Program for Athletes",
+      "notes": "Good balance - competitive engineering + RE minor"
+    },
+    {
+      "school": "UNC Chapel Hill",
+      "engineering_rank_national": 35,
+      "engineering_college": "College of Arts & Sciences (Applied Sciences)",
+      "real_estate_minor": true,
+      "real_estate_program": "Kenan-Flagler Business School",
+      "engineering_majors": ["Applied Sciences", "Computer Science"],
+      "athlete_support": "Academic Support Center",
+      "notes": "Less engineering-focused but RE minor available + BEST Israeli swimming pipeline"
+    },
+    {
+      "school": "Northwestern",
+      "engineering_rank_national": 10,
+      "engineering_college": "McCormick School of Engineering",
+      "real_estate_minor": true,
+      "real_estate_program": "Kellogg School Certificate",
+      "engineering_majors": ["Mechanical", "Computer", "Electrical", "Biomedical"],
+      "athlete_support": "Academic Support & Tutoring",
+      "notes": "Elite engineering + RE certificate + current Israeli Olympian on team"
+    },
+    {
+      "school": "University of Arizona",
+      "engineering_rank_national": 50,
+      "engineering_college": "College of Engineering",
+      "real_estate_minor": true,
+      "real_estate_program": "Eller College of Management",
+      "engineering_majors": ["Aerospace", "Mechanical", "Mining", "Optical Sciences"],
+      "athlete_support": "Saguaro Hall Academic Center",
+      "notes": "RE minor available + Israeli swimmer history"
+    },
+    {
+      "school": "USC",
+      "engineering_rank_national": 12,
+      "engineering_college": "Viterbi School of Engineering",
+      "real_estate_minor": true,
+      "real_estate_program": "Lusk Center for Real Estate",
+      "real_estate_courses": ["RE Development", "RE Finance", "Urban Planning"],
+      "engineering_majors": ["Aerospace", "Computer", "Biomedical", "Electrical"],
+      "athlete_support": "Pat Haden Academic Center",
+      "notes": "Strong engineering + well-known RE program"
+    },
+    {
+      "school": "South Carolina",
+      "engineering_rank_national": 75,
+      "engineering_college": "College of Engineering and Computing",
+      "real_estate_minor": true,
+      "real_estate_program": "Darla Moore School of Business",
+      "engineering_majors": ["Mechanical", "Civil", "Computer"],
+      "athlete_support": "Dodie Anderson Academic Center",
+      "notes": "SEC school + RE minor + Israeli Olympic swimmer history"
+    },
+    {
+      "school": "Florida Atlantic",
+      "engineering_rank_national": 100,
+      "engineering_college": "College of Engineering and Computer Science",
+      "real_estate_minor": false,
+      "real_estate_alternative": "Business courses available",
+      "engineering_majors": ["Mechanical", "Civil", "Computer", "Ocean"],
+      "athlete_support": "Student-Athlete Services",
+      "notes": "Safety school - close to home (75 mi) + massive Boca Jewish community"
+    }
+  ],
+  
+  "ranking_by_real_estate_priority": [
+    {"rank": 1, "school": "Florida", "reason": "Top 5 RE nationally + competitive engineering"},
+    {"rank": 2, "school": "Texas", "reason": "#9 Engineering + McCombs RE Center"},
+    {"rank": 3, "school": "Michigan", "reason": "#4 Engineering + RE minor + best Jewish life"},
+    {"rank": 4, "school": "NC State", "reason": "Poole College RE + solid engineering"},
+    {"rank": 5, "school": "Northwestern", "reason": "#10 Engineering + Kellogg RE certificate"},
+    {"rank": 6, "school": "USC", "reason": "#12 Engineering + Lusk RE Center"},
+    {"rank": 7, "school": "UNC", "reason": "RE minor + best Israeli pipeline"},
+    {"rank": 8, "school": "Arizona", "reason": "RE minor + Israeli swimmer history"},
+    {"rank": 9, "school": "South Carolina", "reason": "SEC + RE minor + Israeli connection"},
+    {"rank": 10, "school": "Georgia Tech", "reason": "#4 Engineering but no RE minor"},
+    {"rank": 11, "school": "Stanford", "reason": "#2 Engineering but no undergrad RE"},
+    {"rank": 12, "school": "FAU", "reason": "Safety school, limited programs"}
+  ]
+}
