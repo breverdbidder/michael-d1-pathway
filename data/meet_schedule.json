@@ -1,0 +1,391 @@
+{
+  "meet_schedule_2026": {
+    "january": [
+      {
+        "name": "TCA Invite",
+        "dates": {
+          "start": "2026-01-24",
+          "end": "2026-01-25"
+        },
+        "day_of_week": ["Saturday", "Sunday"],
+        "location": "Stuart, FL",
+        "course": "SCY",
+        "type": "All",
+        "shabbat_conflict": true,
+        "shabbat_details": {
+          "candle_lighting": "2026-01-23T17:42:00",
+          "havdalah": "2026-01-24T18:43:00",
+          "saturday_available": false,
+          "sunday_available": true
+        },
+        "priority": "baseline",
+        "status": "completed",
+        "michael_results": {
+          "50_free": "22.32",
+          "notes": "Sunday only participation"
+        }
+      }
+    ],
+    "february": [
+      {
+        "name": "Rats Invite",
+        "dates": {
+          "start": "2026-02-06",
+          "end": "2026-02-08"
+        },
+        "day_of_week": ["Friday", "Saturday", "Sunday"],
+        "location": "Fort Pierce, FL",
+        "course": "SCY",
+        "type": "All",
+        "shabbat_conflict": true,
+        "shabbat_details": {
+          "candle_lighting": "2026-02-06T17:53:00",
+          "havdalah": "2026-02-07T18:53:00",
+          "friday_am_available": true,
+          "saturday_available": false,
+          "sunday_available": true
+        },
+        "priority": "tune-up",
+        "status": "upcoming",
+        "notes": "Last meet before Sectionals"
+      },
+      {
+        "name": "Southern Zone South Sectionals",
+        "dates": {
+          "start": "2026-02-12",
+          "end": "2026-02-15"
+        },
+        "day_of_week": ["Thursday", "Friday", "Saturday", "Sunday"],
+        "location": "Plantation, FL",
+        "course": "SCY",
+        "type": "Qualifying",
+        "shabbat_conflict": true,
+        "shabbat_details": {
+          "candle_lighting": "2026-02-13T17:56:00",
+          "havdalah": "2026-02-14T19:05:00",
+          "thursday_available": true,
+          "friday_am_available": true,
+          "friday_finals": "tight timing - 5pm start, Shabbat 5:56pm",
+          "saturday_available": false,
+          "sunday_available": true
+        },
+        "priority": "HIGH",
+        "event_schedule": {
+          "thursday": ["Distance events", "Timed Finals"],
+          "friday": ["200 Free", "100 Breast", "100 Fly", "400 IM"],
+          "saturday": ["100 Back", "200 IM", "50 Free", "400 Free"],
+          "sunday": ["200 Fly", "100 Free", "200 Breast", "200 Back"]
+        },
+        "michael_events": {
+          "100_free": {
+            "day": "Sunday",
+            "status": "CAN_SWIM",
+            "qualified": true
+          },
+          "50_free": {
+            "day": "Saturday",
+            "status": "CANNOT_SWIM",
+            "qualified": true,
+            "reason": "Shabbat"
+          }
+        },
+        "status": "upcoming"
+      },
+      {
+        "name": "Area 6 Championship",
+        "dates": {
+          "start": "2026-02-27",
+          "end": "2026-03-01"
+        },
+        "day_of_week": ["Friday", "Saturday", "Sunday"],
+        "location": "Stuart, FL",
+        "course": "SCY",
+        "type": "All",
+        "shabbat_conflict": true,
+        "priority": "medium",
+        "status": "upcoming"
+      }
+    ],
+    "march": [
+      {
+        "name": "FLAGS",
+        "dates": {
+          "start": "2026-03-05",
+          "end": "2026-03-08"
+        },
+        "location": "Orlando, FL",
+        "course": "SCY",
+        "type": "Qualifying",
+        "eligibility": "14&U only",
+        "michael_eligible": false,
+        "reason": "Michael is 16 - not eligible"
+      },
+      {
+        "name": "Florida Senior Championships",
+        "dates": {
+          "start": "2026-03-12",
+          "end": "2026-03-15"
+        },
+        "day_of_week": ["Thursday", "Friday", "Saturday", "Sunday"],
+        "location": "Orlando, FL",
+        "course": "SCY",
+        "type": "Qualifying",
+        "shabbat_conflict": true,
+        "shabbat_details": {
+          "candle_lighting": "2026-03-13T19:20:00",
+          "havdalah": "2026-03-14T20:20:00",
+          "notes": "DST starts Mar 8 - later sunset"
+        },
+        "priority": "HIGH",
+        "status": "upcoming",
+        "notes": "Target meet for 100 Fly and 200 Free cuts"
+      }
+    ],
+    "april": [
+      {
+        "name": "Racers Invite",
+        "dates": {
+          "start": "2026-04-05",
+          "end": "2026-04-05"
+        },
+        "day_of_week": ["Sunday"],
+        "location": "Daytona, FL",
+        "course": "SCY",
+        "type": "All",
+        "shabbat_conflict": false,
+        "priority": "low",
+        "status": "upcoming"
+      },
+      {
+        "name": "Patriot Invite",
+        "dates": {
+          "start": "2026-04-18",
+          "end": "2026-04-18"
+        },
+        "day_of_week": ["Saturday"],
+        "location": "Altamonte Springs, FL",
+        "course": "SCY",
+        "type": "All",
+        "shabbat_conflict": true,
+        "michael_can_attend": false,
+        "reason": "Saturday only meet = full Shabbat conflict",
+        "priority": "SKIP",
+        "status": "skip"
+      }
+    ],
+    "may": [
+      {
+        "name": "TCSC Invite",
+        "dates": {
+          "start": "2026-05-02",
+          "end": "2026-05-03"
+        },
+        "location": "Sebastian, FL",
+        "course": "LCM",
+        "type": "All",
+        "shabbat_conflict": true,
+        "priority": "medium"
+      },
+      {
+        "name": "Rats Invite",
+        "dates": {
+          "start": "2026-05-22",
+          "end": "2026-05-24"
+        },
+        "location": "Fort Pierce, FL",
+        "course": "LCM",
+        "type": "All",
+        "shabbat_conflict": true,
+        "priority": "medium"
+      }
+    ],
+    "june": [
+      {
+        "name": "Southern Zone South Sectionals (LCM)",
+        "dates": {
+          "start": "2026-06-04",
+          "end": "2026-06-07"
+        },
+        "day_of_week": ["Thursday", "Friday", "Saturday", "Sunday"],
+        "location": "Ocala, FL",
+        "course": "LCM",
+        "type": "Qualifying",
+        "shabbat_conflict": true,
+        "shabbat_details": {
+          "candle_lighting": "2026-06-05T20:00:00",
+          "havdalah": "2026-06-06T21:00:00",
+          "notes": "Best Friday window - latest sunset of year"
+        },
+        "priority": "HIGH",
+        "status": "upcoming"
+      },
+      {
+        "name": "TCA Invite",
+        "dates": {
+          "start": "2026-06-13",
+          "end": "2026-06-14"
+        },
+        "location": "Stuart, FL",
+        "course": "LCM",
+        "shabbat_conflict": true,
+        "priority": "medium"
+      },
+      {
+        "name": "Area 6 Championship",
+        "dates": {
+          "start": "2026-06-26",
+          "end": "2026-06-27"
+        },
+        "location": "Fort Pierce, FL",
+        "course": "SCY",
+        "shabbat_conflict": true,
+        "notes": "Friday-Saturday only = problematic",
+        "priority": "low"
+      }
+    ],
+    "july": [
+      {
+        "name": "FLAGS (LCM)",
+        "dates": {
+          "start": "2026-07-09",
+          "end": "2026-07-12"
+        },
+        "location": "Ocala, FL",
+        "course": "LCM",
+        "type": "Qualifying",
+        "eligibility": "14&U only",
+        "michael_eligible": false
+      },
+      {
+        "name": "Florida Senior Championships (LCM)",
+        "dates": {
+          "start": "2026-07-16",
+          "end": "2026-07-19"
+        },
+        "day_of_week": ["Thursday", "Friday", "Saturday", "Sunday"],
+        "location": "Ocala, FL",
+        "course": "LCM",
+        "type": "Qualifying",
+        "shabbat_conflict": true,
+        "priority": "HIGH",
+        "notes": "Final tune-up before Futures"
+      },
+      {
+        "name": "USA Swimming Futures Championships",
+        "dates": {
+          "start": "2026-07-29",
+          "end": "2026-08-01"
+        },
+        "day_of_week": ["Wednesday", "Thursday", "Friday", "Saturday"],
+        "location": "Ocala, FL",
+        "course": "LCM",
+        "type": "Qualifying",
+        "shabbat_conflict": true,
+        "shabbat_details": {
+          "candle_lighting": "2026-07-31T19:58:00",
+          "havdalah": "2026-08-01T20:55:00",
+          "notes": "Saturday = last day of meet, Shabbat conflict"
+        },
+        "priority": "CRITICAL",
+        "status": "PRIMARY_TARGET",
+        "notes": "PRIMARY D1 RECRUITING MEET - NCAA coaches in attendance"
+      }
+    ],
+    "august": [
+      {
+        "name": "TCSC Invite",
+        "dates": {
+          "start": "2026-08-22",
+          "end": "2026-08-23"
+        },
+        "location": "Sebastian, FL",
+        "course": "SCY",
+        "type": "All",
+        "shabbat_conflict": true,
+        "priority": "low"
+      }
+    ],
+    "september": [
+      {
+        "name": "Hydro Invite",
+        "dates": {
+          "start": "2026-09-11",
+          "end": "2026-09-13"
+        },
+        "location": "Ormond Beach, FL",
+        "course": "SCY",
+        "type": "All",
+        "shabbat_conflict": true,
+        "priority": "medium"
+      }
+    ],
+    "october": [
+      {
+        "name": "TCSC Fall Invite",
+        "dates": {
+          "start": "2026-10-10",
+          "end": "2026-10-11"
+        },
+        "location": "Sebastian, FL",
+        "course": "SCY",
+        "type": "All",
+        "shabbat_conflict": true,
+        "priority": "medium"
+      }
+    ],
+    "november": [
+      {
+        "name": "Racers Invite",
+        "dates": {
+          "start": "2026-11-15",
+          "end": "2026-11-15"
+        },
+        "location": "Daytona, FL",
+        "course": "SCY",
+        "type": "All",
+        "shabbat_conflict": false,
+        "priority": "low"
+      },
+      {
+        "name": "Turkey Meet",
+        "dates": {
+          "start": "2026-11-20",
+          "end": "2026-11-22"
+        },
+        "location": "Stuart, FL",
+        "course": "SCY",
+        "type": "Qualifying",
+        "shabbat_conflict": true,
+        "priority": "medium"
+      }
+    ],
+    "december": [
+      {
+        "name": "Speedo Holiday Classic (Gator Meet)",
+        "dates": "TBD",
+        "location": "Ocala, FL",
+        "course": "SCY",
+        "type": "Qualifying",
+        "priority": "HIGH"
+      },
+      {
+        "name": "Winter Juniors",
+        "dates": "TBD",
+        "location": "Indiana University",
+        "course": "SCY",
+        "type": "Qualifying",
+        "priority": "CRITICAL",
+        "notes": "National-level recruiting visibility"
+      },
+      {
+        "name": "Harry Meisel",
+        "dates": "TBD",
+        "location": "Sebastian, FL",
+        "course": "SCY",
+        "type": "All",
+        "priority": "medium"
+      }
+    ]
+  },
+  "last_updated": "2026-01-26"
+}
