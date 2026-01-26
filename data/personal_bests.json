@@ -1,0 +1,203 @@
+{
+  "swimmer": {
+    "name": "Michael Shapira",
+    "swimcloud_id": "3250085",
+    "class": "2027",
+    "dob": "2009-07-22",
+    "high_school": "Satellite Beach High School",
+    "club_team": "Swim Melbourne",
+    "club_code": "MELB-FL",
+    "location": "Satellite Beach, FL",
+    "instagram": "@michaelshapira80"
+  },
+  "personal_bests": {
+    "SCY": {
+      "50_free": {
+        "time": "21.86",
+        "time_seconds": 21.86,
+        "meet": "FHSAA 2A Region 2 Championship",
+        "date": "2025-10-29",
+        "location": "Fort Pierce, FL",
+        "place": 3,
+        "source": "high_school",
+        "swimcloud_url": "https://www.swimcloud.com/results/359770/event/8/?id=160976682"
+      },
+      "100_free": {
+        "time": "48.80",
+        "time_seconds": 48.80,
+        "meet": "FHSAA 2A Region 2 Championship",
+        "date": "2025-10-29",
+        "location": "Fort Pierce, FL",
+        "place": 3,
+        "source": "high_school",
+        "swimcloud_url": "https://www.swimcloud.com/results/359770/event/14/?id=160976708"
+      },
+      "200_free": {
+        "time": "1:53.03",
+        "time_seconds": 113.03,
+        "meet": "FL GSC Holiday Classic",
+        "date": "2025-12-05",
+        "location": "Ocala, FL",
+        "place": 66,
+        "source": "club",
+        "swimcloud_url": "https://www.swimcloud.com/results/365674/event/106/?id=164521675"
+      },
+      "50_back": {
+        "time": "27.86",
+        "time_seconds": 27.86,
+        "meet": "2024 Florida Swimming FLAGS-SO",
+        "date": "2024-03-03",
+        "location": "Orlando, FL",
+        "source": "club",
+        "swimcloud_url": "https://www.swimcloud.com/results/299243/event/84/?id=121211775"
+      },
+      "100_back": {
+        "time": "1:01.14",
+        "time_seconds": 61.14,
+        "meet": "FL TCSC Harry Meisel East",
+        "date": "2025-12-14",
+        "location": "Sebastian, FL",
+        "place": 3,
+        "source": "club",
+        "swimcloud_url": "https://www.swimcloud.com/results/368565/event/34/?id=165852528"
+      },
+      "200_back": {
+        "time": "2:18.79",
+        "time_seconds": 138.79,
+        "meet": "FL RATS Stanton C. Craigie Memorial Invite",
+        "date": "2024-02-04",
+        "location": "Fort Pierce, FL",
+        "source": "club",
+        "swimcloud_url": "https://www.swimcloud.com/results/296847/event/42/?id=120408629"
+      },
+      "50_breast": {
+        "time": "35.85",
+        "time_seconds": 35.85,
+        "meet": "FL TCSC Fall Invitational",
+        "date": "2023-10-15",
+        "exhibition": true,
+        "source": "club",
+        "swimcloud_url": "https://www.swimcloud.com/results/281599/event/38/?id=108456035"
+      },
+      "100_breast": {
+        "time": "1:18.38",
+        "time_seconds": 78.38,
+        "meet": "FL TCSC Fall Invitational",
+        "date": "2023-10-15",
+        "source": "club",
+        "swimcloud_url": "https://www.swimcloud.com/results/281599/event/38/?id=108456035"
+      },
+      "50_fly": {
+        "time": "25.39",
+        "time_seconds": 25.39,
+        "meet": "FL GSC Holiday Classic",
+        "date": "2025-12-05",
+        "exhibition": true,
+        "source": "club",
+        "swimcloud_url": "https://www.swimcloud.com/results/365674/event/118/?id=164522559"
+      },
+      "100_fly": {
+        "time": "55.87",
+        "time_seconds": 55.87,
+        "meet": "FL GSC Holiday Classic",
+        "date": "2025-12-05",
+        "place": 35,
+        "source": "club",
+        "swimcloud_url": "https://www.swimcloud.com/results/365674/event/118/?id=164522559"
+      },
+      "200_fly": {
+        "time": "2:17.55",
+        "time_seconds": 137.55,
+        "meet": "FL TCSC Harry Meisel East",
+        "date": "2023-12-10",
+        "source": "club",
+        "swimcloud_url": "https://www.swimcloud.com/results/288626/event/98/?id=122357173"
+      },
+      "100_im": {
+        "time": "1:02.21",
+        "time_seconds": 62.21,
+        "meet": "FL TCSC Fall Invitational",
+        "date": "2024-10-13",
+        "source": "club",
+        "swimcloud_url": "https://www.swimcloud.com/results/327876/event/42/?id=141119847"
+      },
+      "200_im": {
+        "time": "2:19.60",
+        "time_seconds": 139.60,
+        "meet": "FL NPB Turkey Invite",
+        "date": "2023-11-19",
+        "source": "club",
+        "swimcloud_url": "https://www.swimcloud.com/results/285147/event/108/?id=111206036"
+      }
+    },
+    "LCM": {
+      "50_free": {
+        "time": "26.59",
+        "time_seconds": 26.59,
+        "meet": "Florida Age Group Championships",
+        "date": "2024-07-14",
+        "source": "club",
+        "swimcloud_url": "https://www.swimcloud.com/results/307827/event/92/?id=129434751"
+      },
+      "100_free": {
+        "time": "58.28",
+        "time_seconds": 58.28,
+        "meet": "Florida Senior Championships (50m)",
+        "date": "2025-07-20",
+        "source": "club",
+        "swimcloud_url": "https://www.swimcloud.com/results/348743/event/64/?id=156040141"
+      },
+      "200_free": {
+        "time": "2:12.57",
+        "time_seconds": 132.57,
+        "meet": "Florida Age Group Championships",
+        "date": "2023-07-14",
+        "source": "club",
+        "swimcloud_url": "https://www.swimcloud.com/results/273315/event/12/?id=104061590"
+      },
+      "50_back": {
+        "time": "31.00",
+        "time_seconds": 31.00,
+        "meet": "Florida Senior Championships (50m)",
+        "date": "2025-07-20",
+        "source": "club",
+        "swimcloud_url": "https://www.swimcloud.com/results/348743/event/56/?id=156042695"
+      },
+      "100_back": {
+        "time": "1:09.36",
+        "time_seconds": 69.36,
+        "meet": "Florida Age Group Championships",
+        "date": "2024-07-14",
+        "source": "club",
+        "swimcloud_url": "https://www.swimcloud.com/results/307827/event/88/?id=129435739"
+      },
+      "50_breast": {
+        "time": "41.16",
+        "time_seconds": 41.16,
+        "meet": "2023 Dr. Aspi Doctor Memorial Invitational",
+        "date": "2023-05-28",
+        "source": "club",
+        "swimcloud_url": "https://www.swimcloud.com/results/269369/event/42/?id=102859668"
+      },
+      "50_fly": {
+        "time": "29.49",
+        "time_seconds": 29.49,
+        "meet": "Florida Senior Championships (50m)",
+        "date": "2025-07-18",
+        "exhibition": true,
+        "source": "club",
+        "swimcloud_url": "https://www.swimcloud.com/results/348743/event/18/?id=156040239"
+      },
+      "100_fly": {
+        "time": "1:07.82",
+        "time_seconds": 67.82,
+        "meet": "Florida Age Group Championships",
+        "date": "2023-07-14",
+        "source": "club",
+        "swimcloud_url": "https://www.swimcloud.com/results/273315/event/24/?id=104063653"
+      }
+    }
+  },
+  "last_updated": "2026-01-26",
+  "data_source": "SwimCloud (synced with USA Swimming SWIMS)"
+}
