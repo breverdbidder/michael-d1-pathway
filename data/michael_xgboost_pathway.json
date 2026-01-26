@@ -1,0 +1,387 @@
+{
+  "generated": "2026-01-26T14:44:41.929151",
+  "athlete": {
+    "name": "Michael Shapira",
+    "swimcloud_id": 3250085,
+    "class_year": 2027,
+    "height_inches": 76,
+    "current_times": {
+      "50_free": 21.86,
+      "100_free": 48.8,
+      "200_free": 113.03,
+      "100_fly": 55.87
+    }
+  },
+  "current_tier_prediction": {
+    "tier": 3,
+    "tier_name": "LOWER D1 (51+)",
+    "probabilities": {
+      "ELITE (Top 10)": "3.2",
+      "STRONG D1 (11-25)": "4.0",
+      "MID D1 (26-50)": "12.2",
+      "LOWER D1 (51+)": "80.6"
+    }
+  },
+  "improvement_prediction": {
+    "50_free_drop": "1.32",
+    "100_free_drop": "1.68",
+    "projected_college_50": "20.54",
+    "projected_college_100": "47.12"
+  },
+  "pathways": {
+    "elite": {
+      "50_target": 20.0,
+      "100_target": 44.0,
+      "gap_50": 1.86,
+      "gap_100": 4.8
+    },
+    "strong_d1": {
+      "50_target": 20.8,
+      "100_target": 46.0,
+      "gap_50": 1.06,
+      "gap_100": 2.8
+    },
+    "mid_d1": {
+      "50_target": 21.4,
+      "100_target": 47.5,
+      "gap_50": 0.46,
+      "gap_100": 1.3
+    },
+    "lower_d1": {
+      "50_target": 21.8,
+      "100_target": 48.5,
+      "gap_50": 0.06,
+      "gap_100": 0.3
+    }
+  },
+  "comparable_recruits": [
+    {
+      "name": "Martin Kartavi",
+      "school": "UNC",
+      "tier": 1,
+      "hs_50": 20.8,
+      "hs_100": 45.8,
+      "college_50": 19.8,
+      "college_100": 43.5,
+      "height": 72,
+      "years": 1
+    },
+    {
+      "name": "Caio Pumputis",
+      "school": "Georgia Tech",
+      "tier": 1,
+      "hs_50": 20.5,
+      "hs_100": 45.2,
+      "college_50": 19.4,
+      "college_100": 43.1,
+      "height": 73,
+      "years": 4
+    },
+    {
+      "name": "Kyle Barone",
+      "school": "Georgia Tech",
+      "tier": 1,
+      "hs_50": 20.8,
+      "hs_100": 46.0,
+      "college_50": 20.0,
+      "college_100": 44.5,
+      "height": 74,
+      "years": 2
+    },
+    {
+      "name": "Matt King",
+      "school": "Michigan",
+      "tier": 1,
+      "hs_50": 20.5,
+      "hs_100": 45.1,
+      "college_50": 19.1,
+      "college_100": 42.5,
+      "height": 74,
+      "years": 4
+    },
+    {
+      "name": "Jake Mitchell",
+      "school": "Florida State",
+      "tier": 2,
+      "hs_50": 20.9,
+      "hs_100": 46.1,
+      "college_50": 19.5,
+      "college_100": 43.6,
+      "height": 75,
+      "years": 4
+    },
+    {
+      "name": "Marcus Rodriguez",
+      "school": "Miami",
+      "tier": 2,
+      "hs_50": 21.4,
+      "hs_100": 47.2,
+      "college_50": 20.5,
+      "college_100": 45.1,
+      "height": 72,
+      "years": 3
+    },
+    {
+      "name": "Trey Freeman",
+      "school": "FAU",
+      "tier": 2,
+      "hs_50": 21.1,
+      "hs_100": 46.8,
+      "college_50": 20.2,
+      "college_100": 44.2,
+      "height": 73,
+      "years": 3
+    },
+    {
+      "name": "Typical FAU",
+      "school": "FAU",
+      "tier": 3,
+      "hs_50": 21.5,
+      "hs_100": 47.5,
+      "college_50": 20.8,
+      "college_100": 46.0,
+      "height": 72,
+      "years": 4
+    }
+  ],
+  "competition_calendar": [
+    {
+      "date": "2026-01-15",
+      "name": "FL Age Group Champs",
+      "priority": "HIGH",
+      "target_50": 21.5,
+      "target_100": 47.8
+    },
+    {
+      "date": "2026-02-12",
+      "name": "FL Senior Sectionals SCY",
+      "priority": "CRITICAL",
+      "target_50": 21.2,
+      "target_100": 47.2
+    },
+    {
+      "date": "2026-03-12",
+      "name": "FL Senior Championships SCY",
+      "priority": "CRITICAL",
+      "target_50": 20.8,
+      "target_100": 46.5
+    },
+    {
+      "date": "2026-06-04",
+      "name": "FL Senior Sectionals LCM",
+      "priority": "HIGH",
+      "target_50": 24.0,
+      "target_100": 53.0
+    },
+    {
+      "date": "2026-07-16",
+      "name": "FL Senior Championships LCM",
+      "priority": "CRITICAL",
+      "target_50": 23.5,
+      "target_100": 52.0
+    },
+    {
+      "date": "2026-07-29",
+      "name": "USA Futures Championships",
+      "priority": "CRITICAL",
+      "target_50": 23.2,
+      "target_100": 51.5
+    },
+    {
+      "date": "2026-12-10",
+      "name": "Winter Junior Nationals",
+      "priority": "CRITICAL",
+      "target_50": 20.5,
+      "target_100": 45.5
+    }
+  ],
+  "recruit_database": [
+    {
+      "name": "Josh Liendo",
+      "school": "Florida",
+      "tier": 0,
+      "hs_50": 19.8,
+      "hs_100": 43.5,
+      "college_50": 18.9,
+      "college_100": 41.8,
+      "height": 73,
+      "years": 3
+    },
+    {
+      "name": "Adam Chaney",
+      "school": "Florida",
+      "tier": 0,
+      "hs_50": 20.0,
+      "hs_100": 44.2,
+      "college_50": 19.2,
+      "college_100": 42.5,
+      "height": 74,
+      "years": 3
+    },
+    {
+      "name": "Luke Hobson",
+      "school": "Texas",
+      "tier": 0,
+      "hs_50": 20.1,
+      "hs_100": 43.8,
+      "college_50": 18.8,
+      "college_100": 41.2,
+      "height": 75,
+      "years": 3
+    },
+    {
+      "name": "Ryan Hoffer",
+      "school": "Cal",
+      "tier": 0,
+      "hs_50": 19.5,
+      "hs_100": 43.1,
+      "college_50": 18.3,
+      "college_100": 41.0,
+      "height": 76,
+      "years": 4
+    },
+    {
+      "name": "Drew Kibler",
+      "school": "Texas",
+      "tier": 0,
+      "hs_50": 19.8,
+      "hs_100": 43.5,
+      "college_50": 18.7,
+      "college_100": 41.3,
+      "height": 77,
+      "years": 4
+    },
+    {
+      "name": "Nyls Korstanje",
+      "school": "NC State",
+      "tier": 1,
+      "hs_50": 20.1,
+      "hs_100": 44.5,
+      "college_50": 18.6,
+      "college_100": 41.5,
+      "height": 74,
+      "years": 4
+    },
+    {
+      "name": "Martin Kartavi",
+      "school": "UNC",
+      "tier": 1,
+      "hs_50": 20.8,
+      "hs_100": 45.8,
+      "college_50": 19.8,
+      "college_100": 43.5,
+      "height": 72,
+      "years": 1
+    },
+    {
+      "name": "Caio Pumputis",
+      "school": "Georgia Tech",
+      "tier": 1,
+      "hs_50": 20.5,
+      "hs_100": 45.2,
+      "college_50": 19.4,
+      "college_100": 43.1,
+      "height": 73,
+      "years": 4
+    },
+    {
+      "name": "Kyle Barone",
+      "school": "Georgia Tech",
+      "tier": 1,
+      "hs_50": 20.8,
+      "hs_100": 46.0,
+      "college_50": 20.0,
+      "college_100": 44.5,
+      "height": 74,
+      "years": 2
+    },
+    {
+      "name": "Matt King",
+      "school": "Michigan",
+      "tier": 1,
+      "hs_50": 20.5,
+      "hs_100": 45.1,
+      "college_50": 19.1,
+      "college_100": 42.5,
+      "height": 74,
+      "years": 4
+    },
+    {
+      "name": "Matt Sates",
+      "school": "South Carolina",
+      "tier": 2,
+      "hs_50": 21.0,
+      "hs_100": 44.5,
+      "college_50": 19.5,
+      "college_100": 42.8,
+      "height": 76,
+      "years": 2
+    },
+    {
+      "name": "Jake Mitchell",
+      "school": "Florida State",
+      "tier": 2,
+      "hs_50": 20.9,
+      "hs_100": 46.1,
+      "college_50": 19.5,
+      "college_100": 43.6,
+      "height": 75,
+      "years": 4
+    },
+    {
+      "name": "Marcus Rodriguez",
+      "school": "Miami",
+      "tier": 2,
+      "hs_50": 21.4,
+      "hs_100": 47.2,
+      "college_50": 20.5,
+      "college_100": 45.1,
+      "height": 72,
+      "years": 3
+    },
+    {
+      "name": "Trey Freeman",
+      "school": "FAU",
+      "tier": 2,
+      "hs_50": 21.1,
+      "hs_100": 46.8,
+      "college_50": 20.2,
+      "college_100": 44.2,
+      "height": 73,
+      "years": 3
+    },
+    {
+      "name": "Typical FAU",
+      "school": "FAU",
+      "tier": 3,
+      "hs_50": 21.5,
+      "hs_100": 47.5,
+      "college_50": 20.8,
+      "college_100": 46.0,
+      "height": 72,
+      "years": 4
+    },
+    {
+      "name": "Typical USF",
+      "school": "USF",
+      "tier": 3,
+      "hs_50": 21.8,
+      "hs_100": 48.0,
+      "college_50": 21.0,
+      "college_100": 46.5,
+      "height": 73,
+      "years": 4
+    },
+    {
+      "name": "Typical FGCU",
+      "school": "FGCU",
+      "tier": 3,
+      "hs_50": 22.0,
+      "hs_100": 48.5,
+      "college_50": 21.2,
+      "college_100": 47.0,
+      "height": 72,
+      "years": 4
+    }
+  ]
+}
