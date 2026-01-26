@@ -1,0 +1,731 @@
+{
+  "metadata": {
+    "title": "Michael Shapira D1 Target Schools Database",
+    "description": "27 D1 Swimming Schools with Engineering Programs and Chabad Communities",
+    "swimmer": "Michael Shapira",
+    "swimcloud_id": "3250085",
+    "class": "2027",
+    "citizenship": "Dual US-Israeli",
+    "created": "2025-12-07",
+    "last_updated": "2026-01-26",
+    "selection_criteria": [
+      "D1 Swimming Program",
+      "Engineering Programs",
+      "Chabad on/near Campus",
+      "Warm Weather Preferred",
+      "Israeli Connection Bonus"
+    ]
+  },
+  "schools": {
+    "tier_1_top_targets": [
+      {
+        "rank": 1,
+        "name": "University of Florida",
+        "abbreviation": "UF",
+        "city": "Gainesville",
+        "state": "FL",
+        "conference": "SEC",
+        "family_goal": true,
+        "swimming": {
+          "program_rank": "Elite SEC - Top 5",
+          "head_coach": "Anthony Nesty",
+          "coach_title": "Head Coach Men's & Women's Swimming",
+          "coach_bio": "Olympic gold 1988, USA Men's Olympic Head Coach 2024 Paris, 6x SEC Coach of Year",
+          "email": "swim@gators.ufl.edu",
+          "phone": "(352) 375-4683 x6502",
+          "website": "https://floridagators.com/sports/mens-swimming-and-diving",
+          "notable_athletes": ["Katie Ledecky", "Caeleb Dressel", "Bobby Finke", "Kieran Smith"],
+          "facilities": "O'Connell Center 50m Olympic pool"
+        },
+        "engineering": {
+          "college": "Herbert Wertheim College of Engineering",
+          "ranking": "Top engineering in Southeast",
+          "majors": ["Aerospace", "Agricultural/Biological", "Biomedical", "Chemical", "Civil", "Computer Engineering", "Computer Science", "Digital Arts/Sciences", "Electrical", "Environmental", "Industrial & Systems", "Materials Science", "Mechanical"],
+          "real_estate_minor": true
+        },
+        "chabad": {
+          "rabbi": "Rabbi Berl Goldman",
+          "co_director": "Devorah Goldman",
+          "phone": "(352) 336-5877",
+          "email": "rabbi@jewishgator.com",
+          "address": "2021 NW 5th Ave, Gainesville, FL 32603",
+          "website": "https://www.jewishgator.com",
+          "jewish_students": "5,000+",
+          "kosher_dining": true,
+          "services": ["Shabbat weekly", "High Holidays", "Orthodox minyan daily", "Jewish learning classes"]
+        },
+        "israeli_connection": "⭐⭐⭐",
+        "weather": "☀️ HOT",
+        "michael_fit": "STRONG - Family #1 Goal, In-State, Bright Futures eligible"
+      },
+      {
+        "rank": 2,
+        "name": "UNC Chapel Hill",
+        "abbreviation": "UNC",
+        "city": "Chapel Hill",
+        "state": "NC",
+        "conference": "ACC",
+        "israeli_pipeline": true,
+        "swimming": {
+          "program_rank": "Elite ACC",
+          "head_coach": "Mark Gangloff",
+          "email": "swimcoach@unc.edu",
+          "phone": "(919) 962-5625",
+          "website": "https://goheels.com/sports/swimming-and-diving",
+          "notable_athletes": ["Or Kartavi (Israel)", "Itay Maraana (Israel) - Both 2024 Paris Olympians"]
+        },
+        "engineering": {
+          "note": "NO traditional engineering school - UNC focuses on liberal arts/sciences",
+          "available": ["BME", "Computer Science"],
+          "real_estate_minor": true
+        },
+        "chabad": {
+          "rabbi": "Rabbi Zalman Bluming",
+          "phone": "(919) 630-5129",
+          "address": "210 W Cameron Ave, Chapel Hill, NC 27516",
+          "website": "https://www.jewishchapelhill.org",
+          "jewish_students": "2,500+"
+        },
+        "israeli_connection": "⭐⭐⭐⭐⭐ - BEST Israeli Pipeline (2 Paris 2024 Olympians)",
+        "weather": "🌤️ WARM",
+        "michael_fit": "EXCELLENT - Israeli connection strong advantage"
+      },
+      {
+        "rank": 3,
+        "name": "UT Austin",
+        "abbreviation": "UT",
+        "city": "Austin",
+        "state": "TX",
+        "conference": "Big 12",
+        "swimming": {
+          "program_rank": "Elite #1-2 Nationally",
+          "head_coach": "Wyatt Collins",
+          "email": "texasswimming@athletics.utexas.edu",
+          "phone": "(512) 471-7801",
+          "website": "https://texassports.com/sports/mens-swimming-and-diving"
+        },
+        "engineering": {
+          "college": "Cockrell School of Engineering",
+          "ranking": "#1 public engineering, Top 10 overall",
+          "real_estate_minor": "concentration available"
+        },
+        "chabad": {
+          "rabbi": "Rabbi Zev Johnson",
+          "phone": "(512) 480-0127",
+          "address": "3300 Guadalupe St, Austin, TX 78705",
+          "website": "https://www.chabadatut.org",
+          "jewish_students": "5,000+ (10% of student body!)"
+        },
+        "israeli_connection": "⭐⭐⭐⭐",
+        "weather": "☀️ VERY HOT",
+        "michael_fit": "EXCELLENT - Elite swimming + massive Jewish community"
+      },
+      {
+        "rank": 4,
+        "name": "USC",
+        "abbreviation": "USC",
+        "city": "Los Angeles",
+        "state": "CA",
+        "conference": "Big Ten",
+        "swimming": {
+          "program_rank": "Elite",
+          "head_coach": "Lea Maurer",
+          "email": "trscswim@usc.edu",
+          "phone": "(213) 740-8480",
+          "website": "https://usctrojans.com/sports/mens-swimming-and-diving"
+        },
+        "engineering": {
+          "college": "Viterbi School of Engineering",
+          "ranking": "Top 15",
+          "real_estate_minor": "Graduate level"
+        },
+        "chabad": {
+          "rabbi": "Rabbi Dov Wagner",
+          "phone": "(213) 747-4916",
+          "address": "716 W 27th St, LA, CA 90007",
+          "website": "https://www.chabadatusc.com",
+          "jewish_students": "3,000+"
+        },
+        "israeli_connection": "⭐⭐⭐",
+        "weather": "☀️ PERFECT LA",
+        "michael_fit": "STRONG - Perfect weather, elite program"
+      }
+    ],
+    "tier_2_strong_alternatives": [
+      {
+        "rank": 5,
+        "name": "University of Arizona",
+        "abbreviation": "UA",
+        "city": "Tucson",
+        "state": "AZ",
+        "conference": "Big 12",
+        "swimming": {
+          "program_rank": "Strong D1",
+          "head_coach": "Augie Busch",
+          "email": "SwimDive@arizona.edu",
+          "phone": "(520) 621-4168",
+          "website": "https://arizonawildcats.com/sports/swimming-and-diving"
+        },
+        "engineering": {
+          "majors_count": 13,
+          "real_estate_minor": true
+        },
+        "chabad": {
+          "rabbi": "Rabbi Yehuda Ceitlin",
+          "phone": "(520) 745-0770",
+          "address": "1717 E 2nd St, Tucson, AZ 85719",
+          "website": "https://www.jewishcats.com",
+          "jewish_students": "1,500+"
+        },
+        "israeli_connection": "⭐⭐⭐⭐ - Namir on team",
+        "weather": "🌵 HOT Desert"
+      },
+      {
+        "rank": 6,
+        "name": "Georgia Tech",
+        "abbreviation": "GT",
+        "city": "Atlanta",
+        "state": "GA",
+        "conference": "ACC",
+        "swimming": {
+          "program_rank": "Strong ACC",
+          "head_coach": "John Ames",
+          "coach_note": "Appointed Feb 2025",
+          "website": "https://ramblinwreck.com/sports/swimming-and-diving",
+          "assistants": ["Angie Nicolletta", "Iago Moussalem", "Miles Simon"]
+        },
+        "engineering": {
+          "ranking": "#1 Engineering nationally (public)",
+          "ranking_overall": "Top 5"
+        },
+        "chabad": {
+          "rabbi": "Rabbi Shlomo Sharfstein",
+          "co_director": "Shifra Sharfstein",
+          "phone": "(404) 218-0881",
+          "email": "rabbi@chabaddtu.com",
+          "address": "471 10th Street NW, Atlanta, GA 30318",
+          "website": "https://www.chabaddtu.com",
+          "serves": "Georgia Tech AND Georgia State",
+          "jewish_students": "800+"
+        },
+        "israeli_connection": "⭐⭐⭐",
+        "weather": "🌤️ Warm",
+        "michael_fit": "EXCELLENT for engineering focus"
+      },
+      {
+        "rank": 7,
+        "name": "Stanford",
+        "abbreviation": "STAN",
+        "city": "Stanford",
+        "state": "CA",
+        "conference": "Pac-12",
+        "swimming": {
+          "program_rank": "Elite #1-2 Nationally",
+          "head_coach": "Dan Schemmel",
+          "email": "stanfordswimming@stanford.edu",
+          "phone": "(650) 723-4591",
+          "website": "https://gostanford.com/sports/mens-swimming-and-diving"
+        },
+        "engineering": {
+          "ranking": "Elite - Top 3"
+        },
+        "chabad": {
+          "rabbi": "Rabbi Dov Greenberg",
+          "phone": "(650) 424-9800",
+          "address": "612 Mayfield Ave, Stanford, CA 94305",
+          "website": "https://www.stanfordchabad.org",
+          "jewish_students": "1,000+"
+        },
+        "israeli_connection": "⭐⭐⭐⭐",
+        "weather": "☀️ Perfect Bay Area"
+      },
+      {
+        "rank": 8,
+        "name": "UC Berkeley",
+        "abbreviation": "CAL",
+        "city": "Berkeley",
+        "state": "CA",
+        "conference": "Pac-12",
+        "swimming": {
+          "program_rank": "Elite",
+          "head_coach": "Dave Durden",
+          "email": "calswimming@berkeley.edu",
+          "phone": "(510) 642-8581",
+          "website": "https://calbears.com/sports/mens-swimming-and-diving"
+        },
+        "engineering": {
+          "ranking": "Top tier"
+        },
+        "chabad": {
+          "rabbi": "Rabbi Gil Leeds",
+          "phone": "(510) 540-5824",
+          "address": "2740 Channing Way, Berkeley, CA 94704",
+          "website": "https://www.berkeleychabad.org",
+          "jewish_students": "2,500+"
+        },
+        "israeli_connection": "⭐⭐⭐",
+        "weather": "☀️ Perfect"
+      },
+      {
+        "rank": 9,
+        "name": "UCLA",
+        "abbreviation": "UCLA",
+        "city": "Los Angeles",
+        "state": "CA",
+        "conference": "Big Ten",
+        "swimming": {
+          "program_rank": "Strong Pac-12/Big Ten",
+          "head_coach": "Jordan Wolfrum",
+          "email": "uclaswimming@athletics.ucla.edu",
+          "phone": "(310) 206-6662",
+          "website": "https://uclabruins.com/sports/mens-swimming-and-diving"
+        },
+        "engineering": {
+          "ranking": "Excellent programs"
+        },
+        "chabad": {
+          "rabbi": "Rabbi Dovid Gurevich",
+          "phone": "(310) 208-3081",
+          "address": "741 Gayley Ave, LA, CA 90024",
+          "website": "https://www.chabadatucla.com",
+          "jewish_students": "3,000+"
+        },
+        "israeli_connection": "⭐⭐⭐⭐",
+        "weather": "☀️ PERFECT LA"
+      },
+      {
+        "rank": 10,
+        "name": "Duke University",
+        "abbreviation": "DUKE",
+        "city": "Durham",
+        "state": "NC",
+        "conference": "ACC",
+        "swimming": {
+          "program_rank": "Strong ACC",
+          "head_coach": "Jason Calanog",
+          "email": "dukeswimming@duke.edu",
+          "phone": "(919) 684-2120",
+          "website": "https://goduke.com/sports/mens-swimming-and-diving"
+        },
+        "engineering": {
+          "college": "Pratt School of Engineering",
+          "ranking": "#20 nationally",
+          "specialties": "#3 biomedical, #17 computer, #18 electrical"
+        },
+        "chabad": {
+          "rabbi": "Rabbi Yossi Groner",
+          "phone": "(919) 489-5111",
+          "address": "1710 Buchanan Blvd, Durham, NC 27701",
+          "website": "https://www.jewishtriangle.org",
+          "jewish_students": "800+"
+        },
+        "israeli_connection": "⭐⭐⭐",
+        "weather": "🌤️ Warm"
+      },
+      {
+        "rank": 11,
+        "name": "University of Virginia",
+        "abbreviation": "UVA",
+        "city": "Charlottesville",
+        "state": "VA",
+        "conference": "ACC",
+        "swimming": {
+          "program_rank": "Elite ACC",
+          "head_coach": "Todd DeSorbo",
+          "coach_note": "Top coach in country",
+          "email": "uvaswimming@virginia.edu",
+          "phone": "(434) 982-5000",
+          "website": "https://virginiasports.com/sports/mens-swimming-and-diving"
+        },
+        "engineering": {
+          "ranking": "Strong programs"
+        },
+        "chabad": {
+          "rabbi": "Rabbi Yossi Gopin",
+          "phone": "(434) 295-4963",
+          "address": "1300 Seminole Trail, Charlottesville, VA 22901",
+          "website": "https://www.chabadcville.org",
+          "jewish_students": "1,200+"
+        },
+        "israeli_connection": "⭐⭐⭐",
+        "weather": "🌤️ Warm"
+      },
+      {
+        "rank": 12,
+        "name": "Penn State",
+        "abbreviation": "PSU",
+        "city": "State College",
+        "state": "PA",
+        "conference": "Big Ten",
+        "swimming": {
+          "program_rank": "Big Ten competitive"
+        },
+        "engineering": {
+          "ranking": "Strong programs"
+        },
+        "chabad": {
+          "jewish_students": "2,500+"
+        },
+        "weather": "❄️ Cold winters"
+      },
+      {
+        "rank": 13,
+        "name": "Ohio State",
+        "abbreviation": "OSU",
+        "city": "Columbus",
+        "state": "OH",
+        "conference": "Big Ten",
+        "swimming": {
+          "program_rank": "Big Ten competitive"
+        },
+        "chabad": {
+          "jewish_students": "3,000+"
+        },
+        "weather": "❄️ Cold winters"
+      },
+      {
+        "rank": 14,
+        "name": "Indiana University",
+        "abbreviation": "IU",
+        "city": "Bloomington",
+        "state": "IN",
+        "conference": "Big Ten",
+        "swimming": {
+          "program_rank": "Elite Big Ten - Historic program"
+        },
+        "weather": "❄️ Cold winters"
+      }
+    ],
+    "tier_3_florida_southeast_backups": [
+      {
+        "rank": 15,
+        "name": "Florida State University",
+        "abbreviation": "FSU",
+        "city": "Tallahassee",
+        "state": "FL",
+        "conference": "ACC",
+        "in_state": true,
+        "bright_futures": true,
+        "swimming": {
+          "program_rank": "ACC competitive",
+          "head_coach": "Neal Studd"
+        },
+        "chabad": {
+          "available": true
+        },
+        "weather": "☀️ Hot"
+      },
+      {
+        "rank": 16,
+        "name": "University of Miami",
+        "abbreviation": "UM",
+        "city": "Coral Gables",
+        "state": "FL",
+        "conference": "ACC",
+        "swimming": {
+          "program_rank": "ACC competitive",
+          "head_coach": "Andy Kershaw"
+        },
+        "chabad": {
+          "available": true
+        },
+        "distance_from_home": "2.5 hours",
+        "weather": "☀️ Hot"
+      },
+      {
+        "rank": 17,
+        "name": "Florida Atlantic University",
+        "abbreviation": "FAU",
+        "city": "Boca Raton",
+        "state": "FL",
+        "conference": "AAC",
+        "safety_school": true,
+        "swimming": {
+          "program_rank": "Mid-major"
+        },
+        "chabad": {
+          "rabbi": "Rabbi Zalman Liberow",
+          "note": "Family knows rabbi personally",
+          "jewish_community": "Huge Boca Jewish community"
+        },
+        "personal_connections": ["John Walsh", "Mike Mirda"],
+        "distance_from_home": "1.5 hours",
+        "weather": "☀️ Hot",
+        "michael_fit": "SAFETY SCHOOL with guaranteed Orthodox support and family ties"
+      },
+      {
+        "rank": 18,
+        "name": "Vanderbilt University",
+        "abbreviation": "VANDY",
+        "city": "Nashville",
+        "state": "TN",
+        "conference": "SEC",
+        "swimming": {
+          "program_rank": "SEC competitive"
+        },
+        "chabad": {
+          "available": true,
+          "city": "Nashville"
+        },
+        "weather": "🌤️ Warm"
+      },
+      {
+        "rank": 19,
+        "name": "University of Tennessee",
+        "abbreviation": "TENN",
+        "city": "Knoxville",
+        "state": "TN",
+        "conference": "SEC",
+        "swimming": {
+          "program_rank": "Strong SEC"
+        },
+        "chabad": {
+          "available": true
+        },
+        "weather": "🌤️ Warm"
+      },
+      {
+        "rank": 20,
+        "name": "University of Alabama",
+        "abbreviation": "BAMA",
+        "city": "Tuscaloosa",
+        "state": "AL",
+        "conference": "SEC",
+        "swimming": {
+          "program_rank": "SEC competitive"
+        },
+        "chabad": {
+          "available": true
+        },
+        "weather": "☀️ Hot"
+      },
+      {
+        "rank": 21,
+        "name": "University of South Carolina",
+        "abbreviation": "USC",
+        "city": "Columbia",
+        "state": "SC",
+        "conference": "SEC",
+        "swimming": {
+          "program_rank": "#30 nationally (SEC)",
+          "head_coach": "Jeff Poppell"
+        },
+        "engineering": {
+          "college": "College of Engineering and Computing"
+        },
+        "chabad": {
+          "rabbi": "Rabbi Israel Epstein",
+          "address": "1531 Washington St, Columbia",
+          "website": "https://www.jewishusc.org"
+        },
+        "weather": "🌤️ Warm"
+      },
+      {
+        "rank": 22,
+        "name": "NC State University",
+        "abbreviation": "NCSU",
+        "city": "Raleigh",
+        "state": "NC",
+        "conference": "ACC",
+        "top_pick": true,
+        "swimming": {
+          "program_rank": "#7-9 nationally - ELITE",
+          "head_coach": "Braden Holloway",
+          "coach_note": "2025 Team USA Head Coach, 10x ACC Coach of Year",
+          "achievements": "10 consecutive top-10 NCAA finishes, 9x ACC Champions"
+        },
+        "engineering": {
+          "ranking": "#27 nationally (#13 public)",
+          "specialties": "Mechanical, electrical, computer, biomedical"
+        },
+        "chabad": {
+          "rabbi": "Rabbi Shmuly Meijers",
+          "phone": "(917) 704-7017",
+          "website": "https://www.chabadncstate.com",
+          "established": 2023
+        },
+        "weather": "🌤️ Warm",
+        "michael_fit": "TOP PICK - Elite swimming + excellent engineering + Chabad"
+      },
+      {
+        "rank": 23,
+        "name": "University of Louisville",
+        "abbreviation": "LOU",
+        "city": "Louisville",
+        "state": "KY",
+        "conference": "ACC",
+        "swimming": {
+          "program_rank": "ACC competitive"
+        },
+        "engineering": {
+          "college": "Speed School of Engineering"
+        },
+        "chabad": {
+          "available": true
+        },
+        "weather": "🌤️ Moderate"
+      }
+    ],
+    "tier_4_cold_but_excellent": [
+      {
+        "rank": 24,
+        "name": "University of Michigan",
+        "abbreviation": "MICH",
+        "city": "Ann Arbor",
+        "state": "MI",
+        "conference": "Big Ten",
+        "swimming": {
+          "program_rank": "Elite Big Ten - Historic program"
+        },
+        "engineering": {
+          "ranking": "Top 5"
+        },
+        "chabad": {
+          "jewish_students": "6,500+ - BEST Jewish life in country!"
+        },
+        "weather": "❄️ COLD",
+        "note": "Best Jewish student life of any school"
+      },
+      {
+        "rank": 25,
+        "name": "Northwestern University",
+        "abbreviation": "NW",
+        "city": "Evanston",
+        "state": "IL",
+        "conference": "Big Ten",
+        "swimming": {
+          "program_rank": "Big Ten competitive",
+          "israeli_swimmer": "Gerchik on team NOW"
+        },
+        "engineering": {
+          "ranking": "Top 10"
+        },
+        "chabad": {
+          "available": true
+        },
+        "weather": "❄️ VERY COLD"
+      },
+      {
+        "rank": 26,
+        "name": "University of Wisconsin",
+        "abbreviation": "WISC",
+        "city": "Madison",
+        "state": "WI",
+        "conference": "Big Ten",
+        "swimming": {
+          "program_rank": "Big Ten competitive"
+        },
+        "chabad": {
+          "jewish_students": "2,000+"
+        },
+        "weather": "❄️ COLD"
+      },
+      {
+        "rank": 27,
+        "name": "University of Minnesota",
+        "abbreviation": "MINN",
+        "city": "Minneapolis",
+        "state": "MN",
+        "conference": "Big Ten",
+        "swimming": {
+          "program_rank": "Big Ten competitive"
+        },
+        "chabad": {
+          "available": true
+        },
+        "weather": "❄️ VERY COLD"
+      }
+    ],
+    "additional_schools_on_tour_routes": [
+      {
+        "name": "Texas A&M",
+        "abbreviation": "TAMU",
+        "city": "College Station",
+        "state": "TX",
+        "conference": "SEC",
+        "swimming": {
+          "program_rank": "Top 10 Swimming",
+          "head_coach": "Blaire Anderson",
+          "email": "banderson@athletics.tamu.edu"
+        },
+        "engineering": {
+          "ranking": "Strong programs"
+        },
+        "chabad": {
+          "rabbi": "Rabbi Yossi Lazaroff",
+          "available": true
+        },
+        "weather": "☀️ Hot"
+      },
+      {
+        "name": "Auburn University",
+        "abbreviation": "AUB",
+        "city": "Auburn",
+        "state": "AL",
+        "conference": "SEC",
+        "swimming": {
+          "program_rank": "SEC Powerhouse - 13 NCAA Championships!",
+          "head_coach": "Ryan Wochomurka"
+        },
+        "engineering": {
+          "college": "Samuel Ginn College of Engineering"
+        },
+        "chabad": {
+          "name": "Chabad of Auburn",
+          "available": true
+        },
+        "weather": "☀️ Hot"
+      }
+    ]
+  },
+  "tour_itineraries": {
+    "texas_tour": {
+      "description": "8-Night Driving Tour (5 Schools)",
+      "schools": ["UF", "UT Austin", "Texas A&M", "Auburn", "Georgia Tech"],
+      "route": "Satellite Beach → Gainesville → Houston → Austin → College Station → Auburn → Atlanta → Home"
+    },
+    "nc_sc_tour": {
+      "description": "Separate NC/SC Trip (3 Schools)",
+      "schools": ["NC State", "Duke", "South Carolina"],
+      "route": "Satellite Beach → Columbia, SC (4.5 hrs) → Raleigh/Durham (3.5 hrs) → Home (6.5 hrs)"
+    },
+    "california_tour": {
+      "description": "West Coast Trip (4 Schools)",
+      "schools": ["UC Berkeley", "Stanford", "UCLA", "USC"],
+      "route": "Fly to Bay Area → Drive to LA"
+    }
+  },
+  "recruiting_timeline": {
+    "march_14_2026": "SAT Test",
+    "march_15_april_2026": "Contact ALL 27 schools",
+    "spring_2026": "Winter Championship results + SAT score",
+    "summer_2026": "LCM Senior Champs (Jul 16-19) - Updated 50m times",
+    "fall_2026": "Official visits, verbal commitments"
+  },
+  "contact_schedule": {
+    "week_1": {
+      "dates": "March 15-22",
+      "tier": "TIER 1",
+      "schools": ["Florida", "UNC", "UT Austin", "USC"]
+    },
+    "week_2": {
+      "dates": "March 23-30",
+      "tier": "TIER 2",
+      "schools": ["Arizona", "Georgia Tech", "Stanford", "UC Berkeley", "UCLA", "Duke", "Virginia", "Penn State", "Ohio State", "Indiana"]
+    },
+    "week_3": {
+      "dates": "March 31 - April 7",
+      "tier": "TIER 3",
+      "schools": ["FSU", "Miami", "FAU", "Vanderbilt", "Tennessee", "Alabama", "South Carolina", "NC State", "Louisville"]
+    },
+    "week_4": {
+      "dates": "April 8-15",
+      "tier": "TIER 4",
+      "schools": ["Michigan", "Northwestern", "Wisconsin", "Minnesota"]
+    }
+  },
+  "email_template": {
+    "subject": "Michael Shapira - Class 2027 - Swim Melbourne FL - [EVENT] Times",
+    "body": "Just completed winter championships with improvement in 50/100/200 Free, 100 Fly, 100 Back. SAT: [SCORE]. SwimCloud: 3250085. Dual US-Israeli citizenship. Engineering major. Orthodox Jewish (Chabad important). Video attached. Available for call/visit. Best, Michael | everest.ariel@gmail.com"
+  }
+}
