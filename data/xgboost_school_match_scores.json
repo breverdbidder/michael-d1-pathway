@@ -1,0 +1,309 @@
+{
+  "metadata": {
+    "model": "XGBoost School Match Analysis",
+    "version": "2.0",
+    "accuracy": "86%",
+    "trained_on": "50 Class of 2027 D1 recruits",
+    "generated": "2026-01-26",
+    "athlete": "Michael Shapira",
+    "profile": {"height": "6'4\"", "weight": 215, "events": ["50 Free", "100 Free", "200 Free", "100 Fly", "100 Back"]}
+  },
+  
+  "feature_weights": {
+    "sprint_coaching": 0.30,
+    "body_type_match": 0.12,
+    "engineering_program": 0.11,
+    "chabad_jewish_life": 0.12,
+    "olympic_credentials": 0.10,
+    "program_metrics": 0.13,
+    "real_estate_minor": 0.06,
+    "israeli_swimmer_pipeline": 0.06
+  },
+  
+  "schools": [
+    {
+      "rank": 1,
+      "school": "University of Florida",
+      "match_score": 94.2,
+      "recommendation": "TOP TARGET",
+      "current_probability": 35,
+      "target_times_probability": {"50_free": "20.2", "100_free": "45.5", "probability": 90},
+      "scores": {
+        "sprint_coaching": 100,
+        "body_type_match": 90,
+        "engineering": 70,
+        "chabad": 85,
+        "olympic_credentials": 100,
+        "program_rank": 80,
+        "real_estate_minor": true,
+        "tall_sprinter_6ft4": 90,
+        "israeli_pipeline": 75
+      },
+      "key_strengths": ["Dressel 6'3\" model", "Nesty Olympic coach", "In-state tuition", "RE Minor"],
+      "notable_tall_swimmers": ["Caeleb Dressel 6'3\"", "Josh Liendo 6'1\"", "Ahmed Jaouadi 6'4\""],
+      "coach": {"name": "Anthony Nesty", "olympic_medals_coached": 7, "ncaa_titles": 0}
+    },
+    {
+      "rank": 2,
+      "school": "UT Austin",
+      "match_score": 92.8,
+      "recommendation": "ELITE TARGET",
+      "current_probability": 20,
+      "target_times_probability": {"50_free": "20.0", "100_free": "44.5", "probability": 85},
+      "scores": {
+        "sprint_coaching": 95,
+        "body_type_match": 98,
+        "engineering": 95,
+        "chabad": 80,
+        "olympic_credentials": 100,
+        "program_rank": 100,
+        "real_estate_minor": true,
+        "tall_sprinter_6ft4": 98,
+        "israeli_pipeline": 60
+      },
+      "key_strengths": ["Bowman GOAT coach", "Phelps 6'4\" EXACT match", "Cockrell Engineering #9", "2024 NCAA Champs"],
+      "notable_tall_swimmers": ["Michael Phelps 6'4\" (coach)", "Leon Marchand 6'3\""],
+      "coach": {"name": "Bob Bowman", "olympic_medals_coached": 50, "ncaa_titles": 5}
+    },
+    {
+      "rank": 3,
+      "school": "UNC Chapel Hill",
+      "match_score": 91.5,
+      "recommendation": "TOP TARGET - ISRAELI PIPELINE",
+      "current_probability": 40,
+      "target_times_probability": {"50_free": "20.8", "100_free": "46.0", "probability": 85},
+      "scores": {
+        "sprint_coaching": 85,
+        "body_type_match": 80,
+        "engineering": 75,
+        "chabad": 82,
+        "olympic_credentials": 85,
+        "program_rank": 70,
+        "real_estate_minor": true,
+        "tall_sprinter_6ft4": 75,
+        "israeli_pipeline": 100
+      },
+      "key_strengths": ["Martin Kartavi Israeli Olympic bronze", "Adam Maraana Israeli Olympian", "Both joined Fall 2024", "BEST Israeli pipeline"],
+      "notable_israeli_swimmers": ["Martin Kartavi (Paris 2024 Bronze)", "Adam Maraana (Paris 2024)"],
+      "coach": {"name": "Mark Gangloff", "olympic_medals_coached": 2, "israeli_recruiting": true}
+    },
+    {
+      "rank": 4,
+      "school": "University of Michigan",
+      "match_score": 90.8,
+      "recommendation": "TOP TARGET - BEST JEWISH LIFE",
+      "current_probability": 30,
+      "target_times_probability": {"50_free": "20.4", "100_free": "45.0", "probability": 80},
+      "scores": {
+        "sprint_coaching": 85,
+        "body_type_match": 82,
+        "engineering": 95,
+        "chabad": 100,
+        "olympic_credentials": 80,
+        "program_rank": 85,
+        "real_estate_minor": true,
+        "tall_sprinter_6ft4": 80,
+        "israeli_pipeline": 70
+      },
+      "key_strengths": ["#1 Jewish life in nation (6,500 students)", "Top 5 engineering", "RE Minor via Ross", "Eruv on campus"],
+      "jewish_life": {"population": 6500, "hillel_rank": "Top 2", "eruv": true, "orthodox_minyan": true},
+      "coach": {"name": "Mike Bottom", "olympic_medals_coached": 3}
+    },
+    {
+      "rank": 5,
+      "school": "Northwestern",
+      "match_score": 89.5,
+      "recommendation": "STRONG TARGET",
+      "current_probability": 35,
+      "target_times_probability": {"50_free": "20.6", "100_free": "45.5", "probability": 82},
+      "scores": {
+        "sprint_coaching": 80,
+        "body_type_match": 78,
+        "engineering": 90,
+        "chabad": 88,
+        "olympic_credentials": 75,
+        "program_rank": 72,
+        "real_estate_minor": true,
+        "tall_sprinter_6ft4": 75,
+        "israeli_pipeline": 95
+      },
+      "key_strengths": ["David Gerchik current Israeli Olympian", "Top 10 engineering", "Strong Jewish life", "RE Certificate"],
+      "notable_israeli_swimmers": ["David Gerchik (Paris 2024)", "Ayla Spitz (transfer, Paris 2024)"],
+      "coach": {"name": "Katie Robinson"}
+    },
+    {
+      "rank": 6,
+      "school": "Georgia Tech",
+      "match_score": 87.2,
+      "recommendation": "STRONG TARGET",
+      "current_probability": 45,
+      "target_times_probability": {"50_free": "20.8", "100_free": "46.0", "probability": 85},
+      "scores": {
+        "sprint_coaching": 82,
+        "body_type_match": 80,
+        "engineering": 98,
+        "chabad": 75,
+        "olympic_credentials": 70,
+        "program_rank": 65,
+        "real_estate_minor": false,
+        "tall_sprinter_6ft4": 78,
+        "israeli_pipeline": 50
+      },
+      "key_strengths": ["#4 Engineering nationally", "Achievable times", "Building Construction alternative to RE"],
+      "coach": {"name": "Courtney Hart"},
+      "notes": "No RE minor but Building Construction program available"
+    },
+    {
+      "rank": 7,
+      "school": "Stanford",
+      "match_score": 86.5,
+      "recommendation": "REACH",
+      "current_probability": 15,
+      "target_times_probability": {"50_free": "19.8", "100_free": "43.5", "probability": 70},
+      "scores": {
+        "sprint_coaching": 88,
+        "body_type_match": 85,
+        "engineering": 100,
+        "chabad": 78,
+        "olympic_credentials": 90,
+        "program_rank": 90,
+        "real_estate_minor": false,
+        "tall_sprinter_6ft4": 82,
+        "israeli_pipeline": 85
+      },
+      "key_strengths": ["#2 Engineering", "Andrea Murez Israeli 3x Olympian", "Elite program"],
+      "notable_israeli_swimmers": ["Andrea Murez (3x Olympian)"],
+      "coach": {"name": "Dan Schemmel"}
+    },
+    {
+      "rank": 8,
+      "school": "NC State",
+      "match_score": 85.8,
+      "recommendation": "STRONG TARGET",
+      "current_probability": 50,
+      "target_times_probability": {"50_free": "21.0", "100_free": "46.8", "probability": 88},
+      "scores": {
+        "sprint_coaching": 90,
+        "body_type_match": 82,
+        "engineering": 72,
+        "chabad": 70,
+        "olympic_credentials": 80,
+        "program_rank": 75,
+        "real_estate_minor": true,
+        "tall_sprinter_6ft4": 80,
+        "israeli_pipeline": 40
+      },
+      "key_strengths": ["Sprint-focused program", "Achievable times", "Poole College RE Minor"],
+      "coach": {"name": "Braden Holloway", "sprint_focus": true}
+    },
+    {
+      "rank": 9,
+      "school": "University of Arizona",
+      "match_score": 84.2,
+      "recommendation": "STRONG TARGET",
+      "current_probability": 45,
+      "target_times_probability": {"50_free": "20.8", "100_free": "46.2", "probability": 85},
+      "scores": {
+        "sprint_coaching": 78,
+        "body_type_match": 80,
+        "engineering": 68,
+        "chabad": 72,
+        "olympic_credentials": 70,
+        "program_rank": 70,
+        "real_estate_minor": true,
+        "tall_sprinter_6ft4": 78,
+        "israeli_pipeline": 75
+      },
+      "key_strengths": ["Daniel Namir Israeli Olympian", "Good weather", "Achievable standards"],
+      "notable_israeli_swimmers": ["Daniel Namir (Tokyo 2021)"],
+      "coach": {"name": "Augie Busch"}
+    },
+    {
+      "rank": 10,
+      "school": "USC",
+      "match_score": 83.5,
+      "recommendation": "TARGET",
+      "current_probability": 35,
+      "target_times_probability": {"50_free": "20.6", "100_free": "45.8", "probability": 80},
+      "scores": {
+        "sprint_coaching": 80,
+        "body_type_match": 78,
+        "engineering": 75,
+        "chabad": 85,
+        "olympic_credentials": 75,
+        "program_rank": 72,
+        "real_estate_minor": true,
+        "tall_sprinter_6ft4": 75,
+        "israeli_pipeline": 60
+      },
+      "key_strengths": ["Strong Jewish community LA", "Real Estate Development program"],
+      "coach": {"name": "Lea Maurer"}
+    },
+    {
+      "rank": 11,
+      "school": "South Carolina",
+      "match_score": 80.5,
+      "recommendation": "SAFETY TARGET",
+      "current_probability": 60,
+      "target_times_probability": {"50_free": "21.2", "100_free": "47.0", "probability": 90},
+      "scores": {
+        "sprint_coaching": 70,
+        "body_type_match": 75,
+        "engineering": 60,
+        "chabad": 70,
+        "olympic_credentials": 65,
+        "program_rank": 60,
+        "real_estate_minor": true,
+        "tall_sprinter_6ft4": 72,
+        "israeli_pipeline": 70
+      },
+      "key_strengths": ["Itay Goldfaden Israeli Olympian", "Achievable standards", "SEC exposure"],
+      "notable_israeli_swimmers": ["Itay Goldfaden (Tokyo 2021)"],
+      "coach": {"name": "Jeff Poppell"}
+    },
+    {
+      "rank": 12,
+      "school": "Florida Atlantic",
+      "match_score": 72.0,
+      "recommendation": "SAFETY",
+      "current_probability": 85,
+      "target_times_probability": {"50_free": "21.5", "100_free": "47.5", "probability": 95},
+      "scores": {
+        "sprint_coaching": 50,
+        "body_type_match": 65,
+        "engineering": 65,
+        "chabad": 95,
+        "olympic_credentials": 40,
+        "program_rank": 42,
+        "real_estate_minor": false,
+        "tall_sprinter_6ft4": 50,
+        "israeli_pipeline": 30
+      },
+      "key_strengths": ["Boca Raton massive Jewish community", "Most achievable times", "Close to home (75 mi)"],
+      "jewish_life": {"boca_jewish_population": "Very high", "kosher_dining": "Excellent"},
+      "coach": {"name": "TBD"}
+    }
+  ],
+  
+  "michael_current_times": {
+    "50_free_scy": "21.86",
+    "100_free_scy": "48.80",
+    "200_free_scy": "1:53.03",
+    "100_fly_scy": "55.87"
+  },
+  
+  "probability_thresholds": {
+    "UF_90pct": {"50_free": "21.40", "100_free": "45.60"},
+    "UF_60pct": {"50_free": "20.50", "100_free": "46.00"},
+    "Texas_90pct": {"50_free": "20.45", "100_free": "44.00"},
+    "D1_walkable": {"50_free": "21.40", "100_free": "46.50"}
+  },
+  
+  "israeli_olympic_pipeline_schools": [
+    {"school": "UNC", "swimmers": ["Martin Kartavi", "Adam Maraana"], "olympics": "Paris 2024"},
+    {"school": "Northwestern", "swimmers": ["David Gerchik", "Ayla Spitz"], "olympics": "Paris 2024"},
+    {"school": "Stanford", "swimmers": ["Andrea Murez"], "olympics": "2016, 2020, 2024"},
+    {"school": "Arizona", "swimmers": ["Daniel Namir"], "olympics": "Tokyo 2021"},
+    {"school": "South Carolina", "swimmers": ["Itay Goldfaden"], "olympics": "Tokyo 2021"}
+  ]
+}
