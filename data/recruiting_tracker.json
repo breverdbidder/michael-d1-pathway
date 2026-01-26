@@ -1,0 +1,161 @@
+{
+  "swimmer": "Michael Shapira",
+  "class": "2027",
+  "last_updated": "2026-01-26",
+  "recruiting_status": "ACTIVE",
+  "schools_contacted": [
+    {
+      "school": "Florida Atlantic University",
+      "division": "D1",
+      "conference": "AAC",
+      "tier": "target",
+      "head_coach": "TBD",
+      "recruiting_coordinator": "TBD",
+      "email": "TBD",
+      "questionnaire_submitted": false,
+      "questionnaire_date": null,
+      "initial_email_sent": false,
+      "initial_email_date": null,
+      "response_received": false,
+      "response_date": null,
+      "response_type": null,
+      "unofficial_visit_scheduled": false,
+      "unofficial_visit_date": null,
+      "official_visit_scheduled": false,
+      "official_visit_date": null,
+      "interest_level": "high",
+      "notes": "Close to home, good fit for times"
+    },
+    {
+      "school": "Florida International University",
+      "division": "D1",
+      "conference": "CUSA",
+      "tier": "target",
+      "head_coach": "TBD",
+      "recruiting_coordinator": "TBD",
+      "email": "TBD",
+      "questionnaire_submitted": false,
+      "questionnaire_date": null,
+      "initial_email_sent": false,
+      "initial_email_date": null,
+      "response_received": false,
+      "response_date": null,
+      "response_type": null,
+      "interest_level": "high",
+      "notes": "Miami location"
+    },
+    {
+      "school": "University of North Florida",
+      "division": "D1",
+      "conference": "ASUN",
+      "tier": "target",
+      "head_coach": "TBD",
+      "recruiting_coordinator": "TBD",
+      "email": "TBD",
+      "questionnaire_submitted": false,
+      "interest_level": "medium",
+      "notes": "Jacksonville, smaller program"
+    },
+    {
+      "school": "Florida Gulf Coast University",
+      "division": "D1",
+      "conference": "ASUN",
+      "tier": "target",
+      "head_coach": "TBD",
+      "recruiting_coordinator": "TBD",
+      "email": "TBD",
+      "questionnaire_submitted": false,
+      "interest_level": "medium",
+      "notes": "Fort Myers"
+    },
+    {
+      "school": "University of Central Florida",
+      "division": "D1",
+      "conference": "AAC",
+      "tier": "target",
+      "head_coach": "TBD",
+      "recruiting_coordinator": "TBD",
+      "email": "TBD",
+      "questionnaire_submitted": false,
+      "interest_level": "medium",
+      "notes": "Orlando, larger program"
+    },
+    {
+      "school": "Florida State University",
+      "division": "D1",
+      "conference": "ACC",
+      "tier": "reach",
+      "head_coach": "TBD",
+      "recruiting_coordinator": "TBD",
+      "email": "TBD",
+      "questionnaire_submitted": false,
+      "interest_level": "low",
+      "notes": "Reach school - need faster times"
+    },
+    {
+      "school": "University of Florida",
+      "division": "D1",
+      "conference": "SEC",
+      "tier": "reach",
+      "head_coach": "Anthony Nesty",
+      "recruiting_coordinator": "TBD",
+      "email": "TBD",
+      "questionnaire_submitted": false,
+      "interest_level": "low",
+      "notes": "Elite program - significant reach"
+    },
+    {
+      "school": "Lynn University",
+      "division": "D2",
+      "conference": "SSC",
+      "tier": "safety",
+      "head_coach": "TBD",
+      "recruiting_coordinator": "TBD",
+      "email": "TBD",
+      "questionnaire_submitted": false,
+      "interest_level": "medium",
+      "notes": "D2 but scholarship potential"
+    }
+  ],
+  "communication_log": [
+    {
+      "date": "2026-01-26",
+      "type": "internal",
+      "action": "Created recruiting tracker",
+      "notes": "Initial setup of D1 pathway tracking"
+    }
+  ],
+  "upcoming_actions": [
+    {
+      "action": "Complete NCAA Eligibility Center registration",
+      "due_date": "2026-02-15",
+      "status": "pending",
+      "priority": "high"
+    },
+    {
+      "action": "Send initial emails to Tier 2 schools",
+      "due_date": "2026-02-20",
+      "status": "pending",
+      "priority": "high"
+    },
+    {
+      "action": "Update coaches after Sectionals results",
+      "due_date": "2026-02-17",
+      "status": "pending",
+      "priority": "high"
+    },
+    {
+      "action": "Schedule unofficial visits (Spring Break)",
+      "due_date": "2026-03-01",
+      "status": "pending",
+      "priority": "medium"
+    }
+  ],
+  "documents_prepared": {
+    "swimming_resume": false,
+    "academic_transcript": false,
+    "highlight_video": false,
+    "reference_letters": false,
+    "sat_act_scores": false
+  }
+}
