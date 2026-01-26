@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "purpose": "Michael Andrew-style keto diet adapted for kosher observance",
+    "athlete": "Michael Shapira",
+    "model": "Michael Andrew",
+    "note": "Both 6'4\"-6'6\" sprinters, similar body types"
+  },
+  
+  "weekly_protocol": {
+    "monday_thursday": {
+      "name": "Strict Keto Training Days",
+      "macros": {"fat_pct": 70, "protein_pct": 25, "carb_pct": 5},
+      "total_carbs_max_g": 50,
+      "total_calories": 3500,
+      "protein_g": 175,
+      "rationale": "Fat adaptation for sustained energy, mitochondrial efficiency"
+    },
+    "friday_sunday": {
+      "name": "Shabbat/Rest Days",
+      "macros": {"fat_pct": 50, "protein_pct": 30, "carb_pct": 20},
+      "total_carbs_max_g": 150,
+      "total_calories": 3200,
+      "protein_g": 160,
+      "rationale": "Allows traditional Shabbat foods (challah, grape juice) while maintaining metabolic flexibility"
+    }
+  },
+  
+  "sample_meals": {
+    "monday_thursday": {
+      "breakfast": {
+        "options": [
+          "4 eggs scrambled in olive oil + avocado + kosher beef bacon",
+          "Smoked salmon + cream cheese + cucumber",
+          "Kosher sausage + eggs + sautéed spinach"
+        ],
+        "macros": {"calories": 700, "fat_g": 55, "protein_g": 40, "carbs_g": 5}
+      },
+      "pre_workout": {
+        "options": [
+          "Handful of macadamia nuts",
+          "MCT oil in coffee",
+          "Hard boiled eggs (2)"
+        ],
+        "macros": {"calories": 200, "fat_g": 18, "protein_g": 8, "carbs_g": 2}
+      },
+      "post_workout": {
+        "options": [
+          "Kosher protein shake + almond butter",
+          "Grilled chicken thighs + olive oil",
+          "Kosher beef patty + cheese"
+        ],
+        "macros": {"calories": 600, "fat_g": 35, "protein_g": 50, "carbs_g": 5}
+      },
+      "lunch": {
+        "options": [
+          "Grilled salmon + leafy greens + olive oil dressing",
+          "Kosher ribeye steak + broccoli + butter",
+          "Chicken salad with mayo + avocado"
+        ],
+        "macros": {"calories": 900, "fat_g": 65, "protein_g": 55, "carbs_g": 10}
+      },
+      "dinner": {
+        "options": [
+          "Kosher brisket + cauliflower mash",
+          "Grilled lamb chops + asparagus",
+          "Tuna steaks + zucchini noodles"
+        ],
+        "macros": {"calories": 800, "fat_g": 55, "protein_g": 50, "carbs_g": 8}
+      },
+      "snacks": {
+        "options": [
+          "Kosher beef jerky",
+          "Cheese and nuts",
+          "Celery + almond butter",
+          "Olives"
+        ],
+        "macros": {"calories": 300, "fat_g": 22, "protein_g": 15, "carbs_g": 5}
+      }
+    },
+    "shabbat": {
+      "friday_dinner": {
+        "items": ["Challah (small portion)", "Chicken soup", "Roast chicken", "Vegetables"],
+        "note": "Enjoy traditional foods in moderation. Focus on protein first."
+      },
+      "saturday_lunch": {
+        "items": ["Cholent (small portion)", "Kugel (small)", "Salads", "Grilled meat"],
+        "note": "Higher carb day - OK for metabolic flexibility"
+      },
+      "seudah_shlishit": {
+        "items": ["Light meal", "Salads", "Fish", "Minimal bread"],
+        "note": "Transition back to keto Sunday evening"
+      }
+    }
+  },
+  
+  "competition_day": {
+    "note": "If competition is NOT on Shabbat",
+    "pre_race": {
+      "timing": "2 hours before",
+      "food": "Small carb load - banana, honey, dates",
+      "calories": 200,
+      "carbs_g": 40
+    },
+    "between_races": {
+      "options": ["Glucose/electrolyte drink", "Energy gel", "Banana"],
+      "purpose": "Immediate fuel for explosive events"
+    },
+    "post_competition": {
+      "food": "Return to normal keto protocol",
+      "timeline": "Within 2 hours of final race"
+    }
+  },
+  
+  "michael_andrew_comparison": {
+    "diet_type": "Ketogenic since age 14",
+    "benefits_claimed": [
+      "Consistent energy (no blood sugar crashes)",
+      "Faster recovery between races",
+      "Mental clarity during competition",
+      "Body composition maintenance"
+    ],
+    "results": "American Record 50m Free (18.0), Olympic Finalist",
+    "applicability_to_shapira": "Very high - same body type, same events, kosher adaptation works perfectly with weekly Shabbat carb cycle"
+  },
+  
+  "kosher_specific_notes": [
+    "All meat must be kosher certified",
+    "Separate meat and dairy (wait 6 hours after meat)",
+    "Many nuts, fish, and vegetables are naturally kosher",
+    "Fairlife Chocolate Milk is kosher (post-workout option)",
+    "Check all protein powders for kosher certification",
+    "MCT oil is kosher (coconut-derived)"
+  ],
+  
+  "supplements": {
+    "required": [
+      {"name": "Electrolytes", "timing": "During practice", "kosher": true},
+      {"name": "Creatine Monohydrate", "timing": "Daily 5g", "kosher": "Check certification"},
+      {"name": "Omega-3 Fish Oil", "timing": "With meals", "kosher": "Must be from kosher fish"}
+    ],
+    "optional": [
+      {"name": "MCT Oil", "timing": "Morning", "kosher": true},
+      {"name": "Protein Powder", "timing": "Post-workout", "kosher": "Check certification"},
+      {"name": "Vitamin D", "timing": "Daily", "kosher": "Check certification"}
+    ]
+  }
+}
