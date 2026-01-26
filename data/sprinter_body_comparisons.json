@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "purpose": "Compare Michael Shapira's physique to elite sprint swimmers",
+    "michael_profile": {"height": "6'4\"", "weight": 215, "age": 16}
+  },
+  
+  "elite_sprinters": [
+    {
+      "name": "Kyle Chalmers",
+      "country": "Australia",
+      "height": "6'3\"-6'4\"",
+      "height_cm": 193,
+      "weight_lbs": 200,
+      "weight_kg": 91,
+      "events": ["50m Free", "100m Free"],
+      "achievements": ["2016 Olympic Gold 100m Free", "2020 Olympic Silver", "2024 Olympic Silver", "SCM 100m World Record"],
+      "best_times_lcm": {"50_free": "21.4", "100_free": "47.0"},
+      "michael_match": "EXCELLENT - Same height, similar build. Best comparison for Michael.",
+      "training_notes": "Power-based sprinter, excels at underwater work"
+    },
+    {
+      "name": "Michael Andrew",
+      "country": "USA",
+      "height": "6'5\"-6'6\"",
+      "height_cm": 196,
+      "weight_lbs": 205,
+      "weight_kg": 93,
+      "events": ["50m Free", "100m Free", "100m Breast", "200m IM"],
+      "achievements": ["American Record 50m Free", "Olympic Finalist", "World Championship Medalist"],
+      "best_times_scy": {"50_free": "18.0", "100_free": "42.69"},
+      "michael_match": "EXCELLENT - Similar height/weight. BOTH USE KETO DIET. Same sprint focus.",
+      "diet": "Ketogenic - strict keto during training, flexible competition",
+      "training_notes": "USRPT (Ultra Short Race Pace Training), father-coached"
+    },
+    {
+      "name": "Nathan Adrian",
+      "country": "USA",
+      "height": "6'6\"",
+      "height_cm": 198,
+      "weight_lbs": 220,
+      "weight_kg": 100,
+      "events": ["50m Free", "100m Free"],
+      "achievements": ["2012 Olympic Gold 100m Free", "5x Olympic Gold total", "American Record 50m Free"],
+      "best_times_scy": {"50_free": "18.6", "100_free": "41.1"},
+      "best_times_lcm": {"50_free": "21.5", "100_free": "47.5"},
+      "michael_match": "GOOD - 2 inches taller but similar power build. At 6'4\", Michael should be 210-215 lbs (lighter than Adrian).",
+      "training_notes": "Cal Berkeley trained, high volume with sprint focus"
+    },
+    {
+      "name": "Caeleb Dressel",
+      "country": "USA",
+      "height": "6'3\"",
+      "height_cm": 190,
+      "weight_lbs": 200,
+      "weight_kg": 91,
+      "events": ["50m Free", "100m Free", "100m Fly"],
+      "achievements": ["5 Olympic Golds Tokyo", "World Records 50/100 Free/Fly", "NCAA Records"],
+      "best_times_scy": {"50_free": "17.63", "100_free": "39.90"},
+      "best_times_lcm": {"50_free": "21.07", "100_free": "47.02"},
+      "michael_match": "VERY GOOD - 1 inch shorter but same build type. UF model for Michael.",
+      "training_notes": "UF trained under Nesty, power + technique combination"
+    },
+    {
+      "name": "Matt Grevers",
+      "country": "USA",
+      "height": "6'8\"",
+      "height_cm": 203,
+      "weight_lbs": 229,
+      "weight_kg": 104,
+      "events": ["100m Back", "50m Back"],
+      "achievements": ["2012 Olympic Gold 100m Back", "World Record holder", "6x Olympic medals"],
+      "best_times_lcm": {"100_back": "52.16"},
+      "michael_match": "REFERENCE - Shows tall swimmers can be elite backstrokers too. Michael at 6'4\" should be ~15 lbs lighter.",
+      "training_notes": "Arizona trained, power backstroker"
+    },
+    {
+      "name": "Josh Liendo",
+      "country": "Canada",
+      "height": "6'1\"",
+      "height_cm": 185,
+      "weight_lbs": 183,
+      "weight_kg": 83,
+      "events": ["100m Fly", "100m Free", "50m Free"],
+      "achievements": ["2024 Olympic Silver 100m Fly", "World Championship Medalist", "NCAA All-American (UF)"],
+      "best_times_lcm": {"100_fly": "50.16", "100_free": "47.59"},
+      "michael_match": "GOOD - Same school target (UF). Michael is taller/heavier but same coach (Nesty).",
+      "training_notes": "UF current swimmer, Canadian Olympic team"
+    }
+  ],
+  
+  "michael_optimal_profile": {
+    "current": {"height": "6'4\"", "weight": 215, "body_fat": "15%"},
+    "target": {"height": "6'4\"-6'5\"", "weight": 210, "body_fat": "9-10%"},
+    "rationale": "At 6'4\", elite sprint weight is 200-215 lbs. Michael should lean out ~5 lbs while maintaining muscle mass. Chalmers and Andrew are closest comparisons.",
+    "development_path": "Lose 5 lbs fat, add 3-5 lbs muscle = net -2 to 0 lbs, but significantly leaner"
+  },
+  
+  "key_insights": [
+    "Kyle Chalmers at 6'3\"-6'4\" and 200 lbs is the BEST model for Michael",
+    "Michael Andrew uses KETO DIET - directly applicable for kosher adaptation",
+    "At 6'4\", optimal sprint weight is 200-215 lbs (Michael is at upper range)",
+    "Taller sprinters (6'4\"+) benefit from longer underwater dolphin kicks",
+    "Power-to-weight ratio matters more than raw weight",
+    "All elite tall sprinters have excellent underwaters and streamlines"
+  ]
+}
