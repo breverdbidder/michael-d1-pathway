@@ -1,0 +1,68 @@
+{
+  "michael": {
+    "name": "Michael Shapira",
+    "swimcloud_id": "3250085",
+    "class": "2027",
+    "team": "Swim Melbourne",
+    "primary_events": ["50 Free", "100 Free", "100 Fly"]
+  },
+  "rivals": [
+    {
+      "name": "Rival Soto",
+      "swimcloud_id": "2928537",
+      "swimcloud_url": "https://www.swimcloud.com/swimmer/2928537/",
+      "class": "2027",
+      "team": "Unknown",
+      "notes": "Primary competitor in sprint events",
+      "comparison": {
+        "50_free_scy": {
+          "rival_time": null,
+          "michael_time": "21.86",
+          "advantage": "TBD"
+        },
+        "100_free_scy": {
+          "rival_time": null,
+          "michael_time": "48.80",
+          "advantage": "TBD"
+        }
+      }
+    },
+    {
+      "name": "Rival Gordon",
+      "swimcloud_id": "1733035",
+      "swimcloud_url": "https://www.swimcloud.com/swimmer/1733035/",
+      "class": "Unknown",
+      "team": "Unknown",
+      "notes": "Competitor to track",
+      "comparison": {
+        "50_free_scy": {
+          "rival_time": null,
+          "michael_time": "21.86",
+          "advantage": "TBD"
+        },
+        "100_free_scy": {
+          "rival_time": null,
+          "michael_time": "48.80",
+          "advantage": "TBD"
+        }
+      }
+    }
+  ],
+  "local_competitors": {
+    "description": "Other Florida swimmers in Class of 2027 to watch",
+    "swimmers": [
+      {
+        "notes": "To be populated from Florida Swimming rankings"
+      }
+    ]
+  },
+  "recruiting_competitors": {
+    "description": "Other swimmers likely competing for same D1 spots",
+    "tier_2_school_targets": {
+      "50_free_range": "21.0-22.5",
+      "100_free_range": "47.0-49.5",
+      "notes": "FAU, FIU, UNF, FGCU typical recruiting times"
+    }
+  },
+  "last_updated": "2026-01-26"
+}
