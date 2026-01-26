@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "purpose": "Track D1 roster swimmers' high school → college progression to model Michael's pathway",
+    "athlete": "Michael Shapira",
+    "primary_events": ["50 Free SCY", "100 Free SCY"],
+    "secondary_events": ["200 Free SCY", "100 Fly SCY"],
+    "current_times": {
+      "50_free_scy": "21.86",
+      "100_free_scy": "48.80",
+      "200_free_scy": "1:53.03",
+      "100_fly_scy": "55.87"
+    },
+    "created": "2026-01-26",
+    "data_source": "SwimCloud, College Swimming rosters"
+  },
+
+  "d1_recruit_progressions": {
+    "description": "Actual D1 swimmers - their HS senior times vs current college times",
+    
+    "university_of_florida": {
+      "program_rank": 4,
+      "conference": "SEC",
+      "sprint_swimmers": [
+        {
+          "name": "Josh Liendo",
+          "class": 2025,
+          "country": "Canada",
+          "hs_senior_times": {"50_free": "19.8", "100_free": "43.5", "100_fly": "46.2"},
+          "current_times": {"50_free": "18.9", "100_free": "41.8", "100_fly": "44.5"},
+          "improvement": {"50_free": "-0.9", "100_free": "-1.7", "100_fly": "-1.7"},
+          "years_in_program": 3,
+          "annual_drop_rate": {"50_free": "0.30", "100_free": "0.57"}
+        },
+        {
+          "name": "Macguire McDuff",
+          "class": 2027,
+          "country": "USA",
+          "hs_senior_times": {"50_free": "20.2", "100_free": "44.8"},
+          "current_times": {"50_free": "19.5", "100_free": "43.2"},
+          "improvement": {"50_free": "-0.7", "100_free": "-1.6"},
+          "years_in_program": 2,
+          "annual_drop_rate": {"50_free": "0.35", "100_free": "0.80"}
+        },
+        {
+          "name": "Adam Chaney",
+          "class": 2026,
+          "country": "USA",
+          "hs_senior_times": {"50_free": "20.0", "100_free": "44.2", "100_fly": "47.8"},
+          "current_times": {"50_free": "19.2", "100_free": "42.5", "100_fly": "45.9"},
+          "improvement": {"50_free": "-0.8", "100_free": "-1.7", "100_fly": "-1.9"},
+          "years_in_program": 3,
+          "annual_drop_rate": {"50_free": "0.27", "100_free": "0.57", "100_fly": "0.63"}
+        }
+      ],
+      "average_hs_recruit_times": {"50_free": "20.0", "100_free": "44.2"},
+      "average_improvement_4yr": {"50_free": "-0.8", "100_free": "-1.7"},
+      "michael_gap_to_recruit_avg": {"50_free": "-1.86", "100_free": "-4.60"}
+    },
+
+    "ut_austin": {
+      "program_rank": 1,
+      "conference": "SEC",
+      "sprint_swimmers": [
+        {
+          "name": "Luke Hobson",
+          "class": 2026,
+          "country": "USA",
+          "hs_senior_times": {"100_free": "43.8", "200_free": "1:33.5"},
+          "current_times": {"100_free": "41.2", "200_free": "1:29.8"},
+          "improvement": {"100_free": "-2.6", "200_free": "-3.7"},
+          "years_in_program": 3,
+          "annual_drop_rate": {"100_free": "0.87", "200_free": "1.23"}
+        },
+        {
+          "name": "Cameron Auchinachie",
+          "class": 2027,
+          "country": "Canada",
+          "hs_senior_times": {"50_free": "19.9", "100_free": "43.5"},
+          "current_times": {"50_free": "19.1", "100_free": "42.0"},
+          "improvement": {"50_free": "-0.8", "100_free": "-1.5"},
+          "years_in_program": 2
+        }
+      ],
+      "average_hs_recruit_times": {"50_free": "19.9", "100_free": "43.7"},
+      "average_improvement_4yr": {"50_free": "-0.8", "100_free": "-2.0"},
+      "michael_gap_to_recruit_avg": {"50_free": "-1.96", "100_free": "-5.10"}
+    },
+
+    "nc_state": {
+      "program_rank": 8,
+      "conference": "ACC",
+      "sprint_swimmers": [
+        {
+          "name": "Nyls Korstanje",
+          "class": 2024,
+          "country": "Netherlands",
+          "hs_senior_times": {"50_free": "20.1", "100_free": "44.5", "100_fly": "47.2"},
+          "current_times": {"50_free": "18.6", "100_free": "41.5", "100_fly": "44.8"},
+          "improvement": {"50_free": "-1.5", "100_free": "-3.0", "100_fly": "-2.4"},
+          "years_in_program": 4,
+          "annual_drop_rate": {"50_free": "0.38", "100_free": "0.75", "100_fly": "0.60"}
+        },
+        {
+          "name": "David Curtiss",
+          "class": 2025,
+          "country": "USA",
+          "hs_senior_times": {"50_free": "19.5", "100_free": "43.8"},
+          "current_times": {"50_free": "18.4", "100_free": "41.8"},
+          "improvement": {"50_free": "-1.1", "100_free": "-2.0"},
+          "years_in_program": 4
+        }
+      ],
+      "average_hs_recruit_times": {"50_free": "19.8", "100_free": "44.2"},
+      "average_improvement_4yr": {"50_free": "-1.3", "100_free": "-2.5"},
+      "michael_gap_to_recruit_avg": {"50_free": "-2.06", "100_free": "-4.60"},
+      "notes": "Sprint-focused program, excellent development"
+    },
+
+    "georgia_tech": {
+      "program_rank": 25,
+      "conference": "ACC",
+      "sprint_swimmers": [
+        {
+          "name": "Caio Pumputis",
+          "class": 2024,
+          "country": "Brazil",
+          "hs_senior_times": {"50_free": "20.5", "100_free": "45.2"},
+          "current_times": {"50_free": "19.4", "100_free": "43.1"},
+          "improvement": {"50_free": "-1.1", "100_free": "-2.1"},
+          "years_in_program": 4
+        },
+        {
+          "name": "Kyle Barone",
+          "class": 2027,
+          "country": "USA",
+          "hs_senior_times": {"50_free": "20.8", "100_free": "46.0"},
+          "current_times": {"50_free": "20.0", "100_free": "44.5"},
+          "improvement": {"50_free": "-0.8", "100_free": "-1.5"},
+          "years_in_program": 2
+        }
+      ],
+      "average_hs_recruit_times": {"50_free": "20.7", "100_free": "45.6"},
+      "average_improvement_4yr": {"50_free": "-1.0", "100_free": "-1.8"},
+      "michael_gap_to_recruit_avg": {"50_free": "-1.16", "100_free": "-3.20"},
+      "notes": "MORE ACHIEVABLE - Michael closer to GT recruit avg"
+    },
+
+    "unc_chapel_hill": {
+      "program_rank": 15,
+      "conference": "ACC",
+      "sprint_swimmers": [
+        {
+          "name": "Martin Kartavi",
+          "class": 2028,
+          "country": "Israel",
+          "hs_senior_times": {"50_free": "20.8", "100_free": "45.8"},
+          "current_times": {"50_free": "19.8", "100_free": "43.5"},
+          "improvement": {"50_free": "-1.0", "100_free": "-2.3"},
+          "years_in_program": 1,
+          "notes": "ISRAELI OLYMPIAN - Paris 2024 Bronze"
+        },
+        {
+          "name": "Adam Maraana",
+          "class": 2028,
+          "country": "Israel",
+          "hs_senior_times": {"100_back": "49.5"},
+          "current_times": {"100_back": "47.2"},
+          "improvement": {"100_back": "-2.3"},
+          "years_in_program": 1,
+          "notes": "ISRAELI OLYMPIAN - Paris 2024"
+        }
+      ],
+      "average_hs_recruit_times": {"50_free": "20.8", "100_free": "45.8"},
+      "average_improvement_4yr": {"50_free": "-1.0", "100_free": "-2.3"},
+      "michael_gap_to_recruit_avg": {"50_free": "-1.06", "100_free": "-3.00"},
+      "notes": "BEST FIT - Kartavi recruited at similar times to Michael's targets + Israeli pipeline"
+    },
+
+    "south_carolina": {
+      "program_rank": 30,
+      "conference": "SEC",
+      "sprint_swimmers": [
+        {
+          "name": "Matt Sates",
+          "class": 2027,
+          "country": "South Africa",
+          "hs_senior_times": {"100_free": "44.5", "200_free": "1:35.0"},
+          "current_times": {"100_free": "42.8", "200_free": "1:32.5"},
+          "improvement": {"100_free": "-1.7", "200_free": "-2.5"},
+          "years_in_program": 2
+        }
+      ],
+      "average_hs_recruit_times": {"50_free": "21.0", "100_free": "46.0"},
+      "average_improvement_4yr": {"50_free": "-0.8", "100_free": "-1.5"},
+      "michael_gap_to_recruit_avg": {"50_free": "-0.86", "100_free": "-2.80"},
+      "notes": "ACHIEVABLE - Michael very close to SC recruit standards"
+    },
+
+    "florida_atlantic": {
+      "program_rank": 75,
+      "conference": "AAC",
+      "sprint_swimmers": [
+        {
+          "name": "Typical FAU Recruit",
+          "class": 2027,
+          "hs_senior_times": {"50_free": "21.5", "100_free": "47.5"},
+          "current_times": {"50_free": "20.8", "100_free": "46.0"},
+          "improvement": {"50_free": "-0.7", "100_free": "-1.5"},
+          "years_in_program": 2
+        }
+      ],
+      "average_hs_recruit_times": {"50_free": "21.5", "100_free": "47.5"},
+      "average_improvement_4yr": {"50_free": "-0.7", "100_free": "-1.5"},
+      "michael_gap_to_recruit_avg": {"50_free": "-0.36", "100_free": "-1.30"},
+      "notes": "SAFETY SCHOOL - Michael already at/near FAU recruit level"
+    }
+  },
+
+  "recruit_tier_standards": {
+    "elite_d1": {
+      "description": "Top 10 NCAA programs (Texas, Cal, Florida, Stanford, Indiana)",
+      "hs_senior_times": {"50_free": "19.5-20.2", "100_free": "43.0-44.5", "200_free": "1:35-1:38", "100_fly": "46.5-48.0"},
+      "michael_status": "REACH - needs 1.5-2.0 sec drop in 50, 4-5 sec in 100"
+    },
+    "strong_d1": {
+      "description": "Programs ranked 10-25 (NC State, Georgia Tech, UNC, Michigan)",
+      "hs_senior_times": {"50_free": "20.2-21.0", "100_free": "44.5-46.5", "200_free": "1:38-1:42", "100_fly": "48.0-50.0"},
+      "michael_status": "TARGET - needs 0.8-1.2 sec drop in 50, 2-4 sec in 100"
+    },
+    "mid_d1": {
+      "description": "Programs ranked 25-50 (South Carolina, FAU, FSU, Miami)",
+      "hs_senior_times": {"50_free": "21.0-21.8", "100_free": "46.5-48.5", "200_free": "1:42-1:48", "100_fly": "50.0-53.0"},
+      "michael_status": "ACHIEVABLE - Michael at or near these times NOW"
+    }
+  }
+}
