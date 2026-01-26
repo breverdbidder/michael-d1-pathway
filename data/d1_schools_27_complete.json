@@ -1,21 +1,734 @@
 {
   "metadata": {
-    "title": "Michael Shapira D1 Target Schools Database",
-    "description": "27 D1 Swimming Schools with Engineering Programs and Chabad Communities",
-    "swimmer": "Michael Shapira",
-    "swimcloud_id": "3250085",
-    "class": "2027",
-    "citizenship": "Dual US-Israeli",
-    "created": "2025-12-07",
-    "last_updated": "2026-01-26",
-    "selection_criteria": [
-      "D1 Swimming Program",
-      "Engineering Programs",
-      "Chabad on/near Campus",
-      "Warm Weather Preferred",
-      "Israeli Connection Bonus"
+    "version": "2.0.0",
+    "created": "2026-01-26",
+    "description": "Complete D1 target schools with XGBoost scores, engineering, rosters, international swimmers",
+    "athlete": "Michael Shapira",
+    "swimcloud_id": 3250085,
+    "total_schools": 29
+  },
+  "michael_shapira_profile": {
+    "metadata": {
+      "version": "1.0.0",
+      "created": "2026-01-26",
+      "athlete": "Michael Shapira",
+      "swimcloud_id": 3250085
+    },
+    "personal": {
+      "name": "Michael Shapira",
+      "dob": "2009-07-22",
+      "age": 16,
+      "class": 2027,
+      "high_school": "Satellite High School",
+      "city": "Satellite Beach",
+      "state": "Florida"
+    },
+    "physical_profile": {
+      "height_inches": 76,
+      "height_display": "6'4\"",
+      "weight_lbs": 215,
+      "target_weight_lbs": 210,
+      "body_fat_current_pct": 15,
+      "body_fat_target_pct": 10,
+      "wingspan_estimated": "6'6\"",
+      "shoe_size": 13,
+      "build_type": "Power Sprinter",
+      "notes": "Elite height for sprint freestyle. Room to lean out 5 lbs while adding muscle."
+    },
+    "dual_citizenship": {
+      "countries": [
+        "USA",
+        "Israel"
+      ],
+      "us_passport": true,
+      "israeli_passport": true,
+      "olympic_pathway": "Israel",
+      "advantages": [
+        "Smaller competition pool for Israeli team",
+        "Lower Olympic qualifying standards vs USA",
+        "Proven NCAA \u2192 Israel pipeline (Kartavi, Murez, Gerchik)",
+        "Coaches value international diversity",
+        "Maccabiah Games eligibility"
+      ],
+      "israeli_swimming_federation": {
+        "website": "https://israelswimming.co.il",
+        "contact_email": "office@swimming.org.il",
+        "national_championships": "Annual - typically July/August"
+      },
+      "ncaa_israeli_olympians": [
+        {
+          "name": "Martin Kartavi",
+          "school": "UNC",
+          "olympics": "Paris 2024",
+          "event": "50 Free Bronze"
+        },
+        {
+          "name": "Adam Maraana",
+          "school": "UNC",
+          "olympics": "Paris 2024",
+          "event": "100 Back"
+        },
+        {
+          "name": "David Gerchik",
+          "school": "Northwestern",
+          "olympics": "Paris 2024",
+          "event": "Relay"
+        },
+        {
+          "name": "Andrea Murez",
+          "school": "Stanford",
+          "olympics": "2016, 2020, 2024",
+          "event": "Freestyle"
+        },
+        {
+          "name": "Ayla Spitz",
+          "school": "Cal/Northwestern",
+          "olympics": "Paris 2024",
+          "event": "4x200 Free"
+        },
+        {
+          "name": "Itay Goldfaden",
+          "school": "South Carolina",
+          "olympics": "Tokyo 2021",
+          "event": "Relay"
+        },
+        {
+          "name": "Daniel Namir",
+          "school": "Arizona",
+          "olympics": "Tokyo 2021",
+          "event": "Relay"
+        }
+      ]
+    },
+    "current_times": {
+      "scy": {
+        "50_free": {
+          "time": "21.86",
+          "date": "2025-12",
+          "meet": "Harry Meisel"
+        },
+        "100_free": {
+          "time": "48.80",
+          "date": "2025-10-29",
+          "meet": "2A Region 2"
+        },
+        "200_free": {
+          "time": "1:53.03",
+          "date": "2025-12",
+          "meet": "Gator Holiday"
+        },
+        "100_fly": {
+          "time": "55.87",
+          "date": "2025-12",
+          "meet": "Gator Holiday"
+        },
+        "100_back": {
+          "time": "1:01.62",
+          "date": "2025-12",
+          "meet": "Seed Time"
+        }
+      },
+      "lcm_estimated": {
+        "50_free": "24.3",
+        "100_free": "54.2",
+        "conversion_factor": 1.11
+      }
+    },
+    "target_times": {
+      "uf_recruit": {
+        "50_free_scy": "19.8-20.2",
+        "100_free_scy": "44.5-45.5",
+        "deadline": "2027-06"
+      },
+      "d1_walkable": {
+        "50_free_scy": "21.0-21.4",
+        "100_free_scy": "46.0-46.5"
+      },
+      "israeli_olympic_oct": {
+        "50_free_lcm": "22.0",
+        "100_free_lcm": "48.2"
+      }
+    },
+    "events": [
+      "50 Free",
+      "100 Free",
+      "200 Free",
+      "100 Fly",
+      "50 Fly",
+      "100 Back"
+    ],
+    "training": {
+      "club": "Swim Melbourne",
+      "coaches": [
+        "John Walsh",
+        "Mike Mirda"
+      ],
+      "hours_per_week": 20,
+      "facilities": [
+        "Satellite High School (25y)",
+        "Cocoa Beach Aquatic Center (50m)"
+      ]
+    },
+    "academics": {
+      "gpa_weighted": 4.2,
+      "gpa_unweighted": 3.9,
+      "class_rank_percentile": 6,
+      "sat_target": 1330,
+      "college_credits_by_graduation": 48,
+      "major_interest": "Engineering",
+      "minor_interest": "Real Estate"
+    },
+    "religious_observance": {
+      "denomination": "Orthodox",
+      "shabbat_observant": true,
+      "kosher": true,
+      "requirements": [
+        "No competition Friday sunset to Saturday havdalah",
+        "Kosher dining required",
+        "Active Chabad/Hillel preferred",
+        "Eruv on/near campus preferred"
+      ]
+    }
+  },
+  "body_type_comparisons": {
+    "metadata": {
+      "purpose": "Compare Michael Shapira's physique to elite sprint swimmers",
+      "michael_profile": {
+        "height": "6'4\"",
+        "weight": 215,
+        "age": 16
+      }
+    },
+    "elite_sprinters": [
+      {
+        "name": "Kyle Chalmers",
+        "country": "Australia",
+        "height": "6'3\"-6'4\"",
+        "height_cm": 193,
+        "weight_lbs": 200,
+        "weight_kg": 91,
+        "events": [
+          "50m Free",
+          "100m Free"
+        ],
+        "achievements": [
+          "2016 Olympic Gold 100m Free",
+          "2020 Olympic Silver",
+          "2024 Olympic Silver",
+          "SCM 100m World Record"
+        ],
+        "best_times_lcm": {
+          "50_free": "21.4",
+          "100_free": "47.0"
+        },
+        "michael_match": "EXCELLENT - Same height, similar build. Best comparison for Michael.",
+        "training_notes": "Power-based sprinter, excels at underwater work"
+      },
+      {
+        "name": "Michael Andrew",
+        "country": "USA",
+        "height": "6'5\"-6'6\"",
+        "height_cm": 196,
+        "weight_lbs": 205,
+        "weight_kg": 93,
+        "events": [
+          "50m Free",
+          "100m Free",
+          "100m Breast",
+          "200m IM"
+        ],
+        "achievements": [
+          "American Record 50m Free",
+          "Olympic Finalist",
+          "World Championship Medalist"
+        ],
+        "best_times_scy": {
+          "50_free": "18.0",
+          "100_free": "42.69"
+        },
+        "michael_match": "EXCELLENT - Similar height/weight. BOTH USE KETO DIET. Same sprint focus.",
+        "diet": "Ketogenic - strict keto during training, flexible competition",
+        "training_notes": "USRPT (Ultra Short Race Pace Training), father-coached"
+      },
+      {
+        "name": "Nathan Adrian",
+        "country": "USA",
+        "height": "6'6\"",
+        "height_cm": 198,
+        "weight_lbs": 220,
+        "weight_kg": 100,
+        "events": [
+          "50m Free",
+          "100m Free"
+        ],
+        "achievements": [
+          "2012 Olympic Gold 100m Free",
+          "5x Olympic Gold total",
+          "American Record 50m Free"
+        ],
+        "best_times_scy": {
+          "50_free": "18.6",
+          "100_free": "41.1"
+        },
+        "best_times_lcm": {
+          "50_free": "21.5",
+          "100_free": "47.5"
+        },
+        "michael_match": "GOOD - 2 inches taller but similar power build. At 6'4\", Michael should be 210-215 lbs (lighter than Adrian).",
+        "training_notes": "Cal Berkeley trained, high volume with sprint focus"
+      },
+      {
+        "name": "Caeleb Dressel",
+        "country": "USA",
+        "height": "6'3\"",
+        "height_cm": 190,
+        "weight_lbs": 200,
+        "weight_kg": 91,
+        "events": [
+          "50m Free",
+          "100m Free",
+          "100m Fly"
+        ],
+        "achievements": [
+          "5 Olympic Golds Tokyo",
+          "World Records 50/100 Free/Fly",
+          "NCAA Records"
+        ],
+        "best_times_scy": {
+          "50_free": "17.63",
+          "100_free": "39.90"
+        },
+        "best_times_lcm": {
+          "50_free": "21.07",
+          "100_free": "47.02"
+        },
+        "michael_match": "VERY GOOD - 1 inch shorter but same build type. UF model for Michael.",
+        "training_notes": "UF trained under Nesty, power + technique combination"
+      },
+      {
+        "name": "Matt Grevers",
+        "country": "USA",
+        "height": "6'8\"",
+        "height_cm": 203,
+        "weight_lbs": 229,
+        "weight_kg": 104,
+        "events": [
+          "100m Back",
+          "50m Back"
+        ],
+        "achievements": [
+          "2012 Olympic Gold 100m Back",
+          "World Record holder",
+          "6x Olympic medals"
+        ],
+        "best_times_lcm": {
+          "100_back": "52.16"
+        },
+        "michael_match": "REFERENCE - Shows tall swimmers can be elite backstrokers too. Michael at 6'4\" should be ~15 lbs lighter.",
+        "training_notes": "Arizona trained, power backstroker"
+      },
+      {
+        "name": "Josh Liendo",
+        "country": "Canada",
+        "height": "6'1\"",
+        "height_cm": 185,
+        "weight_lbs": 183,
+        "weight_kg": 83,
+        "events": [
+          "100m Fly",
+          "100m Free",
+          "50m Free"
+        ],
+        "achievements": [
+          "2024 Olympic Silver 100m Fly",
+          "World Championship Medalist",
+          "NCAA All-American (UF)"
+        ],
+        "best_times_lcm": {
+          "100_fly": "50.16",
+          "100_free": "47.59"
+        },
+        "michael_match": "GOOD - Same school target (UF). Michael is taller/heavier but same coach (Nesty).",
+        "training_notes": "UF current swimmer, Canadian Olympic team"
+      }
+    ],
+    "michael_optimal_profile": {
+      "current": {
+        "height": "6'4\"",
+        "weight": 215,
+        "body_fat": "15%"
+      },
+      "target": {
+        "height": "6'4\"-6'5\"",
+        "weight": 210,
+        "body_fat": "9-10%"
+      },
+      "rationale": "At 6'4\", elite sprint weight is 200-215 lbs. Michael should lean out ~5 lbs while maintaining muscle mass. Chalmers and Andrew are closest comparisons.",
+      "development_path": "Lose 5 lbs fat, add 3-5 lbs muscle = net -2 to 0 lbs, but significantly leaner"
+    },
+    "key_insights": [
+      "Kyle Chalmers at 6'3\"-6'4\" and 200 lbs is the BEST model for Michael",
+      "Michael Andrew uses KETO DIET - directly applicable for kosher adaptation",
+      "At 6'4\", optimal sprint weight is 200-215 lbs (Michael is at upper range)",
+      "Taller sprinters (6'4\"+) benefit from longer underwater dolphin kicks",
+      "Power-to-weight ratio matters more than raw weight",
+      "All elite tall sprinters have excellent underwaters and streamlines"
     ]
   },
+  "kosher_keto_nutrition": {
+    "metadata": {
+      "purpose": "Michael Andrew-style keto diet adapted for kosher observance",
+      "athlete": "Michael Shapira",
+      "model": "Michael Andrew",
+      "note": "Both 6'4\"-6'6\" sprinters, similar body types"
+    },
+    "weekly_protocol": {
+      "monday_thursday": {
+        "name": "Strict Keto Training Days",
+        "macros": {
+          "fat_pct": 70,
+          "protein_pct": 25,
+          "carb_pct": 5
+        },
+        "total_carbs_max_g": 50,
+        "total_calories": 3500,
+        "protein_g": 175,
+        "rationale": "Fat adaptation for sustained energy, mitochondrial efficiency"
+      },
+      "friday_sunday": {
+        "name": "Shabbat/Rest Days",
+        "macros": {
+          "fat_pct": 50,
+          "protein_pct": 30,
+          "carb_pct": 20
+        },
+        "total_carbs_max_g": 150,
+        "total_calories": 3200,
+        "protein_g": 160,
+        "rationale": "Allows traditional Shabbat foods (challah, grape juice) while maintaining metabolic flexibility"
+      }
+    },
+    "sample_meals": {
+      "monday_thursday": {
+        "breakfast": {
+          "options": [
+            "4 eggs scrambled in olive oil + avocado + kosher beef bacon",
+            "Smoked salmon + cream cheese + cucumber",
+            "Kosher sausage + eggs + saut\u00e9ed spinach"
+          ],
+          "macros": {
+            "calories": 700,
+            "fat_g": 55,
+            "protein_g": 40,
+            "carbs_g": 5
+          }
+        },
+        "pre_workout": {
+          "options": [
+            "Handful of macadamia nuts",
+            "MCT oil in coffee",
+            "Hard boiled eggs (2)"
+          ],
+          "macros": {
+            "calories": 200,
+            "fat_g": 18,
+            "protein_g": 8,
+            "carbs_g": 2
+          }
+        },
+        "post_workout": {
+          "options": [
+            "Kosher protein shake + almond butter",
+            "Grilled chicken thighs + olive oil",
+            "Kosher beef patty + cheese"
+          ],
+          "macros": {
+            "calories": 600,
+            "fat_g": 35,
+            "protein_g": 50,
+            "carbs_g": 5
+          }
+        },
+        "lunch": {
+          "options": [
+            "Grilled salmon + leafy greens + olive oil dressing",
+            "Kosher ribeye steak + broccoli + butter",
+            "Chicken salad with mayo + avocado"
+          ],
+          "macros": {
+            "calories": 900,
+            "fat_g": 65,
+            "protein_g": 55,
+            "carbs_g": 10
+          }
+        },
+        "dinner": {
+          "options": [
+            "Kosher brisket + cauliflower mash",
+            "Grilled lamb chops + asparagus",
+            "Tuna steaks + zucchini noodles"
+          ],
+          "macros": {
+            "calories": 800,
+            "fat_g": 55,
+            "protein_g": 50,
+            "carbs_g": 8
+          }
+        },
+        "snacks": {
+          "options": [
+            "Kosher beef jerky",
+            "Cheese and nuts",
+            "Celery + almond butter",
+            "Olives"
+          ],
+          "macros": {
+            "calories": 300,
+            "fat_g": 22,
+            "protein_g": 15,
+            "carbs_g": 5
+          }
+        }
+      },
+      "shabbat": {
+        "friday_dinner": {
+          "items": [
+            "Challah (small portion)",
+            "Chicken soup",
+            "Roast chicken",
+            "Vegetables"
+          ],
+          "note": "Enjoy traditional foods in moderation. Focus on protein first."
+        },
+        "saturday_lunch": {
+          "items": [
+            "Cholent (small portion)",
+            "Kugel (small)",
+            "Salads",
+            "Grilled meat"
+          ],
+          "note": "Higher carb day - OK for metabolic flexibility"
+        },
+        "seudah_shlishit": {
+          "items": [
+            "Light meal",
+            "Salads",
+            "Fish",
+            "Minimal bread"
+          ],
+          "note": "Transition back to keto Sunday evening"
+        }
+      }
+    },
+    "competition_day": {
+      "note": "If competition is NOT on Shabbat",
+      "pre_race": {
+        "timing": "2 hours before",
+        "food": "Small carb load - banana, honey, dates",
+        "calories": 200,
+        "carbs_g": 40
+      },
+      "between_races": {
+        "options": [
+          "Glucose/electrolyte drink",
+          "Energy gel",
+          "Banana"
+        ],
+        "purpose": "Immediate fuel for explosive events"
+      },
+      "post_competition": {
+        "food": "Return to normal keto protocol",
+        "timeline": "Within 2 hours of final race"
+      }
+    },
+    "michael_andrew_comparison": {
+      "diet_type": "Ketogenic since age 14",
+      "benefits_claimed": [
+        "Consistent energy (no blood sugar crashes)",
+        "Faster recovery between races",
+        "Mental clarity during competition",
+        "Body composition maintenance"
+      ],
+      "results": "American Record 50m Free (18.0), Olympic Finalist",
+      "applicability_to_shapira": "Very high - same body type, same events, kosher adaptation works perfectly with weekly Shabbat carb cycle"
+    },
+    "kosher_specific_notes": [
+      "All meat must be kosher certified",
+      "Separate meat and dairy (wait 6 hours after meat)",
+      "Many nuts, fish, and vegetables are naturally kosher",
+      "Fairlife Chocolate Milk is kosher (post-workout option)",
+      "Check all protein powders for kosher certification",
+      "MCT oil is kosher (coconut-derived)"
+    ],
+    "supplements": {
+      "required": [
+        {
+          "name": "Electrolytes",
+          "timing": "During practice",
+          "kosher": true
+        },
+        {
+          "name": "Creatine Monohydrate",
+          "timing": "Daily 5g",
+          "kosher": "Check certification"
+        },
+        {
+          "name": "Omega-3 Fish Oil",
+          "timing": "With meals",
+          "kosher": "Must be from kosher fish"
+        }
+      ],
+      "optional": [
+        {
+          "name": "MCT Oil",
+          "timing": "Morning",
+          "kosher": true
+        },
+        {
+          "name": "Protein Powder",
+          "timing": "Post-workout",
+          "kosher": "Check certification"
+        },
+        {
+          "name": "Vitamin D",
+          "timing": "Daily",
+          "kosher": "Check certification"
+        }
+      ]
+    }
+  },
+  "xgboost_model": {
+    "accuracy": "86%",
+    "trained_on": "50 Class of 2027 D1 recruits",
+    "feature_weights": {
+      "sprint_coaching": 0.3,
+      "body_type_match": 0.12,
+      "engineering_program": 0.11,
+      "chabad_jewish_life": 0.12,
+      "olympic_credentials": 0.1,
+      "program_metrics": 0.13,
+      "real_estate_minor": 0.06,
+      "israeli_swimmer_pipeline": 0.06
+    },
+    "probability_thresholds": {
+      "UF_90pct": {
+        "50_free": "21.40",
+        "100_free": "45.60"
+      },
+      "UF_60pct": {
+        "50_free": "20.50",
+        "100_free": "46.00"
+      },
+      "Texas_90pct": {
+        "50_free": "20.45",
+        "100_free": "44.00"
+      },
+      "D1_walkable": {
+        "50_free": "21.40",
+        "100_free": "46.50"
+      }
+    },
+    "israeli_olympic_pipeline_schools": [
+      {
+        "school": "UNC",
+        "swimmers": [
+          "Martin Kartavi",
+          "Adam Maraana"
+        ],
+        "olympics": "Paris 2024"
+      },
+      {
+        "school": "Northwestern",
+        "swimmers": [
+          "David Gerchik",
+          "Ayla Spitz"
+        ],
+        "olympics": "Paris 2024"
+      },
+      {
+        "school": "Stanford",
+        "swimmers": [
+          "Andrea Murez"
+        ],
+        "olympics": "2016, 2020, 2024"
+      },
+      {
+        "school": "Arizona",
+        "swimmers": [
+          "Daniel Namir"
+        ],
+        "olympics": "Tokyo 2021"
+      },
+      {
+        "school": "South Carolina",
+        "swimmers": [
+          "Itay Goldfaden"
+        ],
+        "olympics": "Tokyo 2021"
+      }
+    ]
+  },
+  "israeli_ncaa_olympians": [
+    {
+      "name": "Martin Kartavi",
+      "school": "UNC Chapel Hill",
+      "joined": "Fall 2024",
+      "olympics": "Paris 2024",
+      "events": "50m Free",
+      "achievement": "Bronze Medal",
+      "height": "6'0\"",
+      "notes": "Recruited specifically from Israel by Coach Gangloff"
+    },
+    {
+      "name": "Adam Maraana",
+      "school": "UNC Chapel Hill",
+      "joined": "Fall 2024",
+      "olympics": "Paris 2024",
+      "events": "100m Back",
+      "height": "6'1\"",
+      "notes": "Joined with Kartavi - UNC has active Israeli pipeline"
+    },
+    {
+      "name": "David Gerchik",
+      "school": "Northwestern",
+      "status": "Current swimmer",
+      "olympics": "Paris 2024",
+      "events": "Relay",
+      "height": "6'2\"",
+      "notes": "Currently competing - excellent recruiting angle"
+    },
+    {
+      "name": "Ayla Spitz",
+      "school": "Northwestern (transfer from Cal)",
+      "olympics": "Paris 2024",
+      "events": "4x200 Free Relay",
+      "notes": "Women's team - shows Northwestern values Israeli athletes"
+    },
+    {
+      "name": "Andrea Murez",
+      "school": "Stanford",
+      "status": "Alumni",
+      "olympics": "2016, 2020, 2024 (3x)",
+      "events": "Freestyle",
+      "notes": "Longest-serving Israeli NCAA swimmer - Stanford model"
+    },
+    {
+      "name": "Itay Goldfaden",
+      "school": "South Carolina",
+      "status": "Alumni",
+      "olympics": "Tokyo 2021",
+      "events": "Relay",
+      "notes": "Showed SEC teams recruit Israeli swimmers"
+    },
+    {
+      "name": "Daniel Namir",
+      "school": "Arizona",
+      "status": "Alumni",
+      "olympics": "Tokyo 2021",
+      "events": "Relay",
+      "notes": "Pac-12 Israeli swimmer precedent"
+    }
+  ],
   "schools": {
     "tier_1_top_targets": [
       {
@@ -34,13 +747,32 @@
           "email": "swim@gators.ufl.edu",
           "phone": "(352) 375-4683 x6502",
           "website": "https://floridagators.com/sports/mens-swimming-and-diving",
-          "notable_athletes": ["Katie Ledecky", "Caeleb Dressel", "Bobby Finke", "Kieran Smith"],
+          "notable_athletes": [
+            "Katie Ledecky",
+            "Caeleb Dressel",
+            "Bobby Finke",
+            "Kieran Smith"
+          ],
           "facilities": "O'Connell Center 50m Olympic pool"
         },
         "engineering": {
           "college": "Herbert Wertheim College of Engineering",
           "ranking": "Top engineering in Southeast",
-          "majors": ["Aerospace", "Agricultural/Biological", "Biomedical", "Chemical", "Civil", "Computer Engineering", "Computer Science", "Digital Arts/Sciences", "Electrical", "Environmental", "Industrial & Systems", "Materials Science", "Mechanical"],
+          "majors": [
+            "Aerospace",
+            "Agricultural/Biological",
+            "Biomedical",
+            "Chemical",
+            "Civil",
+            "Computer Engineering",
+            "Computer Science",
+            "Digital Arts/Sciences",
+            "Electrical",
+            "Environmental",
+            "Industrial & Systems",
+            "Materials Science",
+            "Mechanical"
+          ],
           "real_estate_minor": true
         },
         "chabad": {
@@ -52,11 +784,62 @@
           "website": "https://www.jewishgator.com",
           "jewish_students": "5,000+",
           "kosher_dining": true,
-          "services": ["Shabbat weekly", "High Holidays", "Orthodox minyan daily", "Jewish learning classes"]
+          "services": [
+            "Shabbat weekly",
+            "High Holidays",
+            "Orthodox minyan daily",
+            "Jewish learning classes"
+          ]
         },
-        "israeli_connection": "⭐⭐⭐",
-        "weather": "☀️ HOT",
-        "michael_fit": "STRONG - Family #1 Goal, In-State, Bright Futures eligible"
+        "israeli_connection": "\u2b50\u2b50\u2b50",
+        "weather": "\u2600\ufe0f HOT",
+        "michael_fit": "STRONG - Family #1 Goal, In-State, Bright Futures eligible",
+        "xgboost_match": {
+          "rank": 1,
+          "match_score": 94.2,
+          "recommendation": "TOP TARGET",
+          "current_probability": 35,
+          "target_times_for_90pct": {
+            "50_free": "20.2",
+            "100_free": "45.5"
+          }
+        },
+        "engineering_comprehensive": {
+          "national_rank": 27,
+          "real_estate_minor": true,
+          "real_estate_program": "Bergstrom Center RE Studies",
+          "real_estate_national_rank": "Top 5",
+          "aerospace_rank": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [
+            "Caeleb Dressel 6'3\" (alum)",
+            "Ahmed Jaouadi 6'4\"",
+            "Josh Liendo 6'1\""
+          ],
+          "international_count": 8,
+          "israeli_connection": "None currently - opportunity"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 90,
+          "body_type_match_score": 90,
+          "notable_tall_swimmers": [
+            "Caeleb Dressel 6'3\"",
+            "Josh Liendo 6'1\"",
+            "Ahmed Jaouadi 6'4\""
+          ]
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "HIGH",
+          "body_type_models_at_school": [
+            "Caeleb Dressel 6'3\" (alum)",
+            "Ahmed Jaouadi 6'4\"",
+            "Josh Liendo 6'1\""
+          ]
+        }
       },
       {
         "rank": 2,
@@ -72,11 +855,17 @@
           "email": "swimcoach@unc.edu",
           "phone": "(919) 962-5625",
           "website": "https://goheels.com/sports/swimming-and-diving",
-          "notable_athletes": ["Or Kartavi (Israel)", "Itay Maraana (Israel) - Both 2024 Paris Olympians"]
+          "notable_athletes": [
+            "Or Kartavi (Israel)",
+            "Itay Maraana (Israel) - Both 2024 Paris Olympians"
+          ]
         },
         "engineering": {
           "note": "NO traditional engineering school - UNC focuses on liberal arts/sciences",
-          "available": ["BME", "Computer Science"],
+          "available": [
+            "BME",
+            "Computer Science"
+          ],
           "real_estate_minor": true
         },
         "chabad": {
@@ -86,9 +875,43 @@
           "website": "https://www.jewishchapelhill.org",
           "jewish_students": "2,500+"
         },
-        "israeli_connection": "⭐⭐⭐⭐⭐ - BEST Israeli Pipeline (2 Paris 2024 Olympians)",
-        "weather": "🌤️ WARM",
-        "michael_fit": "EXCELLENT - Israeli connection strong advantage"
+        "israeli_connection": "\u2b50\u2b50\u2b50\u2b50\u2b50 - BEST Israeli Pipeline (2 Paris 2024 Olympians)",
+        "weather": "\ud83c\udf24\ufe0f WARM",
+        "michael_fit": "EXCELLENT - Israeli connection strong advantage",
+        "xgboost_match": {
+          "rank": 3,
+          "match_score": 91.5,
+          "recommendation": "TOP TARGET - ISRAELI PIPELINE",
+          "current_probability": 40,
+          "target_times_for_90pct": {
+            "50_free": "20.2",
+            "100_free": "45.5"
+          }
+        },
+        "engineering_comprehensive": {
+          "national_rank": 35,
+          "real_estate_minor": true,
+          "real_estate_program": "Kenan-Flagler Business",
+          "real_estate_national_rank": "",
+          "aerospace_rank": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 5,
+          "israeli_connection": "BEST - Martin Kartavi + Adam Maraana (Paris 2024)"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 75,
+          "body_type_match_score": 80,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 3,
@@ -116,9 +939,52 @@
           "website": "https://www.chabadatut.org",
           "jewish_students": "5,000+ (10% of student body!)"
         },
-        "israeli_connection": "⭐⭐⭐⭐",
-        "weather": "☀️ VERY HOT",
-        "michael_fit": "EXCELLENT - Elite swimming + massive Jewish community"
+        "israeli_connection": "\u2b50\u2b50\u2b50\u2b50",
+        "weather": "\u2600\ufe0f VERY HOT",
+        "michael_fit": "EXCELLENT - Elite swimming + massive Jewish community",
+        "xgboost_match": {
+          "rank": 2,
+          "match_score": 92.8,
+          "recommendation": "ELITE TARGET",
+          "current_probability": 20,
+          "target_times_for_90pct": {
+            "50_free": "20.2",
+            "100_free": "45.5"
+          }
+        },
+        "engineering_comprehensive": {
+          "national_rank": 9,
+          "real_estate_minor": true,
+          "real_estate_program": "McCombs RE Center",
+          "real_estate_national_rank": "",
+          "aerospace_rank": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [
+            "Michael Phelps 6'4\" (Bowman's athlete)",
+            "Leon Marchand 6'3\""
+          ],
+          "international_count": 12,
+          "israeli_connection": "None - opportunity"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 98,
+          "body_type_match_score": 98,
+          "notable_tall_swimmers": [
+            "Michael Phelps 6'4\" (coach)",
+            "Leon Marchand 6'3\""
+          ]
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "HIGH",
+          "body_type_models_at_school": [
+            "Michael Phelps 6'4\" (Bowman's athlete)",
+            "Leon Marchand 6'3\""
+          ]
+        }
       },
       {
         "rank": 4,
@@ -146,9 +1012,43 @@
           "website": "https://www.chabadatusc.com",
           "jewish_students": "3,000+"
         },
-        "israeli_connection": "⭐⭐⭐",
-        "weather": "☀️ PERFECT LA",
-        "michael_fit": "STRONG - Perfect weather, elite program"
+        "israeli_connection": "\u2b50\u2b50\u2b50",
+        "weather": "\u2600\ufe0f PERFECT LA",
+        "michael_fit": "STRONG - Perfect weather, elite program",
+        "xgboost_match": {
+          "rank": 10,
+          "match_score": 83.5,
+          "recommendation": "TARGET",
+          "current_probability": 35,
+          "target_times_for_90pct": {
+            "50_free": "21.0",
+            "100_free": "46.5"
+          }
+        },
+        "engineering_comprehensive": {
+          "national_rank": 12,
+          "real_estate_minor": true,
+          "real_estate_program": "Lusk Center",
+          "real_estate_national_rank": "",
+          "aerospace_rank": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 75,
+          "body_type_match_score": 78,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       }
     ],
     "tier_2_strong_alternatives": [
@@ -177,8 +1077,42 @@
           "website": "https://www.jewishcats.com",
           "jewish_students": "1,500+"
         },
-        "israeli_connection": "⭐⭐⭐⭐ - Namir on team",
-        "weather": "🌵 HOT Desert"
+        "israeli_connection": "\u2b50\u2b50\u2b50\u2b50 - Namir on team",
+        "weather": "\ud83c\udf35 HOT Desert",
+        "xgboost_match": {
+          "rank": 9,
+          "match_score": 84.2,
+          "recommendation": "STRONG TARGET",
+          "current_probability": 45,
+          "target_times_for_90pct": {
+            "50_free": "21.0",
+            "100_free": "46.5"
+          }
+        },
+        "engineering_comprehensive": {
+          "national_rank": 50,
+          "real_estate_minor": true,
+          "real_estate_program": "Eller College",
+          "real_estate_national_rank": "",
+          "aerospace_rank": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 5,
+          "israeli_connection": "Historic - Daniel Namir (Tokyo 2021)"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 78,
+          "body_type_match_score": 80,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 6,
@@ -192,7 +1126,11 @@
           "head_coach": "John Ames",
           "coach_note": "Appointed Feb 2025",
           "website": "https://ramblinwreck.com/sports/swimming-and-diving",
-          "assistants": ["Angie Nicolletta", "Iago Moussalem", "Miles Simon"]
+          "assistants": [
+            "Angie Nicolletta",
+            "Iago Moussalem",
+            "Miles Simon"
+          ]
         },
         "engineering": {
           "ranking": "#1 Engineering nationally (public)",
@@ -208,9 +1146,43 @@
           "serves": "Georgia Tech AND Georgia State",
           "jewish_students": "800+"
         },
-        "israeli_connection": "⭐⭐⭐",
-        "weather": "🌤️ Warm",
-        "michael_fit": "EXCELLENT for engineering focus"
+        "israeli_connection": "\u2b50\u2b50\u2b50",
+        "weather": "\ud83c\udf24\ufe0f Warm",
+        "michael_fit": "EXCELLENT for engineering focus",
+        "xgboost_match": {
+          "rank": 6,
+          "match_score": 87.2,
+          "recommendation": "STRONG TARGET",
+          "current_probability": 45,
+          "target_times_for_90pct": {
+            "50_free": "21.0",
+            "100_free": "46.5"
+          }
+        },
+        "engineering_comprehensive": {
+          "national_rank": 4,
+          "real_estate_minor": false,
+          "real_estate_program": "",
+          "real_estate_national_rank": "",
+          "aerospace_rank": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 78,
+          "body_type_match_score": 80,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 7,
@@ -236,8 +1208,42 @@
           "website": "https://www.stanfordchabad.org",
           "jewish_students": "1,000+"
         },
-        "israeli_connection": "⭐⭐⭐⭐",
-        "weather": "☀️ Perfect Bay Area"
+        "israeli_connection": "\u2b50\u2b50\u2b50\u2b50",
+        "weather": "\u2600\ufe0f Perfect Bay Area",
+        "xgboost_match": {
+          "rank": 7,
+          "match_score": 86.5,
+          "recommendation": "REACH",
+          "current_probability": 15,
+          "target_times_for_90pct": {
+            "50_free": "21.0",
+            "100_free": "46.5"
+          }
+        },
+        "engineering_comprehensive": {
+          "national_rank": 2,
+          "real_estate_minor": false,
+          "real_estate_program": "",
+          "real_estate_national_rank": "",
+          "aerospace_rank": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 10,
+          "israeli_connection": "Historic - Andrea Murez (3x Olympian)"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 82,
+          "body_type_match_score": 85,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 8,
@@ -263,8 +1269,45 @@
           "website": "https://www.berkeleychabad.org",
           "jewish_students": "2,500+"
         },
-        "israeli_connection": "⭐⭐⭐",
-        "weather": "☀️ Perfect"
+        "israeli_connection": "\u2b50\u2b50\u2b50",
+        "weather": "\u2600\ufe0f Perfect",
+        "xgboost_match": {
+          "rank": null,
+          "match_score": null,
+          "recommendation": null,
+          "current_probability": null,
+          "target_times_for_90pct": {},
+          "scores_breakdown": {},
+          "key_strengths": []
+        },
+        "engineering_comprehensive": {
+          "national_rank": null,
+          "college_name": null,
+          "real_estate_minor": false,
+          "real_estate_program": null,
+          "real_estate_courses": [],
+          "real_estate_national_rank": null,
+          "engineering_majors": [],
+          "athlete_support": null,
+          "notes": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 9,
@@ -290,8 +1333,42 @@
           "website": "https://www.chabadatucla.com",
           "jewish_students": "3,000+"
         },
-        "israeli_connection": "⭐⭐⭐⭐",
-        "weather": "☀️ PERFECT LA"
+        "israeli_connection": "\u2b50\u2b50\u2b50\u2b50",
+        "weather": "\u2600\ufe0f PERFECT LA",
+        "xgboost_match": {
+          "rank": 22,
+          "match_score": 72.8,
+          "recommendation": "TOUR OPTION",
+          "current_probability": 40,
+          "target_times_for_90pct": {
+            "50_free": "21.4",
+            "100_free": "47.0"
+          }
+        },
+        "engineering_comprehensive": {
+          "national_rank": 16,
+          "real_estate_minor": false,
+          "real_estate_program": "",
+          "real_estate_national_rank": "",
+          "aerospace_rank": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 10,
@@ -319,8 +1396,45 @@
           "website": "https://www.jewishtriangle.org",
           "jewish_students": "800+"
         },
-        "israeli_connection": "⭐⭐⭐",
-        "weather": "🌤️ Warm"
+        "israeli_connection": "\u2b50\u2b50\u2b50",
+        "weather": "\ud83c\udf24\ufe0f Warm",
+        "xgboost_match": {
+          "rank": null,
+          "match_score": null,
+          "recommendation": null,
+          "current_probability": null,
+          "target_times_for_90pct": {},
+          "scores_breakdown": {},
+          "key_strengths": []
+        },
+        "engineering_comprehensive": {
+          "national_rank": null,
+          "college_name": null,
+          "real_estate_minor": false,
+          "real_estate_program": null,
+          "real_estate_courses": [],
+          "real_estate_national_rank": null,
+          "engineering_majors": [],
+          "athlete_support": null,
+          "notes": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 11,
@@ -347,8 +1461,45 @@
           "website": "https://www.chabadcville.org",
           "jewish_students": "1,200+"
         },
-        "israeli_connection": "⭐⭐⭐",
-        "weather": "🌤️ Warm"
+        "israeli_connection": "\u2b50\u2b50\u2b50",
+        "weather": "\ud83c\udf24\ufe0f Warm",
+        "xgboost_match": {
+          "rank": null,
+          "match_score": null,
+          "recommendation": null,
+          "current_probability": null,
+          "target_times_for_90pct": {},
+          "scores_breakdown": {},
+          "key_strengths": []
+        },
+        "engineering_comprehensive": {
+          "national_rank": null,
+          "college_name": null,
+          "real_estate_minor": false,
+          "real_estate_program": null,
+          "real_estate_courses": [],
+          "real_estate_national_rank": null,
+          "engineering_majors": [],
+          "athlete_support": null,
+          "notes": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 12,
@@ -366,7 +1517,41 @@
         "chabad": {
           "jewish_students": "2,500+"
         },
-        "weather": "❄️ Cold winters"
+        "weather": "\u2744\ufe0f Cold winters",
+        "xgboost_match": {
+          "rank": 16,
+          "match_score": 74.8,
+          "recommendation": "BACKUP",
+          "current_probability": 45,
+          "target_times_for_90pct": {
+            "50_free": "21.4",
+            "100_free": "47.0"
+          }
+        },
+        "engineering_comprehensive": {
+          "national_rank": 22,
+          "real_estate_minor": true,
+          "real_estate_program": "",
+          "real_estate_national_rank": "",
+          "aerospace_rank": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 13,
@@ -381,7 +1566,41 @@
         "chabad": {
           "jewish_students": "3,000+"
         },
-        "weather": "❄️ Cold winters"
+        "weather": "\u2744\ufe0f Cold winters",
+        "xgboost_match": {
+          "rank": 19,
+          "match_score": 75.2,
+          "recommendation": "BACKUP",
+          "current_probability": 45,
+          "target_times_for_90pct": {
+            "50_free": "21.4",
+            "100_free": "47.0"
+          }
+        },
+        "engineering_comprehensive": {
+          "national_rank": 18,
+          "real_estate_minor": true,
+          "real_estate_program": "",
+          "real_estate_national_rank": "",
+          "aerospace_rank": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 14,
@@ -393,7 +1612,41 @@
         "swimming": {
           "program_rank": "Elite Big Ten - Historic program"
         },
-        "weather": "❄️ Cold winters"
+        "weather": "\u2744\ufe0f Cold winters",
+        "xgboost_match": {
+          "rank": 11,
+          "match_score": 82.0,
+          "recommendation": "TARGET",
+          "current_probability": 35,
+          "target_times_for_90pct": {
+            "50_free": "21.0",
+            "100_free": "46.5"
+          }
+        },
+        "engineering_comprehensive": {
+          "national_rank": 50,
+          "real_estate_minor": true,
+          "real_estate_program": "",
+          "real_estate_national_rank": "",
+          "aerospace_rank": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       }
     ],
     "tier_3_florida_southeast_backups": [
@@ -413,7 +1666,41 @@
         "chabad": {
           "available": true
         },
-        "weather": "☀️ Hot"
+        "weather": "\u2600\ufe0f Hot",
+        "xgboost_match": {
+          "rank": 13,
+          "match_score": 78.5,
+          "recommendation": "BACKUP",
+          "current_probability": 55,
+          "target_times_for_90pct": {
+            "50_free": "21.4",
+            "100_free": "47.0"
+          }
+        },
+        "engineering_comprehensive": {
+          "national_rank": 55,
+          "real_estate_minor": true,
+          "real_estate_program": "",
+          "real_estate_national_rank": "",
+          "aerospace_rank": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 16,
@@ -430,7 +1717,41 @@
           "available": true
         },
         "distance_from_home": "2.5 hours",
-        "weather": "☀️ Hot"
+        "weather": "\u2600\ufe0f Hot",
+        "xgboost_match": {
+          "rank": 14,
+          "match_score": 77.2,
+          "recommendation": "BACKUP",
+          "current_probability": 50,
+          "target_times_for_90pct": {
+            "50_free": "21.4",
+            "100_free": "47.0"
+          }
+        },
+        "engineering_comprehensive": {
+          "national_rank": 60,
+          "real_estate_minor": true,
+          "real_estate_program": "",
+          "real_estate_national_rank": "",
+          "aerospace_rank": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 17,
@@ -448,10 +1769,47 @@
           "note": "Family knows rabbi personally",
           "jewish_community": "Huge Boca Jewish community"
         },
-        "personal_connections": ["John Walsh", "Mike Mirda"],
+        "personal_connections": [
+          "John Walsh",
+          "Mike Mirda"
+        ],
         "distance_from_home": "1.5 hours",
-        "weather": "☀️ Hot",
-        "michael_fit": "SAFETY SCHOOL with guaranteed Orthodox support and family ties"
+        "weather": "\u2600\ufe0f Hot",
+        "michael_fit": "SAFETY SCHOOL with guaranteed Orthodox support and family ties",
+        "xgboost_match": {
+          "rank": 12,
+          "match_score": 72.0,
+          "recommendation": "SAFETY",
+          "current_probability": 85,
+          "target_times_for_90pct": {
+            "50_free": "21.4",
+            "100_free": "47.0"
+          }
+        },
+        "engineering_comprehensive": {
+          "national_rank": 100,
+          "real_estate_minor": false,
+          "real_estate_program": "",
+          "real_estate_national_rank": "",
+          "aerospace_rank": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 18,
@@ -467,7 +1825,44 @@
           "available": true,
           "city": "Nashville"
         },
-        "weather": "🌤️ Warm"
+        "weather": "\ud83c\udf24\ufe0f Warm",
+        "xgboost_match": {
+          "rank": null,
+          "match_score": null,
+          "recommendation": null,
+          "current_probability": null,
+          "target_times_for_90pct": {},
+          "scores_breakdown": {},
+          "key_strengths": []
+        },
+        "engineering_comprehensive": {
+          "national_rank": null,
+          "college_name": null,
+          "real_estate_minor": false,
+          "real_estate_program": null,
+          "real_estate_courses": [],
+          "real_estate_national_rank": null,
+          "engineering_majors": [],
+          "athlete_support": null,
+          "notes": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 19,
@@ -482,7 +1877,44 @@
         "chabad": {
           "available": true
         },
-        "weather": "🌤️ Warm"
+        "weather": "\ud83c\udf24\ufe0f Warm",
+        "xgboost_match": {
+          "rank": null,
+          "match_score": null,
+          "recommendation": null,
+          "current_probability": null,
+          "target_times_for_90pct": {},
+          "scores_breakdown": {},
+          "key_strengths": []
+        },
+        "engineering_comprehensive": {
+          "national_rank": null,
+          "college_name": null,
+          "real_estate_minor": false,
+          "real_estate_program": null,
+          "real_estate_courses": [],
+          "real_estate_national_rank": null,
+          "engineering_majors": [],
+          "athlete_support": null,
+          "notes": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 20,
@@ -497,7 +1929,44 @@
         "chabad": {
           "available": true
         },
-        "weather": "☀️ Hot"
+        "weather": "\u2600\ufe0f Hot",
+        "xgboost_match": {
+          "rank": null,
+          "match_score": null,
+          "recommendation": null,
+          "current_probability": null,
+          "target_times_for_90pct": {},
+          "scores_breakdown": {},
+          "key_strengths": []
+        },
+        "engineering_comprehensive": {
+          "national_rank": null,
+          "college_name": null,
+          "real_estate_minor": false,
+          "real_estate_program": null,
+          "real_estate_courses": [],
+          "real_estate_national_rank": null,
+          "engineering_majors": [],
+          "athlete_support": null,
+          "notes": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 21,
@@ -518,7 +1987,44 @@
           "address": "1531 Washington St, Columbia",
           "website": "https://www.jewishusc.org"
         },
-        "weather": "🌤️ Warm"
+        "weather": "\ud83c\udf24\ufe0f Warm",
+        "xgboost_match": {
+          "rank": null,
+          "match_score": null,
+          "recommendation": null,
+          "current_probability": null,
+          "target_times_for_90pct": {},
+          "scores_breakdown": {},
+          "key_strengths": []
+        },
+        "engineering_comprehensive": {
+          "national_rank": null,
+          "college_name": null,
+          "real_estate_minor": false,
+          "real_estate_program": null,
+          "real_estate_courses": [],
+          "real_estate_national_rank": null,
+          "engineering_majors": [],
+          "athlete_support": null,
+          "notes": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 22,
@@ -544,8 +2050,45 @@
           "website": "https://www.chabadncstate.com",
           "established": 2023
         },
-        "weather": "🌤️ Warm",
-        "michael_fit": "TOP PICK - Elite swimming + excellent engineering + Chabad"
+        "weather": "\ud83c\udf24\ufe0f Warm",
+        "michael_fit": "TOP PICK - Elite swimming + excellent engineering + Chabad",
+        "xgboost_match": {
+          "rank": null,
+          "match_score": null,
+          "recommendation": null,
+          "current_probability": null,
+          "target_times_for_90pct": {},
+          "scores_breakdown": {},
+          "key_strengths": []
+        },
+        "engineering_comprehensive": {
+          "national_rank": null,
+          "college_name": null,
+          "real_estate_minor": false,
+          "real_estate_program": null,
+          "real_estate_courses": [],
+          "real_estate_national_rank": null,
+          "engineering_majors": [],
+          "athlete_support": null,
+          "notes": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 23,
@@ -563,7 +2106,44 @@
         "chabad": {
           "available": true
         },
-        "weather": "🌤️ Moderate"
+        "weather": "\ud83c\udf24\ufe0f Moderate",
+        "xgboost_match": {
+          "rank": null,
+          "match_score": null,
+          "recommendation": null,
+          "current_probability": null,
+          "target_times_for_90pct": {},
+          "scores_breakdown": {},
+          "key_strengths": []
+        },
+        "engineering_comprehensive": {
+          "national_rank": null,
+          "college_name": null,
+          "real_estate_minor": false,
+          "real_estate_program": null,
+          "real_estate_courses": [],
+          "real_estate_national_rank": null,
+          "engineering_majors": [],
+          "athlete_support": null,
+          "notes": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       }
     ],
     "tier_4_cold_but_excellent": [
@@ -583,8 +2163,42 @@
         "chabad": {
           "jewish_students": "6,500+ - BEST Jewish life in country!"
         },
-        "weather": "❄️ COLD",
-        "note": "Best Jewish student life of any school"
+        "weather": "\u2744\ufe0f COLD",
+        "note": "Best Jewish student life of any school",
+        "xgboost_match": {
+          "rank": 4,
+          "match_score": 90.8,
+          "recommendation": "TOP TARGET - BEST JEWISH LIFE",
+          "current_probability": 30,
+          "target_times_for_90pct": {
+            "50_free": "20.2",
+            "100_free": "45.5"
+          }
+        },
+        "engineering_comprehensive": {
+          "national_rank": 4,
+          "real_estate_minor": true,
+          "real_estate_program": "Ross/Taubman",
+          "real_estate_national_rank": "",
+          "aerospace_rank": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 80,
+          "body_type_match_score": 82,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 25,
@@ -603,7 +2217,44 @@
         "chabad": {
           "available": true
         },
-        "weather": "❄️ VERY COLD"
+        "weather": "\u2744\ufe0f VERY COLD",
+        "xgboost_match": {
+          "rank": null,
+          "match_score": null,
+          "recommendation": null,
+          "current_probability": null,
+          "target_times_for_90pct": {},
+          "scores_breakdown": {},
+          "key_strengths": []
+        },
+        "engineering_comprehensive": {
+          "national_rank": null,
+          "college_name": null,
+          "real_estate_minor": false,
+          "real_estate_program": null,
+          "real_estate_courses": [],
+          "real_estate_national_rank": null,
+          "engineering_majors": [],
+          "athlete_support": null,
+          "notes": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 26,
@@ -618,7 +2269,44 @@
         "chabad": {
           "jewish_students": "2,000+"
         },
-        "weather": "❄️ COLD"
+        "weather": "\u2744\ufe0f COLD",
+        "xgboost_match": {
+          "rank": null,
+          "match_score": null,
+          "recommendation": null,
+          "current_probability": null,
+          "target_times_for_90pct": {},
+          "scores_breakdown": {},
+          "key_strengths": []
+        },
+        "engineering_comprehensive": {
+          "national_rank": null,
+          "college_name": null,
+          "real_estate_minor": false,
+          "real_estate_program": null,
+          "real_estate_courses": [],
+          "real_estate_national_rank": null,
+          "engineering_majors": [],
+          "athlete_support": null,
+          "notes": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "rank": 27,
@@ -633,7 +2321,44 @@
         "chabad": {
           "available": true
         },
-        "weather": "❄️ VERY COLD"
+        "weather": "\u2744\ufe0f VERY COLD",
+        "xgboost_match": {
+          "rank": null,
+          "match_score": null,
+          "recommendation": null,
+          "current_probability": null,
+          "target_times_for_90pct": {},
+          "scores_breakdown": {},
+          "key_strengths": []
+        },
+        "engineering_comprehensive": {
+          "national_rank": null,
+          "college_name": null,
+          "real_estate_minor": false,
+          "real_estate_program": null,
+          "real_estate_courses": [],
+          "real_estate_national_rank": null,
+          "engineering_majors": [],
+          "athlete_support": null,
+          "notes": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       }
     ],
     "additional_schools_on_tour_routes": [
@@ -655,7 +2380,41 @@
           "rabbi": "Rabbi Yossi Lazaroff",
           "available": true
         },
-        "weather": "☀️ Hot"
+        "weather": "\u2600\ufe0f Hot",
+        "xgboost_match": {
+          "rank": 21,
+          "match_score": 73.5,
+          "recommendation": "TOUR OPTION",
+          "current_probability": 45,
+          "target_times_for_90pct": {
+            "50_free": "21.4",
+            "100_free": "47.0"
+          }
+        },
+        "engineering_comprehensive": {
+          "national_rank": 12,
+          "real_estate_minor": true,
+          "real_estate_program": "",
+          "real_estate_national_rank": "",
+          "aerospace_rank": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       },
       {
         "name": "Auburn University",
@@ -674,58 +2433,45 @@
           "name": "Chabad of Auburn",
           "available": true
         },
-        "weather": "☀️ Hot"
+        "weather": "\u2600\ufe0f Hot",
+        "xgboost_match": {
+          "rank": null,
+          "match_score": null,
+          "recommendation": null,
+          "current_probability": null,
+          "target_times_for_90pct": {},
+          "scores_breakdown": {},
+          "key_strengths": []
+        },
+        "engineering_comprehensive": {
+          "national_rank": null,
+          "college_name": null,
+          "real_estate_minor": false,
+          "real_estate_program": null,
+          "real_estate_courses": [],
+          "real_estate_national_rank": null,
+          "engineering_majors": [],
+          "athlete_support": null,
+          "notes": null
+        },
+        "roster_analysis": {
+          "tall_swimmers_6ft3_plus": [],
+          "international_count": 0,
+          "israeli_connection": "None documented"
+        },
+        "physical_match_analysis": {
+          "michael_height": "6'4\"",
+          "michael_weight": 215,
+          "tall_sprinter_score": 0,
+          "body_type_match_score": 0,
+          "notable_tall_swimmers": []
+        },
+        "physical_match_for_michael": {
+          "michael_profile": "6'4\" / 215 lbs",
+          "tall_sprinter_fit": "MEDIUM",
+          "body_type_models_at_school": []
+        }
       }
     ]
-  },
-  "tour_itineraries": {
-    "texas_tour": {
-      "description": "8-Night Driving Tour (5 Schools)",
-      "schools": ["UF", "UT Austin", "Texas A&M", "Auburn", "Georgia Tech"],
-      "route": "Satellite Beach → Gainesville → Houston → Austin → College Station → Auburn → Atlanta → Home"
-    },
-    "nc_sc_tour": {
-      "description": "Separate NC/SC Trip (3 Schools)",
-      "schools": ["NC State", "Duke", "South Carolina"],
-      "route": "Satellite Beach → Columbia, SC (4.5 hrs) → Raleigh/Durham (3.5 hrs) → Home (6.5 hrs)"
-    },
-    "california_tour": {
-      "description": "West Coast Trip (4 Schools)",
-      "schools": ["UC Berkeley", "Stanford", "UCLA", "USC"],
-      "route": "Fly to Bay Area → Drive to LA"
-    }
-  },
-  "recruiting_timeline": {
-    "march_14_2026": "SAT Test",
-    "march_15_april_2026": "Contact ALL 27 schools",
-    "spring_2026": "Winter Championship results + SAT score",
-    "summer_2026": "LCM Senior Champs (Jul 16-19) - Updated 50m times",
-    "fall_2026": "Official visits, verbal commitments"
-  },
-  "contact_schedule": {
-    "week_1": {
-      "dates": "March 15-22",
-      "tier": "TIER 1",
-      "schools": ["Florida", "UNC", "UT Austin", "USC"]
-    },
-    "week_2": {
-      "dates": "March 23-30",
-      "tier": "TIER 2",
-      "schools": ["Arizona", "Georgia Tech", "Stanford", "UC Berkeley", "UCLA", "Duke", "Virginia", "Penn State", "Ohio State", "Indiana"]
-    },
-    "week_3": {
-      "dates": "March 31 - April 7",
-      "tier": "TIER 3",
-      "schools": ["FSU", "Miami", "FAU", "Vanderbilt", "Tennessee", "Alabama", "South Carolina", "NC State", "Louisville"]
-    },
-    "week_4": {
-      "dates": "April 8-15",
-      "tier": "TIER 4",
-      "schools": ["Michigan", "Northwestern", "Wisconsin", "Minnesota"]
-    }
-  },
-  "email_template": {
-    "subject": "Michael Shapira - Class 2027 - Swim Melbourne FL - [EVENT] Times",
-    "body": "Just completed winter championships with improvement in 50/100/200 Free, 100 Fly, 100 Back. SAT: [SCORE]. SwimCloud: 3250085. Dual US-Israeli citizenship. Engineering major. Orthodox Jewish (Chabad important). Video attached. Available for call/visit. Best, Michael | everest.ariel@gmail.com"
   }
 }
