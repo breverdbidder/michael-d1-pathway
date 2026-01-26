@@ -1,0 +1,1189 @@
+{
+  "metadata": {
+    "generated_at": "2026-01-26T13:56:28.552485",
+    "location": {
+      "name": "Satellite Beach, FL",
+      "latitude": 28.1761,
+      "longitude": -80.59,
+      "timezone": "America/New_York",
+      "zip": "32937"
+    },
+    "candle_lighting_minutes": 18,
+    "havdalah_minutes": 50,
+    "years": [
+      2025,
+      2026,
+      2027
+    ],
+    "diaspora": true,
+    "includes_yom_sheni_galuyot": true,
+    "description": "Complete Jewish calendar with יום שני של גלויות for diaspora observance"
+  },
+  "summary": {
+    "total_shabbatot": 144,
+    "total_yom_tov": 30,
+    "total_yom_sheni_galuyot": 18,
+    "total_fast_days": 24,
+    "total_melacha_prohibited": 192
+  },
+  "years_available": [
+    "2025",
+    "2026",
+    "2027"
+  ],
+  "melacha_prohibited_dates": [
+    {
+      "date": "2025-01-04",
+      "title": "פָּרָשַׁת וַיִּגַּשׁ",
+      "hebrew": "פרשת ויגש",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-01-11",
+      "title": "פָּרָשַׁת וַיְחִי",
+      "hebrew": "פרשת ויחי",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-01-18",
+      "title": "פָּרָשַׁת שְׁמוֹת",
+      "hebrew": "פרשת שמות",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-01-25",
+      "title": "פָּרָשַׁת וָאֵרָא",
+      "hebrew": "פרשת וארא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-02-01",
+      "title": "פָּרָשַׁת בֹּא",
+      "hebrew": "פרשת בא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-02-08",
+      "title": "פָּרָשַׁת בְּשַׁלַּח",
+      "hebrew": "פרשת בשלח",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-02-15",
+      "title": "פָּרָשַׁת יִתְרוֹ",
+      "hebrew": "פרשת יתרו",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-02-22",
+      "title": "פָּרָשַׁת מִשְׁפָּטִים",
+      "hebrew": "פרשת משפטים",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-03-01",
+      "title": "פָּרָשַׁת תְּרוּמָה",
+      "hebrew": "פרשת תרומה",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-03-08",
+      "title": "פָּרָשַׁת תְּצַוֶּה",
+      "hebrew": "פרשת תצוה",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-03-15",
+      "title": "פָּרָשַׁת כִּי תִשָּׂא",
+      "hebrew": "פרשת כי תשא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-03-22",
+      "title": "פָּרָשַׁת וַיַּקְהֵל",
+      "hebrew": "פרשת ויקהל",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-03-29",
+      "title": "פָּרָשַׁת פְקוּדֵי",
+      "hebrew": "פרשת פקודי",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-04-05",
+      "title": "פָּרָשַׁת וַיִּקְרָא",
+      "hebrew": "פרשת ויקרא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-04-12",
+      "title": "פָּרָשַׁת צַו",
+      "hebrew": "פרשת צו",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-04-13",
+      "title": "פֶּסַח א׳",
+      "hebrew": "פסח א׳",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-04-14",
+      "title": "פֶּסַח ב׳",
+      "hebrew": "פסח ב׳",
+      "yom_sheni": true
+    },
+    {
+      "date": "2025-04-19",
+      "title": "פֶּסַח ז׳",
+      "hebrew": "פסח ז׳",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-04-20",
+      "title": "פֶּסַח ח׳",
+      "hebrew": "פסח ח׳",
+      "yom_sheni": true
+    },
+    {
+      "date": "2025-04-26",
+      "title": "פָּרָשַׁת שְּׁמִינִי",
+      "hebrew": "פרשת שמיני",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-05-03",
+      "title": "פָּרָשַׁת תַזְרִיעַ־מְצֹרָע",
+      "hebrew": "פרשת תזריע-מצרע",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-05-10",
+      "title": "פָּרָשַׁת אַחֲרֵי מוֹת־קְדֹשִׁים",
+      "hebrew": "פרשת אחרי מות-קדשים",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-05-17",
+      "title": "פָּרָשַׁת אֱמוֹר",
+      "hebrew": "פרשת אמור",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-05-24",
+      "title": "פָּרָשַׁת בְּהַר־בְּחֻקֹּתַי",
+      "hebrew": "פרשת בהר-בחקתי",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-05-31",
+      "title": "פָּרָשַׁת בְּמִדְבַּר",
+      "hebrew": "פרשת במדבר",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-06-02",
+      "title": "שָׁבוּעוֹת א׳",
+      "hebrew": "שבועות א׳",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-06-03",
+      "title": "שָׁבוּעוֹת ב׳",
+      "hebrew": "שבועות ב׳",
+      "yom_sheni": true
+    },
+    {
+      "date": "2025-06-07",
+      "title": "פָּרָשַׁת נָשׂא",
+      "hebrew": "פרשת נשא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-06-14",
+      "title": "פָּרָשַׁת בְּהַעֲלֹתְךָ",
+      "hebrew": "פרשת בהעלתך",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-06-21",
+      "title": "פָּרָשַׁת שְׁלַח־לְךָ",
+      "hebrew": "פרשת שלח־לך",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-06-28",
+      "title": "פָּרָשַׁת קֹרַח",
+      "hebrew": "פרשת קורח",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-07-05",
+      "title": "פָּרָשַׁת חֻקַּת",
+      "hebrew": "פרשת חוקת",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-07-12",
+      "title": "פָּרָשַׁת בָּלָק",
+      "hebrew": "פרשת בלק",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-07-19",
+      "title": "פָּרָשַׁת פִּינְחָס",
+      "hebrew": "פרשת פינחס",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-07-26",
+      "title": "פָּרָשַׁת מַטּוֹת־מַסְעֵי",
+      "hebrew": "פרשת מטות-מסעי",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-08-02",
+      "title": "פָּרָשַׁת דְּבָרִים",
+      "hebrew": "פרשת דברים",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-08-09",
+      "title": "פָּרָשַׁת וָאֶתְחַנַּן",
+      "hebrew": "פרשת ואתחנן",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-08-16",
+      "title": "פָּרָשַׁת עֵקֶב",
+      "hebrew": "פרשת עקב",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-08-23",
+      "title": "פָּרָשַׁת רְאֵה",
+      "hebrew": "פרשת ראה",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-08-25",
+      "title": "רֹאשׁ הַשָּׁנָה לְמַעְשַׂר בְּהֵמָה",
+      "hebrew": "ראש השנה למעשר בהמה",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-08-30",
+      "title": "פָּרָשַׁת שׁוֹפְטִים",
+      "hebrew": "פרשת שופטים",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-09-06",
+      "title": "פָּרָשַׁת כִּי־תֵצֵא",
+      "hebrew": "פרשת כי־תצא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-09-13",
+      "title": "פָּרָשַׁת כִּי־תָבוֹא",
+      "hebrew": "פרשת כי־תבוא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-09-20",
+      "title": "פָּרָשַׁת נִצָּבִים",
+      "hebrew": "פרשת נצבים",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-09-22",
+      "title": "עֶרֶב רֹאשׁ הַשָּׁנָה",
+      "hebrew": "ערב ראש השנה",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-09-23",
+      "title": "רֹאשׁ הַשָּׁנָה 5786",
+      "hebrew": "ראש השנה 5786",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-09-24",
+      "title": "רֹאשׁ הַשָּׁנָה ב׳",
+      "hebrew": "ראש השנה ב׳",
+      "yom_sheni": true
+    },
+    {
+      "date": "2025-09-27",
+      "title": "פָּרָשַׁת וַיֵּלֶךְ",
+      "hebrew": "פרשת וילך",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-10-01",
+      "title": "עֶרֶב יוֹם כִּפּוּר",
+      "hebrew": "ערב יום כיפור",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-10-02",
+      "title": "יוֹם כִּפּוּר",
+      "hebrew": "יום כיפור",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-10-04",
+      "title": "פָּרָשַׁת הַאֲזִינוּ",
+      "hebrew": "פרשת האזינו",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-10-07",
+      "title": "סוּכּוֹת א׳",
+      "hebrew": "סוכות א׳",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-10-08",
+      "title": "סוּכּוֹת ב׳",
+      "hebrew": "סוכות ב׳",
+      "yom_sheni": true
+    },
+    {
+      "date": "2025-10-14",
+      "title": "שְׁמִינִי עֲצֶרֶת",
+      "hebrew": "שמיני עצרת",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-10-15",
+      "title": "שִׂמְחַת תּוֹרָה",
+      "hebrew": "שמחת תורה",
+      "yom_sheni": true
+    },
+    {
+      "date": "2025-10-18",
+      "title": "פָּרָשַׁת בְּרֵאשִׁית",
+      "hebrew": "פרשת בראשית",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-10-25",
+      "title": "פָּרָשַׁת נֹחַ",
+      "hebrew": "פרשת נח",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-11-01",
+      "title": "פָּרָשַׁת לֶךְ־לְךָ",
+      "hebrew": "פרשת לך־לך",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-11-08",
+      "title": "פָּרָשַׁת וַיֵּרָא",
+      "hebrew": "פרשת וירא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-11-15",
+      "title": "פָּרָשַׁת חַיֵּי שָֹרָה",
+      "hebrew": "פרשת חיי שרה",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-11-22",
+      "title": "פָּרָשַׁת תּוֹלְדוֹת",
+      "hebrew": "פרשת תולדות",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-11-29",
+      "title": "פָּרָשַׁת וַיֵּצֵא",
+      "hebrew": "פרשת ויצא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-12-06",
+      "title": "פָּרָשַׁת וַיִּשְׁלַח",
+      "hebrew": "פרשת וישלח",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-12-13",
+      "title": "פָּרָשַׁת וַיֵּשֶׁב",
+      "hebrew": "פרשת וישב",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-12-20",
+      "title": "פָּרָשַׁת מִקֵּץ",
+      "hebrew": "פרשת מקץ",
+      "yom_sheni": false
+    },
+    {
+      "date": "2025-12-27",
+      "title": "פָּרָשַׁת וַיִּגַּשׁ",
+      "hebrew": "פרשת ויגש",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-01-03",
+      "title": "פָּרָשַׁת וַיְחִי",
+      "hebrew": "פרשת ויחי",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-01-10",
+      "title": "פָּרָשַׁת שְׁמוֹת",
+      "hebrew": "פרשת שמות",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-01-17",
+      "title": "פָּרָשַׁת וָאֵרָא",
+      "hebrew": "פרשת וארא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-01-24",
+      "title": "פָּרָשַׁת בֹּא",
+      "hebrew": "פרשת בא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-01-31",
+      "title": "פָּרָשַׁת בְּשַׁלַּח",
+      "hebrew": "פרשת בשלח",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-02-07",
+      "title": "פָּרָשַׁת יִתְרוֹ",
+      "hebrew": "פרשת יתרו",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-02-14",
+      "title": "פָּרָשַׁת מִשְׁפָּטִים",
+      "hebrew": "פרשת משפטים",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-02-21",
+      "title": "פָּרָשַׁת תְּרוּמָה",
+      "hebrew": "פרשת תרומה",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-02-28",
+      "title": "פָּרָשַׁת תְּצַוֶּה",
+      "hebrew": "פרשת תצוה",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-03-07",
+      "title": "פָּרָשַׁת כִּי תִשָּׂא",
+      "hebrew": "פרשת כי תשא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-03-14",
+      "title": "פָּרָשַׁת וַיַּקְהֵל־פְקוּדֵי",
+      "hebrew": "פרשת ויקהל-פקודי",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-03-21",
+      "title": "פָּרָשַׁת וַיִּקְרָא",
+      "hebrew": "פרשת ויקרא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-03-28",
+      "title": "פָּרָשַׁת צַו",
+      "hebrew": "פרשת צו",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-04-02",
+      "title": "פֶּסַח א׳",
+      "hebrew": "פסח א׳",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-04-03",
+      "title": "פֶּסַח ב׳",
+      "hebrew": "פסח ב׳",
+      "yom_sheni": true
+    },
+    {
+      "date": "2026-04-08",
+      "title": "פֶּסַח ז׳",
+      "hebrew": "פסח ז׳",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-04-09",
+      "title": "פֶּסַח ח׳",
+      "hebrew": "פסח ח׳",
+      "yom_sheni": true
+    },
+    {
+      "date": "2026-04-11",
+      "title": "פָּרָשַׁת שְּׁמִינִי",
+      "hebrew": "פרשת שמיני",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-04-18",
+      "title": "פָּרָשַׁת תַזְרִיעַ־מְצֹרָע",
+      "hebrew": "פרשת תזריע-מצרע",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-04-25",
+      "title": "פָּרָשַׁת אַחֲרֵי מוֹת־קְדֹשִׁים",
+      "hebrew": "פרשת אחרי מות-קדשים",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-05-02",
+      "title": "פָּרָשַׁת אֱמוֹר",
+      "hebrew": "פרשת אמור",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-05-09",
+      "title": "פָּרָשַׁת בְּהַר־בְּחֻקֹּתַי",
+      "hebrew": "פרשת בהר-בחקתי",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-05-16",
+      "title": "פָּרָשַׁת בְּמִדְבַּר",
+      "hebrew": "פרשת במדבר",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-05-22",
+      "title": "שָׁבוּעוֹת א׳",
+      "hebrew": "שבועות א׳",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-05-23",
+      "title": "שָׁבוּעוֹת ב׳",
+      "hebrew": "שבועות ב׳",
+      "yom_sheni": true
+    },
+    {
+      "date": "2026-05-30",
+      "title": "פָּרָשַׁת נָשׂא",
+      "hebrew": "פרשת נשא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-06-06",
+      "title": "פָּרָשַׁת בְּהַעֲלֹתְךָ",
+      "hebrew": "פרשת בהעלתך",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-06-13",
+      "title": "פָּרָשַׁת שְׁלַח־לְךָ",
+      "hebrew": "פרשת שלח־לך",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-06-20",
+      "title": "פָּרָשַׁת קֹרַח",
+      "hebrew": "פרשת קורח",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-06-27",
+      "title": "פָּרָשַׁת חֻקַּת־בָּלָק",
+      "hebrew": "פרשת חוקת-בלק",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-07-04",
+      "title": "פָּרָשַׁת פִּינְחָס",
+      "hebrew": "פרשת פינחס",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-07-11",
+      "title": "פָּרָשַׁת מַטּוֹת־מַסְעֵי",
+      "hebrew": "פרשת מטות-מסעי",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-07-18",
+      "title": "פָּרָשַׁת דְּבָרִים",
+      "hebrew": "פרשת דברים",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-07-25",
+      "title": "פָּרָשַׁת וָאֶתְחַנַּן",
+      "hebrew": "פרשת ואתחנן",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-08-01",
+      "title": "פָּרָשַׁת עֵקֶב",
+      "hebrew": "פרשת עקב",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-08-08",
+      "title": "פָּרָשַׁת רְאֵה",
+      "hebrew": "פרשת ראה",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-08-14",
+      "title": "רֹאשׁ הַשָּׁנָה לְמַעְשַׂר בְּהֵמָה",
+      "hebrew": "ראש השנה למעשר בהמה",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-08-15",
+      "title": "פָּרָשַׁת שׁוֹפְטִים",
+      "hebrew": "פרשת שופטים",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-08-22",
+      "title": "פָּרָשַׁת כִּי־תֵצֵא",
+      "hebrew": "פרשת כי־תצא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-08-29",
+      "title": "פָּרָשַׁת כִּי־תָבוֹא",
+      "hebrew": "פרשת כי־תבוא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-09-05",
+      "title": "פָּרָשַׁת נִצָּבִים־וַיֵּלֶךְ",
+      "hebrew": "פרשת נצבים-וילך",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-09-11",
+      "title": "עֶרֶב רֹאשׁ הַשָּׁנָה",
+      "hebrew": "ערב ראש השנה",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-09-12",
+      "title": "רֹאשׁ הַשָּׁנָה 5787",
+      "hebrew": "ראש השנה 5787",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-09-13",
+      "title": "רֹאשׁ הַשָּׁנָה ב׳",
+      "hebrew": "ראש השנה ב׳",
+      "yom_sheni": true
+    },
+    {
+      "date": "2026-09-19",
+      "title": "פָּרָשַׁת הַאֲזִינוּ",
+      "hebrew": "פרשת האזינו",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-09-20",
+      "title": "עֶרֶב יוֹם כִּפּוּר",
+      "hebrew": "ערב יום כיפור",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-09-21",
+      "title": "יוֹם כִּפּוּר",
+      "hebrew": "יום כיפור",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-09-26",
+      "title": "סוּכּוֹת א׳",
+      "hebrew": "סוכות א׳",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-09-27",
+      "title": "סוּכּוֹת ב׳",
+      "hebrew": "סוכות ב׳",
+      "yom_sheni": true
+    },
+    {
+      "date": "2026-10-03",
+      "title": "שְׁמִינִי עֲצֶרֶת",
+      "hebrew": "שמיני עצרת",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-10-04",
+      "title": "שִׂמְחַת תּוֹרָה",
+      "hebrew": "שמחת תורה",
+      "yom_sheni": true
+    },
+    {
+      "date": "2026-10-10",
+      "title": "פָּרָשַׁת בְּרֵאשִׁית",
+      "hebrew": "פרשת בראשית",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-10-17",
+      "title": "פָּרָשַׁת נֹחַ",
+      "hebrew": "פרשת נח",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-10-24",
+      "title": "פָּרָשַׁת לֶךְ־לְךָ",
+      "hebrew": "פרשת לך־לך",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-10-31",
+      "title": "פָּרָשַׁת וַיֵּרָא",
+      "hebrew": "פרשת וירא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-11-07",
+      "title": "פָּרָשַׁת חַיֵּי שָֹרָה",
+      "hebrew": "פרשת חיי שרה",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-11-14",
+      "title": "פָּרָשַׁת תּוֹלְדוֹת",
+      "hebrew": "פרשת תולדות",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-11-21",
+      "title": "פָּרָשַׁת וַיֵּצֵא",
+      "hebrew": "פרשת ויצא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-11-28",
+      "title": "פָּרָשַׁת וַיִּשְׁלַח",
+      "hebrew": "פרשת וישלח",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-12-05",
+      "title": "פָּרָשַׁת וַיֵּשֶׁב",
+      "hebrew": "פרשת וישב",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-12-12",
+      "title": "פָּרָשַׁת מִקֵּץ",
+      "hebrew": "פרשת מקץ",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-12-19",
+      "title": "פָּרָשַׁת וַיִּגַּשׁ",
+      "hebrew": "פרשת ויגש",
+      "yom_sheni": false
+    },
+    {
+      "date": "2026-12-26",
+      "title": "פָּרָשַׁת וַיְחִי",
+      "hebrew": "פרשת ויחי",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-01-02",
+      "title": "פָּרָשַׁת שְׁמוֹת",
+      "hebrew": "פרשת שמות",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-01-09",
+      "title": "פָּרָשַׁת וָאֵרָא",
+      "hebrew": "פרשת וארא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-01-16",
+      "title": "פָּרָשַׁת בֹּא",
+      "hebrew": "פרשת בא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-01-23",
+      "title": "פָּרָשַׁת בְּשַׁלַּח",
+      "hebrew": "פרשת בשלח",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-01-30",
+      "title": "פָּרָשַׁת יִתְרוֹ",
+      "hebrew": "פרשת יתרו",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-02-06",
+      "title": "פָּרָשַׁת מִשְׁפָּטִים",
+      "hebrew": "פרשת משפטים",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-02-13",
+      "title": "פָּרָשַׁת תְּרוּמָה",
+      "hebrew": "פרשת תרומה",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-02-20",
+      "title": "פָּרָשַׁת תְּצַוֶּה",
+      "hebrew": "פרשת תצוה",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-02-27",
+      "title": "פָּרָשַׁת כִּי תִשָּׂא",
+      "hebrew": "פרשת כי תשא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-03-06",
+      "title": "פָּרָשַׁת וַיַּקְהֵל",
+      "hebrew": "פרשת ויקהל",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-03-13",
+      "title": "פָּרָשַׁת פְקוּדֵי",
+      "hebrew": "פרשת פקודי",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-03-20",
+      "title": "פָּרָשַׁת וַיִּקְרָא",
+      "hebrew": "פרשת ויקרא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-03-27",
+      "title": "פָּרָשַׁת צַו",
+      "hebrew": "פרשת צו",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-04-03",
+      "title": "פָּרָשַׁת שְּׁמִינִי",
+      "hebrew": "פרשת שמיני",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-04-10",
+      "title": "פָּרָשַׁת תַזְרִיעַ",
+      "hebrew": "פרשת תזריע",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-04-17",
+      "title": "פָּרָשַׁת מְצֹרָע",
+      "hebrew": "פרשת מצרע",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-04-22",
+      "title": "פֶּסַח א׳",
+      "hebrew": "פסח א׳",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-04-23",
+      "title": "פֶּסַח ב׳",
+      "hebrew": "פסח ב׳",
+      "yom_sheni": true
+    },
+    {
+      "date": "2027-04-28",
+      "title": "פֶּסַח ז׳",
+      "hebrew": "פסח ז׳",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-04-29",
+      "title": "פֶּסַח ח׳",
+      "hebrew": "פסח ח׳",
+      "yom_sheni": true
+    },
+    {
+      "date": "2027-05-01",
+      "title": "פָּרָשַׁת אַחֲרֵי מוֹת",
+      "hebrew": "פרשת אחרי מות",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-05-08",
+      "title": "פָּרָשַׁת קְדֹשִׁים",
+      "hebrew": "פרשת קדשים",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-05-15",
+      "title": "פָּרָשַׁת אֱמוֹר",
+      "hebrew": "פרשת אמור",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-05-22",
+      "title": "פָּרָשַׁת בְּהַר",
+      "hebrew": "פרשת בהר",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-05-29",
+      "title": "פָּרָשַׁת בְּחֻקֹּתַי",
+      "hebrew": "פרשת בחקתי",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-06-05",
+      "title": "פָּרָשַׁת בְּמִדְבַּר",
+      "hebrew": "פרשת במדבר",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-06-11",
+      "title": "שָׁבוּעוֹת א׳",
+      "hebrew": "שבועות א׳",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-06-12",
+      "title": "שָׁבוּעוֹת ב׳",
+      "hebrew": "שבועות ב׳",
+      "yom_sheni": true
+    },
+    {
+      "date": "2027-06-19",
+      "title": "פָּרָשַׁת נָשׂא",
+      "hebrew": "פרשת נשא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-06-26",
+      "title": "פָּרָשַׁת בְּהַעֲלֹתְךָ",
+      "hebrew": "פרשת בהעלתך",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-07-03",
+      "title": "פָּרָשַׁת שְׁלַח־לְךָ",
+      "hebrew": "פרשת שלח־לך",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-07-10",
+      "title": "פָּרָשַׁת קֹרַח",
+      "hebrew": "פרשת קורח",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-07-17",
+      "title": "פָּרָשַׁת חֻקַּת־בָּלָק",
+      "hebrew": "פרשת חוקת-בלק",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-07-24",
+      "title": "פָּרָשַׁת פִּינְחָס",
+      "hebrew": "פרשת פינחס",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-07-31",
+      "title": "פָּרָשַׁת מַטּוֹת־מַסְעֵי",
+      "hebrew": "פרשת מטות-מסעי",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-08-07",
+      "title": "פָּרָשַׁת דְּבָרִים",
+      "hebrew": "פרשת דברים",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-08-14",
+      "title": "פָּרָשַׁת וָאֶתְחַנַּן",
+      "hebrew": "פרשת ואתחנן",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-08-21",
+      "title": "פָּרָשַׁת עֵקֶב",
+      "hebrew": "פרשת עקב",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-08-28",
+      "title": "פָּרָשַׁת רְאֵה",
+      "hebrew": "פרשת ראה",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-09-03",
+      "title": "רֹאשׁ הַשָּׁנָה לְמַעְשַׂר בְּהֵמָה",
+      "hebrew": "ראש השנה למעשר בהמה",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-09-04",
+      "title": "פָּרָשַׁת שׁוֹפְטִים",
+      "hebrew": "פרשת שופטים",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-09-11",
+      "title": "פָּרָשַׁת כִּי־תֵצֵא",
+      "hebrew": "פרשת כי־תצא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-09-18",
+      "title": "פָּרָשַׁת כִּי־תָבוֹא",
+      "hebrew": "פרשת כי־תבוא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-09-25",
+      "title": "פָּרָשַׁת נִצָּבִים־וַיֵּלֶךְ",
+      "hebrew": "פרשת נצבים-וילך",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-10-01",
+      "title": "עֶרֶב רֹאשׁ הַשָּׁנָה",
+      "hebrew": "ערב ראש השנה",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-10-02",
+      "title": "רֹאשׁ הַשָּׁנָה 5788",
+      "hebrew": "ראש השנה 5788",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-10-03",
+      "title": "רֹאשׁ הַשָּׁנָה ב׳",
+      "hebrew": "ראש השנה ב׳",
+      "yom_sheni": true
+    },
+    {
+      "date": "2027-10-09",
+      "title": "פָּרָשַׁת הַאֲזִינוּ",
+      "hebrew": "פרשת האזינו",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-10-10",
+      "title": "עֶרֶב יוֹם כִּפּוּר",
+      "hebrew": "ערב יום כיפור",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-10-11",
+      "title": "יוֹם כִּפּוּר",
+      "hebrew": "יום כיפור",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-10-16",
+      "title": "סוּכּוֹת א׳",
+      "hebrew": "סוכות א׳",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-10-17",
+      "title": "סוּכּוֹת ב׳",
+      "hebrew": "סוכות ב׳",
+      "yom_sheni": true
+    },
+    {
+      "date": "2027-10-23",
+      "title": "שְׁמִינִי עֲצֶרֶת",
+      "hebrew": "שמיני עצרת",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-10-24",
+      "title": "שִׂמְחַת תּוֹרָה",
+      "hebrew": "שמחת תורה",
+      "yom_sheni": true
+    },
+    {
+      "date": "2027-10-30",
+      "title": "פָּרָשַׁת בְּרֵאשִׁית",
+      "hebrew": "פרשת בראשית",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-11-06",
+      "title": "פָּרָשַׁת נֹחַ",
+      "hebrew": "פרשת נח",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-11-13",
+      "title": "פָּרָשַׁת לֶךְ־לְךָ",
+      "hebrew": "פרשת לך־לך",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-11-20",
+      "title": "פָּרָשַׁת וַיֵּרָא",
+      "hebrew": "פרשת וירא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-11-27",
+      "title": "פָּרָשַׁת חַיֵּי שָֹרָה",
+      "hebrew": "פרשת חיי שרה",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-12-04",
+      "title": "פָּרָשַׁת תּוֹלְדוֹת",
+      "hebrew": "פרשת תולדות",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-12-11",
+      "title": "פָּרָשַׁת וַיֵּצֵא",
+      "hebrew": "פרשת ויצא",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-12-18",
+      "title": "פָּרָשַׁת וַיִּשְׁלַח",
+      "hebrew": "פרשת וישלח",
+      "yom_sheni": false
+    },
+    {
+      "date": "2027-12-25",
+      "title": "פָּרָשַׁת וַיֵּשֶׁב",
+      "hebrew": "פרשת וישב",
+      "yom_sheni": false
+    }
+  ],
+  "total_melacha_dates": 192
+}
