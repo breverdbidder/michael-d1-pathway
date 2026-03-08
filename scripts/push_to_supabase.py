@@ -64,11 +64,10 @@ class SupabaseClient:
         if on_conflict:
             headers["Prefer"] = "return=minimal,resolution=merge-duplicates"
         
+        batch_size = 50
+        success = True
+        
         async with httpx.AsyncClient(timeout=60.0) as client:
-            # Batch in chunks of 50
-            batch_size = 50
-            success = True
-            
             for i in range(0, len(data), batch_size):
                 batch = data[i:i+batch_size]
                 try:
@@ -86,8 +85,8 @@ class SupabaseClient:
                 except Exception as e:
                     print(f"  ❌ Batch {i//batch_size + 1}: {e}")
                     success = False
-            
-            return success
+        
+        return success
     
     async def check_table(self, table: str) -> bool:
         """Check if table exists"""
