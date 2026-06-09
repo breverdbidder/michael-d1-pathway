@@ -95,3 +95,56 @@ Florida Prepaid covers tuition → "full cost of attendance" = Prepaid + athleti
 **Net:** FAU's Wednesday 50 free final = most Shabbat-compatible elite path on the board. Prepared answer for Preacco conversation, not a hidden problem. Dual meets (Fri PM/Sat) need same conversation but don't decide scholarships.
 
 **SEC/power-conference comparison (UF, Texas, et al):** SEC Champs = 5 days Tue–Sat, same pattern (50 Free Wed ✅, 100 Free Sat ❌) but ADDS midseason invites (Wed–Sat) + NCAA qualifying pressure where missed prelims = no finals. Accommodation leverage inversely proportional to replaceability: at FAU Michael = needed scorer with standing; at UF/Texas at 20.5 = walk-on depth with zero leverage. Athletic filter binds before Shabbat filter at power programs (Texas sprint recruits 19.3–19.8; UF 19.5–20.0). Jewish community criterion: UF = largest Jewish student body in US, UT Austin = strong Chabad/Hillel — community is fine there; leverage is not.
+
+## 9. FAU PARTICIPATION MAP + ACADEMIC/FLIGHT INTEGRATION (added 2026-06-09)
+**Championship lineup (full observance, ~85–90% point value):**
+| Session | Races | Status |
+|---|---|---|
+| ASUN Wed | 50 Free final + 200 medley relay (FLY leg) | ✅ |
+| ASUN Thu | 100 Fly final — DEVELOP NOW w/ Walsh | ✅ |
+| ASUN Fri | sits | ❌ |
+| ASUN Sat ~8 PM | 400 free relay anchor (post-havdalah ~7:05) | ⚠️✅ |
+| Summer LCM | 50 Fly / 50 Free / 100 Free — session choice free | ✅ |
+| Duals | weekday + Fri-afternoon (pre-sunset); Sat out | partial |
+Sacrificed: 100 Free individual at champs (Sat prelims). Preserved via relay split value.
+
+**50 FLY = OLYMPIC PATHWAY EVENT:** 50 stroke events added to LA 2028 Olympic program. Michael's fastest-converging event (27.17 LCM ≈ 23.6 SCY conv) is now an Olympic event raced on USA Swimming summer circuit — zero Shabbat conflict there. Program design: NCAA season = 50 Fr + 100 Fly + relays; summer = 50 Fly headline. Recruiting frame: "Olympic-event specialist." Turns 19 before 2028 Trials — pathway framing, not prediction.
+
+**Aerospace path at FAU:** NO aerospace BS (undergrad = Civil/CompEng/CS/EE/Env/Geomatics/Mechanical/Ocean). UNLOCK: AA at enrollment (dual enrollment, completes 2027) = junior standing → **BSME ~2.5 yrs → MS Mechanical w/ AEROSPACE CONCENTRATION (exists at FAU) completed inside 4-yr athletic eligibility.** Exit FAU with MS-level aerospace credential on scholarship. Neutralizes most of UF/GT academic pull. (UF = only FL school w/ AE BS + men's D1 swim; GT = AE powerhouse — remain the academic counter-case for family session.)
+
+**Flight training:** 12 logged hours (Jun 2026). Boca Raton Airport ADJACENT to FAU campus, multiple flight schools — best flight-access geography of any target school. PPL target: freshman/sophomore year. Constraint to manage = load-balancing flight blocks vs swim calendar, not access.
+
+**Six-filter verdict:** FAU clears D1 scholarship ✅ observance ✅ Jewish community (Boca) ✅ aerospace credential (BSME→MS-Aero) ✅ flight access ✅ Olympic-event development ✅. FAU = primary. UF/GT = portal-reopen option after 2 dominant years.
+
+## 10. DUAL CITIZENSHIP (US + ISRAEL) — STRATEGIC LAYER (added 2026-06-09)
+**See also:** docs/DUAL_CITIZENSHIP_ANALYSIS.md
+
+**Two national-team pathways for the 50 Fly (LA28 Olympic event):** Michael has represented neither country internationally → free first choice under World Aquatics sport-nationality rules (no waiting period applies until first representation). US Trials 50 Fly = deepest sprint-fly field on earth; **Israeli pathway = materially more attainable** (national-team selection standards, smaller talent pool). Template precedent: Nimrod Shapira Bar-Or — Israeli Olympian who swam NCAA (Arizona) while representing Israel. NCAA + Israeli national team is a proven, compatible combination.
+
+**Near-term opportunity:** age-eligible for European Junior Champs (via Israel) through 2027 LCM seasons. 24.92 LCM 50 Fr / 27.17 50 Fly — check Israeli Swimming Association junior selection standards; plausible target. Israeli junior-team appearance on the recruiting résumé = tier jump ("international-level recruit") for FAU/any program.
+
+**Maccabiah Games 2029** — falls during college years; either Israel or Maccabi USA delegation. Prestige + heritage event, schedule around NCAA off-season.
+
+**Action items:**
+1. ⚠️ **IDF status regulation** — Israeli-citizen male approaching 17 residing abroad must regulate status (toshav chutz / deferral) via Israeli consulate BEFORE Israel travel (Maccabiah, training camps, family visits at draft age). Administrative, solvable, time-sensitive. Verify Michael's standing now.
+2. Contact Israeli Swimming Association (Igud HaSchiya) re: junior national team standards + dual-citizen selection process.
+3. Israel Bright Futures scholarship tracking continues (already logged).
+4. Decision point (not yet): US vs Israel sport nationality. No commitment needed until first international representation. Default lean: Israel for the realistic Olympic/international pathway; preserves NCAA fully.
+
+**Recruiting narrative update:** the package is now "in-state Olympic-pathway sprinter with a second-nation national-team route, MS-track aerospace student, pilot, Jewish Teen of the Year." No other 2027 recruit in the ASUN has that sentence.
+
+## 11. BOCA RATON HOMETOWN ADVANTAGE (added 2026-06-09)
+**Michael was BORN in Boca Raton** — family formerly resided there. FAU = literal homecoming, not relocation.
+
+**Three warm channels into FAU/Boca (most recruits have zero):**
+1. Coach Walsh → Coach Preacco (athletic)
+2. **Rabbi Ruvi New, Chabad of East Boca Raton** — close family relationship; Shabbat hosting/meals/minyan infrastructure near campus solved day one
+3. **FAU campus Chabad rabbi** — warm relationship via Ariel; campus rabbis hold institutional relationships incl. athletics; can advise/vouch on observance-accommodation precedent at FAU. Potential parallel soft channel alongside Walsh.
+
+**Strategic uses:**
+- Recruiting narrative: "Boca-born sprinter comes home" — gift to FAU athletics communications; strengthens Preacco pitch beyond times
+- Shabbat logistics for home meets at FAU Aquatic Center: East Boca + campus Chabad = walking-distance Shabbat infrastructure, kosher meals, community — the observance plan has named people behind it, not just theory
+- Family session w/ Michael: reframes FAU from "fallback" to "homecoming with his rabbi nearby" — emotional weight matches UF/GT prestige pull
+- Ask campus Chabad rabbi (soft, before formal outreach): has FAU athletics accommodated observant athletes before? Any precedent = leverage in Preacco conversation
+
+**ACTION (Ariel, low effort):** one call to each rabbi this summer — (a) flag Michael's FAU interest, (b) ask re: athletics relationships + observant-athlete precedent. Do BEFORE the Aug–Sep Walsh→Preacco intro so soft channels are warm in parallel.
