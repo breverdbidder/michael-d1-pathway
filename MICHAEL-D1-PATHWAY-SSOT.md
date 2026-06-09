@@ -79,3 +79,19 @@ Florida Prepaid covers tuition → "full cost of attendance" = Prepaid + athleti
 - Shabbat constraint: verify FAU meet schedule compatibility (Fri-night sessions) before commit
 - OPEN: reconcile Michael's UF/GT preference vs FAU plan · confirm Shevchenko class year · get Cooper LCM times
 - DECISION LOG: 2026-06-09 — timeline corrected to Aug 2027 (no gap year); contact-gate rule REVISED: Walsh→Preacco intro proceeds Aug–Sep 2026 on Futures credential, NOT gated on 20.40/45.50 (those re-staged to college-arrival targets)
+
+## 8. SHABBAT CONFLICT MAP (added 2026-06-09)
+**Structural reality:** ALL D1 conference champs + NCAAs run Wed–Sat with evening finals. No D1 program eliminates the conflict (Yeshiva = D3 only). Framework = negotiate ~70% championship availability, sprinter profile = easiest accommodation (1–2 swims/meet). Precedent: Michael already sat FHSAA 2A States Nov 2025 (published Florida Today story) — credibility established.
+
+**ASUN Championships day map (2026 format, Orlando):**
+| Day | Session | Michael events | Shabbat status |
+|---|---|---|---|
+| Wed | finals | **50 Free FINAL** | ✅ CLEAN — banker event |
+| Thu | finals | (100 Fly if added) | ✅ clean |
+| Fri | prelims+finals | — | ❌ finals conflict (sunset ~6:15 Orlando late Feb) |
+| Sat | prelims AM | 100 Free prelims | ❌ conflict |
+| Sat | finals ~6 PM | 100 Free final, 400 FR relay | ⚠️ borderline — havdalah ~7:05; individual swim may fall post-Shabbat. Negotiable |
+
+**Net:** FAU's Wednesday 50 free final = most Shabbat-compatible elite path on the board. Prepared answer for Preacco conversation, not a hidden problem. Dual meets (Fri PM/Sat) need same conversation but don't decide scholarships.
+
+**SEC/power-conference comparison (UF, Texas, et al):** SEC Champs = 5 days Tue–Sat, same pattern (50 Free Wed ✅, 100 Free Sat ❌) but ADDS midseason invites (Wed–Sat) + NCAA qualifying pressure where missed prelims = no finals. Accommodation leverage inversely proportional to replaceability: at FAU Michael = needed scorer with standing; at UF/Texas at 20.5 = walk-on depth with zero leverage. Athletic filter binds before Shabbat filter at power programs (Texas sprint recruits 19.3–19.8; UF 19.5–20.0). Jewish community criterion: UF = largest Jewish student body in US, UT Austin = strong Chabad/Hillel — community is fine there; leverage is not.
