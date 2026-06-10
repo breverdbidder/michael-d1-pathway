@@ -149,3 +149,25 @@ Sacrificed: 100 Free individual at champs (Sat prelims). Preserved via relay spl
 - Ask campus Chabad rabbi (soft, before formal outreach): has FAU athletics accommodated observant athletes before? Any precedent = leverage in Preacco conversation
 
 **ACTION (Ariel, low effort):** one call to each rabbi this summer — (a) flag Michael's FAU interest, (b) ask re: athletics relationships + observant-athlete precedent. Do BEFORE the Aug–Sep Walsh→Preacco intro so soft channels are warm in parallel.
+
+## 12. TRAINING HISTORY & HONEST RISK MODEL — "TRUST BUT VERIFY" (added 2026-06-09)
+**Governance principle (Ariel):** trust but verify — applied to EVERYONE: Michael (continuity), Claude (model claims), Ariel (own follow-through).
+
+**Training history, stated plainly:**
+- Layoff #1: age 13, ~4 months out of the water
+- Layoff #2: age 15, ~8 months out; returned **July 2025 at 245 lbs**
+- Rebuild receipts (11 months): 245→212 lbs · 21.74/48.48 SCY · 24.92/55.58 LCM · −3.03s LCM 50 in one cycle · Sectionals qualifier · 2x layoffs = total ~1 year lost
+
+**Why this RAISES the ceiling (not spin):** low effective training age = retraining curve, steeper for longer than normal junior development. 100 Free lag vs 50 = classic 11-month aerobic-base signature → 100 Free projected as fastest-closing gap. Demonstrated work capacity (33 lbs + elite drops simultaneously) is fact, not projection.
+
+**The honest risk:** two exits = pattern until proven otherwise. Largest single risk in the model — bigger than times or Shabbat. Never sustained an uninterrupted multi-year high-volume block; college = 20 hr/wk + dryland + engineering for 36 straight months, unproven. Weight regain at 15 suggests structure-dependence → the system (Nick dryland 2x/wk, keto M–Th framework, Walsh pool schedule) = load-bearing wall, not optional scaffolding. SwimCloud gaps are visible to any coach → OWN IT in outreach: "245 lbs, eleven months ago, here are the receipts" beats an unexplained hole — volunteered, not discovered.
+
+**Family read (logged as CLAIM under verification, not fact):** pattern broken; Michael now sees the pool as part of his life and has changed gears. Status: VERIFYING — confirmed by data, quarter by quarter.
+
+**Verification protocol:**
+- Monthly leading indicators: pool + dryland attendance %, weight band 208–220, meet cadence (≥1 meet/6 wks in season)
+- Quarterly gates: Q3-26 = Futures attempt + 100 Fly baseline · Q4-26 = ≤21.1 / ≤47.0 + signing conversation · Q1-27 = Mar gates 20.7–21.0 / ≤46.5 · each gate scored GREEN/YELLOW/RED in this doc
+- Tripwires (trigger family conversation, not punishment): 2+ wks unexplained absence · weight >225 · skipped scheduled meet · dryland w/ Nick lapses >2 wks
+- Ariel verification (same standard): Jun 17 Walsh entry ✓/✗ · rabbi calls (New + campus Chabad + Mirda) by Aug 1 ✓/✗ · IDF status check by Sep 1 ✓/✗ — log outcomes here
+
+**Unbiased probability (updated):** P(FAU 2027 roster spot) ~65–70% · P(+meaningful athletic $) ~45–55% · P(≥$20K stacked package) ~35–45%. Continuity factor (~0.9) is the explicit haircut; it is also the only variable fully inside family control. Talent is no longer the constraint — continuity is. Subjective model estimates; re-run after each quarterly gate.
