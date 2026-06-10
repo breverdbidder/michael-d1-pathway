@@ -171,3 +171,28 @@ Sacrificed: 100 Free individual at champs (Sat prelims). Preserved via relay spl
 - Ariel verification (same standard): Jun 17 Walsh entry ✓/✗ · rabbi calls (New + campus Chabad + Mirda) by Aug 1 ✓/✗ · IDF status check by Sep 1 ✓/✗ — log outcomes here
 
 **Unbiased probability (updated):** P(FAU 2027 roster spot) ~65–70% · P(+meaningful athletic $) ~45–55% · P(≥$20K stacked package) ~35–45%. Continuity factor (~0.9) is the explicit haircut; it is also the only variable fully inside family control. Talent is no longer the constraint — continuity is. Subjective model estimates; re-run after each quarterly gate.
+## 13. SUMMER 2026 RACE PLAN — FUTURES QUALIFICATION (added 2026-06-09, APPROVED by Ariel)
+**Verified 2026 Futures cuts (18&U Men) vs Michael:**
+| Event | LCM cut | gap | SCY cut | gap |
+|---|---|---|---|---|
+| 50 Free | 24.59 | −0.33 | 21.29 | −0.45 |
+| 100 Free | 53.59 | −1.99 | 46.39 | −2.09 |
+| 50 Fly | 26.29 | −0.88 | 22.89 | −1.77 |
+| 100 Fly | 57.99 | baseline first | 50.59 | — |
+Rules: qual window Jun 1 2025→entry deadline; SCY AND LCM both count; 50 Fly enterable via 50 OR 100 Fly standard; **cuts count from PRELIMS**. Futures sites 2026: Austin/Greensboro/Knoxville/Madison/Sacramento (none FL — travel plan needed); meet runs Wed–Sat, prelims 9a/finals 5:30p → Shabbat map applies at Futures itself; confirm 50 Free day before site pick.
+
+**THE WEEKEND PLAN (Jun 25–28):**
+- **Thu 6/25 — Independence (Ocala, LCM):** swim ALL available events. 2025 precedent: 50 Free was Day 1 (Fri 6/20/25) → if Day 1 = Thu 2026, both prelim+final swims at 24.59 ✅✅
+- **Fri 6/26 — Independence prelims only** (8:30a–~12:30p) → drive home ~2¾ hrs → home ~3:30–4p, candle lighting ~7:55p (4+ hr margin)
+- **Shabbat:** full rest
+- **Sun 6/28 — Area 6 Championship (local, SCY):** 21.29 SCY insurance attempt + secondary events. Freshest swimmer in the pool.
+- **Backstop:** FL Summer Senior Championships mid-July (LCM, last chance pre-deadline; 2025 ran Jul 17–20, 50 Free was Saturday there — Shabbat map needed if used)
+
+**Per-cut probability this summer (subjective):** 50 Free ~65–70% (two-course, up-to-3-attempt weekend) · 50 Fly ~25–30% · 100 Free ~10–15% (fall SCY project) · 100 Fly = baseline only.
+
+**OPEN ITEMS before Jun 17 entry (Walsh email, due noon ET):**
+1. 2026 Independence Meet Info Letter → map all 4 events to days (only Saturday placement kills an event)
+2. ⚠️ RULE CHECK: overlapping-meet restriction — Independence (6/25–28) vs Area 6 (6/28) same-weekend dual entry; confirm both meet announcements permit; scratch Independence Sunday if required
+3. Confirm Area 6 order of events (SCY) for Sunday program
+4. 100 Fly: enter wherever offered for baseline
+5. Futures site preference + 50 Free day at Futures (Shabbat) — decide after cut lands
