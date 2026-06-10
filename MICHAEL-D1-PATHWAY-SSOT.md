@@ -137,7 +137,7 @@ Sacrificed: 100 Free individual at champs (Sat prelims). Preserved via relay spl
 **Michael was BORN in Boca Raton** — family formerly resided there. FAU = literal homecoming, not relocation.
 
 **FOUR warm channels into FAU/Boca (most recruits have zero):**
-1. Coach Walsh (FAU alumnus) → Coach Preacco (athletic)
+1. Coach Walsh (FAU alumnus) → Coach Preacco (athletic). **Walsh is ALSO Michael's academic coach/teacher — Michael earned straight A's in his class** → dual-credibility endorser (athlete + student firsthand); de-risks the academic-money component of the scholarship stack
 2. **Coach Mike Mirda — FAU GRADUATE**, Swim Melbourne Foundation president, coached Michael 6 yrs (ages 10–16), publicly endorsed him in the Florida Today feature (Mar 12, 2026) — independent second intro channel + on-record FAU-alum character reference Preacco will find in her own diligence
 3. **Rabbi Ruvi New, Chabad of East Boca Raton** — close family relationship; Shabbat hosting/meals/minyan infrastructure near campus solved day one
 4. **FAU campus Chabad rabbi** — warm relationship via Ariel; campus rabbis hold institutional relationships incl. athletics; can advise/vouch on observance-accommodation precedent at FAU. Potential parallel soft channel alongside Walsh.
