@@ -2472,6 +2472,43 @@
           "body_type_models_at_school": []
         }
       }
+    ],
+    "service_academies": [
+      {
+        "name": "United States Air Force Academy",
+        "abbreviation": "USAFA",
+        "city": "Colorado Springs (USAF Academy)",
+        "state": "CO",
+        "conference": "Mountain West (women's swimming) / MPSF affiliate (men's swimming)",
+        "swimming": {
+          "program_rank": "First-ever MPSF men's team championship 2026",
+          "head_coach_men": "Rob Clayton (28th season)",
+          "head_coach_women": "Colleen Murphy (9th season, CSCAA 100 Greatest Coaches honoree)",
+          "notes": "2026: two Falcons (Winterfield, Wilson) reached NCAA Championships; men's program had its first outright MPSF title in program history",
+          "website": "https://goairforcefalcons.com/sports/mens-swimming-and-diving"
+        },
+        "engineering": {
+          "note": "Aeronautical Engineering and Astronautical Engineering majors on-site; STEM-heavy core curriculum regardless of major",
+          "aerospace_rank": "Not separately ranked (service academy, not USNWR engineering-ranked the same way)"
+        },
+        "flight_pathway": "Strongest flight-training alignment of any school on the list: commissions as an Air Force officer at graduation with a path to pilot training (Undergraduate Pilot Training / UPT) subject to physical/vision standards and slot availability \u2014 this is a DIFFERENT and stronger flight pathway than any civilian school's flight program",
+        "unique_admission_process": "NOT a standard D1 athletic recruiting pathway. Requires a Congressional nomination (or other authorized nomination source) in addition to admissions + athletic recruiting; carries a mandatory 5-year active-duty service commitment after graduation (Air Force or Space Force). Tuition, room, board fully funded (no Bright Futures/529 relevance). Admissions/nomination timeline runs on its own calendar, earlier than typical D1 recruiting \u2014 should be tracked separately from the other schools' timelines if seriously pursued",
+        "chabad": {
+          "note": "No campus Chabad house at USAFA itself; nearest is Chabad of Southern Colorado / Colorado Springs, off-campus. Cadet religious observance (kosher, Shabbat) is accommodated through the Cadet Chapel's Jewish program but is more structurally rigid than a civilian campus given military schedule requirements \u2014 needs direct verification with USAFA Jewish cadet chaplaincy before treating Shabbat observance as compatible"
+        },
+        "weather": "\u2744\ufe0f COLD (Colorado Springs)",
+        "michael_fit": "UNSCORED \u2014 not yet run through xgboost_match; distinct enough from the other 26 schools (military commitment, nomination process, Shabbat rigidity) that it likely needs its own fit framework rather than the standard swim-time/engineering/Chabad model used elsewhere",
+        "added": "2026-08-23"
+      }
     ]
+  },
+  "strategic_priority_note": {
+    "updated": "2026-08-23",
+    "context": "FAU established as PRIMARY strategic target on 2026-06-10 via six-filter analysis (D1 scholarship, Shabbat/ASUN championship-timing compatibility, Boca Jewish community + Rabbi Zalman Liberow personal relationship, aerospace pathway via BSME+MS Mechanical w/ aerospace concentration, flight training access at Boca Raton Airport adjacent to campus, 50 Fly Olympic-event development for LA2028). This was decided AFTER the June 9 data below was committed, so the tier/rank fields under schools.tier_3_florida_southeast_backups (FAU, rank 17, 'SAFETY SCHOOL') are STALE relative to strategic intent. UF remains the family's long-stated #1 academic/swimming goal (rank 1, xgboost top match) and is NOT being displaced \u2014 FAU and UF are now co-primary for different reasons: UF = best swimming/engineering ceiling, FAU = best realistic probability + lifestyle/Shabbat/family fit. Treat 'rank' fields in the schools arrays as legacy relative-desirability ordering only, not current strategic priority.",
+    "current_primary_targets": [
+      "Florida Atlantic University",
+      "University of Florida"
+    ],
+    "reconciliation_needed": "FAU's current_probability (85) already reflects realistic admit/roster odds and doesn't need to change. What's stale is the 'SAFETY' framing and rank-17 placement relative to UF's rank-1 framing \u2014 those read as UF>>FAU when the actual 2026-06-10 strategic call is FAU=primary, UF=stretch-of-choice."
   }
 }
